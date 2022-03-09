@@ -1,0 +1,200 @@
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1064.JPEG 135,123,380,356,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1069.JPEG 36,35,376,351,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1070.JPEG 2,16,416,398,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1086.JPEG 3,101,405,363,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1092.JPEG 27,88,344,328,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1113.JPEG 11,135,404,379,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1158.JPEG 18,25,411,349,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1199.JPEG 34,54,387,370,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1203.JPEG 65,152,371,329,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1204.JPEG 124,135,239,308,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1249.JPEG 51,66,322,390,0 274,178,416,311,0 1,162,46,406,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1298.JPEG 31,35,414,355,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1302.JPEG 176,182,416,324,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1304.JPEG 138,160,349,299,0 79,138,267,195,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1309.JPEG 45,132,416,346,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1328.JPEG 139,189,309,392,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_138.JPEG 5,87,358,336,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1383.JPEG 52,93,384,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1403.JPEG 27,87,394,359,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1449.JPEG 94,182,314,285,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_146.JPEG 23,10,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1540.JPEG 4,62,374,370,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1581.JPEG 46,72,355,340,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1595.JPEG 96,33,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1599.JPEG 37,108,411,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1627.JPEG 33,78,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1631.JPEG 1,15,416,411,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1734.JPEG 3,140,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1738.JPEG 2,49,416,381,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1750.JPEG 65,58,416,405,0 1,46,197,311,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1763.JPEG 12,121,404,370,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_178.JPEG 14,70,396,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1785.JPEG 123,119,329,347,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1834.JPEG 21,66,369,385,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1836.JPEG 21,106,389,381,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_184.JPEG 14,123,399,388,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1842.JPEG 33,89,386,333,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1908.JPEG 7,43,407,410,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1948.JPEG 10,76,416,363,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1953.JPEG 32,114,365,367,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_1982.JPEG 5,35,351,330,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2012.JPEG 2,125,406,341,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2014.JPEG 198,188,286,266,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2015.JPEG 35,20,392,323,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2035.JPEG 66,144,412,369,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2080.JPEG 53,104,262,342,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2115.JPEG 139,98,409,224,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2140.JPEG 31,84,416,376,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2155.JPEG 219,211,413,359,0 36,160,139,268,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2167.JPEG 45,107,304,323,0 274,141,357,256,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2171.JPEG 20,30,416,381,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2265.JPEG 13,67,416,336,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2294.JPEG 88,205,212,330,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_232.JPEG 1,40,416,408,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2385.JPEG 33,81,360,332,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2433.JPEG 33,62,372,402,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2469.JPEG 6,103,380,329,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2474.JPEG 34,110,330,341,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2478.JPEG 20,192,284,367,0 174,114,395,252,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2517.JPEG 2,33,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2544.JPEG 21,82,416,374,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2547.JPEG 102,64,416,402,0 1,111,189,352,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2552.JPEG 22,10,408,370,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2555.JPEG 1,88,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2557.JPEG 102,27,344,342,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2588.JPEG 21,40,416,409,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2635.JPEG 1,92,392,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2688.JPEG 3,70,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2713.JPEG 27,137,360,406,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2733.JPEG 57,43,356,388,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_278.JPEG 41,19,357,369,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_280.JPEG 13,82,362,384,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2833.JPEG 13,65,345,361,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2859.JPEG 32,121,383,391,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2868.JPEG 66,165,351,348,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2889.JPEG 45,111,372,350,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2941.JPEG 27,175,368,352,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_2994.JPEG 86,65,328,371,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_30.JPEG 115,131,333,337,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3026.JPEG 6,170,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3027.JPEG 21,83,394,268,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3035.JPEG 28,79,301,378,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3051.JPEG 116,143,271,234,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3055.JPEG 27,20,400,393,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3060.JPEG 102,102,405,349,0 4,141,192,314,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3070.JPEG 42,54,396,385,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3143.JPEG 6,158,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3151.JPEG 1,25,416,408,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_319.JPEG 104,73,383,403,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3204.JPEG 72,103,339,380,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_324.JPEG 19,91,414,364,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_331.JPEG 158,57,339,314,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3333.JPEG 39,127,385,281,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3335.JPEG 15,133,385,331,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3498.JPEG 93,182,374,323,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_351.JPEG 173,80,416,376,0 5,123,248,280,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_352.JPEG 7,64,393,315,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3599.JPEG 259,190,384,375,0 62,7,208,378,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_362.JPEG 1,67,416,347,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3642.JPEG 34,137,379,379,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3687.JPEG 39,98,403,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3804.JPEG 4,17,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3877.JPEG 5,81,416,375,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3924.JPEG 12,22,404,400,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3952.JPEG 65,49,342,373,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3977.JPEG 46,119,397,382,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_3979.JPEG 103,17,369,392,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4049.JPEG 89,82,416,296,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4062.JPEG 76,134,416,294,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4079.JPEG 78,123,400,399,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4133.JPEG 50,152,262,315,0 283,180,397,303,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_416.JPEG 43,11,391,387,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4174.JPEG 143,168,300,346,0 63,157,165,307,0 303,155,416,334,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_421.JPEG 48,106,393,367,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4221.JPEG 47,80,389,387,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4230.JPEG 21,114,404,375,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_425.JPEG 4,139,416,342,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4250.JPEG 12,87,416,352,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4267.JPEG 88,55,327,399,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4269.JPEG 65,191,345,296,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4320.JPEG 132,138,310,330,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4461.JPEG 59,163,376,353,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4482.JPEG 21,135,366,379,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4563.JPEG 75,60,370,393,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4573.JPEG 1,38,409,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4613.JPEG 64,132,377,375,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4619.JPEG 3,51,408,367,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4626.JPEG 3,225,112,286,0 97,192,283,324,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4632.JPEG 20,128,389,342,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4723.JPEG 1,44,416,408,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_473.JPEG 51,75,390,335,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4754.JPEG 6,105,416,345,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4822.JPEG 33,18,412,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4859.JPEG 12,68,416,364,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_492.JPEG 25,104,411,369,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_4942.JPEG 12,87,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5020.JPEG 1,78,416,406,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5068.JPEG 2,23,416,406,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5200.JPEG 6,46,416,401,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_523.JPEG 55,140,363,347,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5307.JPEG 95,29,400,359,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5387.JPEG 1,13,416,391,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5392.JPEG 154,149,301,344,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_540.JPEG 15,41,392,380,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5424.JPEG 23,49,404,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5457.JPEG 15,25,408,373,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_546.JPEG 1,70,416,407,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_55.JPEG 128,155,340,294,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5515.JPEG 25,40,404,311,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5562.JPEG 227,265,322,365,0 62,274,161,361,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5563.JPEG 8,132,339,352,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5576.JPEG 204,126,408,387,0 90,159,247,380,0 7,218,117,367,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5641.JPEG 69,117,374,369,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5663.JPEG 20,161,406,394,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5669.JPEG 51,81,374,393,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5694.JPEG 2,97,343,403,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5726.JPEG 53,64,358,340,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5731.JPEG 104,2,384,336,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5792.JPEG 25,135,325,323,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5845.JPEG 1,8,389,381,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5847.JPEG 7,43,406,344,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_5954.JPEG 11,83,399,372,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6066.JPEG 35,207,414,377,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_610.JPEG 17,49,416,362,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6104.JPEG 3,105,403,396,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6152.JPEG 90,39,339,369,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6154.JPEG 35,108,407,362,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_620.JPEG 51,106,373,326,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_622.JPEG 1,124,416,405,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6230.JPEG 80,246,345,408,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6247.JPEG 25,111,365,371,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6262.JPEG 15,124,357,317,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6267.JPEG 26,106,258,366,0 262,197,397,329,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_628.JPEG 16,81,416,393,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6306.JPEG 29,70,368,405,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6381.JPEG 4,51,412,349,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6404.JPEG 38,65,352,391,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6473.JPEG 90,129,347,360,0 1,199,122,312,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6482.JPEG 11,9,368,390,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6534.JPEG 16,103,391,321,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_656.JPEG 1,87,345,367,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6690.JPEG 14,123,416,374,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6871.JPEG 54,154,175,242,0 180,180,221,218,0 220,184,246,213,0 317,126,416,299,0 253,184,280,217,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6906.JPEG 6,135,416,293,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_691.JPEG 1,21,325,289,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6916.JPEG 103,39,330,373,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_6945.JPEG 35,129,371,313,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_700.JPEG 67,49,411,342,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_710.JPEG 167,139,387,355,0 81,224,166,315,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_763.JPEG 280,173,411,250,0 159,165,277,254,0 12,153,153,251,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_77.JPEG 1,133,416,416,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_782.JPEG 13,95,408,355,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_843.JPEG 58,106,398,384,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_887.JPEG 87,64,415,350,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_916.JPEG 53,126,377,362,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_92.JPEG 49,13,318,393,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_933.JPEG 280,264,355,351,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_956.JPEG 1,32,416,402,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_960.JPEG 143,128,407,383,0 2,102,183,396,0
+E:\FinalProject\Datasets\labels\Tanks\n04389033_965.JPEG 45,97,394,363,0

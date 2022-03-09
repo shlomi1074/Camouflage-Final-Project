@@ -1,0 +1,1000 @@
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000001.jpg 165,58,187,80,7 112,287,134,309,6 290,93,402,205,5 134,260,246,372,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000002.jpg 377,192,391,206,1 151,240,207,296,1 297,69,339,111,7 168,350,210,392,1 242,346,284,388,7 7,114,49,156,2 367,311,395,339,0 18,6,102,90,4 196,171,280,255,5 53,158,137,242,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000003.jpg 237,178,259,200,9 367,32,389,54,3 290,89,318,117,7 174,209,258,293,9 127,86,239,198,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000004.jpg 30,19,86,75,7 249,268,305,324,6 171,330,255,414,5 243,104,355,216,6 106,106,218,218,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000005.jpg 12,98,26,112,0 54,229,138,313,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000006.jpg 139,268,161,290,6 369,185,383,199,7 288,161,344,217,2 234,42,262,70,2 176,162,218,204,0 48,107,76,135,8 237,340,293,396,4 2,17,30,45,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000007.jpg 369,281,391,303,0 90,32,118,60,9 247,61,303,117,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000008.jpg 76,348,98,370,1 151,262,179,290,0 313,140,355,182,6 223,137,265,179,4 279,267,321,309,2 39,151,151,263,4 283,15,395,127,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000009.jpg 225,75,247,97,9 355,276,369,290,0 26,42,68,84,7 87,223,199,335,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000010.jpg 283,263,311,291,7 364,94,392,122,9 268,173,352,257,1 29,168,141,280,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000011.jpg 22,50,36,64,8 126,18,168,60,4 327,332,369,374,1 230,295,286,351,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000012.jpg 161,300,175,314,1 215,266,237,288,1 20,52,34,66,3 179,23,221,65,4 125,159,181,215,5 16,134,100,218,5 278,180,362,264,7 189,312,273,396,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000013.jpg 71,273,113,315,7 241,245,297,301,6 225,331,253,359,7 224,192,266,234,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000014.jpg 366,78,380,92,2 166,82,180,96,4 117,336,145,364,9 138,182,180,224,3 23,353,51,381,0 154,231,266,343,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000015.jpg 36,237,58,259,2 41,28,55,42,2 152,193,166,207,8 147,60,259,172,9 101,254,185,338,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000016.jpg 94,193,108,207,9 341,119,355,133,4 354,261,376,283,6 36,44,64,72,1 24,152,80,208,4 273,86,385,198,4 45,224,157,336,3 150,68,262,180,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000017.jpg 207,178,229,200,4 271,41,383,153,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000018.jpg 180,15,194,29,5 162,53,184,75,0 265,253,279,267,1 253,36,309,92,9 67,328,109,370,7 321,127,405,211,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000019.jpg 171,297,193,319,6 244,268,258,282,3 14,331,56,373,1 243,19,299,75,8 313,326,369,382,3 39,111,95,167,8 302,33,358,89,3 205,238,233,266,6 215,85,327,197,7 112,122,196,206,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000020.jpg 69,211,91,233,1 365,166,387,188,5 11,345,53,387,8 181,127,209,155,6 205,329,261,385,1 165,248,221,304,8 311,342,367,398,2 64,64,176,176,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000021.jpg 53,126,109,182,0 28,86,70,128,0 233,154,275,196,1 183,277,225,319,0 148,176,176,204,6 288,69,400,181,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000022.jpg 104,229,126,251,7 350,258,364,272,9 285,115,327,157,3 374,149,402,177,5 234,220,290,276,0 342,174,370,202,3 289,236,345,292,4 157,72,269,184,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000023.jpg 16,30,30,44,0 83,186,105,208,4 61,119,83,141,5 250,78,306,134,4 92,128,134,170,1 235,231,347,343,3 102,260,186,344,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000024.jpg 371,336,385,350,8 313,197,327,211,0 84,55,126,97,5 174,228,216,270,0 253,99,309,155,6 159,327,215,383,6 318,137,374,193,2 259,353,301,395,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000025.jpg 264,140,286,162,6 41,123,63,145,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000026.jpg 243,190,257,204,1 110,277,124,291,2 35,274,91,330,5 327,362,355,390,8 341,105,383,147,3 292,272,320,300,3 56,172,98,214,4 208,127,320,239,2 330,273,414,357,5 90,72,202,184,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000027.jpg 312,366,326,380,0 67,216,89,238,9 258,225,300,267,4 19,291,103,375,1 137,117,249,229,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000028.jpg 330,33,344,47,2 53,287,165,399,6 33,26,117,110,6 260,91,372,203,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000029.jpg 360,158,382,180,1 237,368,265,396,9 113,66,141,94,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000030.jpg 183,299,197,313,4 214,45,298,129,9 230,149,314,233,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000031.jpg 300,54,314,68,9 124,225,146,247,4 54,284,110,340,4 228,292,284,348,9 309,307,351,349,6 341,160,383,202,1 147,70,189,112,0 213,27,255,69,9 8,38,120,150,9 212,165,324,277,6 0,149,84,233,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000032.jpg 368,144,382,158,7 347,75,369,97,0 208,49,264,105,3 126,144,182,200,8 365,158,407,200,7 292,22,320,50,3 205,112,317,224,7 26,310,110,394,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000033.jpg 90,101,174,185,2 64,11,148,95,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000034.jpg 328,217,370,259,2 86,315,142,371,9 182,302,224,344,3 109,112,193,196,4 188,118,300,230,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000035.jpg 231,166,287,222,8 37,1,93,57,6 77,130,133,186,2 39,168,67,196,0 326,323,382,379,6 103,22,215,134,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000036.jpg 312,2,326,16,2 166,37,208,79,7 164,140,206,182,2 200,7,228,35,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000037.jpg 132,93,188,149,8 346,253,402,309,6 103,207,145,249,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000038.jpg 215,198,237,220,3 330,148,344,162,2 123,195,145,217,7 297,227,353,283,5 40,20,96,76,1 91,121,147,177,9 252,153,308,209,1 196,134,238,176,1 193,325,277,409,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000039.jpg 8,133,30,155,5 152,196,174,218,7 72,149,128,205,9 187,56,243,112,1 88,369,130,411,2 53,106,95,148,9 349,28,405,84,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000040.jpg 372,74,394,96,8 62,243,76,257,4 331,298,373,340,8 203,45,231,73,9 119,175,161,217,4 101,7,185,91,0 120,238,232,350,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000041.jpg 78,319,92,333,3 172,178,256,262,9 30,38,142,150,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000042.jpg 373,76,387,90,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000043.jpg 182,174,196,188,5 33,34,55,56,2 87,0,115,28,9 243,344,285,386,3 308,96,392,180,0 2,303,86,387,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000044.jpg 100,260,122,282,2 324,120,366,162,5 128,314,184,370,7 21,125,105,209,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000045.jpg 30,29,86,85,6 27,141,55,169,5 141,97,169,125,3 50,218,106,274,4 343,335,371,363,6 256,108,340,192,6 102,165,186,249,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000046.jpg 95,220,117,242,3 350,312,364,326,1 250,177,264,191,2 243,18,271,46,1 10,164,38,192,6 64,84,120,140,8 167,87,223,143,0 243,122,285,164,6 93,297,177,381,3 268,276,352,360,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000047.jpg 36,8,50,22,3 238,18,252,32,9 338,12,380,54,3 70,159,112,201,8 126,111,168,153,1 251,46,293,88,6 36,82,92,138,3 240,157,282,199,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000048.jpg 238,214,280,256,9 175,28,203,56,0 280,335,336,391,5 129,82,157,110,1 130,117,172,159,4 22,36,50,64,6 140,179,224,263,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000049.jpg 57,352,71,366,4 261,223,283,245,5 128,147,142,161,2 305,166,347,208,9 94,284,178,368,5 109,89,221,201,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000050.jpg 271,97,313,139,0 308,309,364,365,7 55,148,97,190,5 373,244,415,286,9 151,56,263,168,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000051.jpg 87,371,129,413,9 103,185,131,213,1 382,98,410,126,6 4,159,60,215,9 211,291,295,375,3 191,22,303,134,3 317,171,401,255,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000052.jpg 56,380,78,402,0 276,389,298,411,8 210,164,224,178,9 330,251,358,279,2 150,60,206,116,1 359,186,401,228,7 183,157,211,185,9 30,316,58,344,0 328,347,356,375,0 173,246,257,330,9 260,9,372,121,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000053.jpg 321,224,363,266,0 291,270,333,312,7 216,129,258,171,1 244,31,286,73,2 343,46,385,88,5 39,297,151,409,9 40,108,152,220,8 179,278,263,362,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000054.jpg 337,25,351,39,2 100,62,122,84,8 32,226,54,248,2 140,136,168,164,7 232,40,260,68,8 180,280,236,336,1 272,45,356,129,5 162,162,274,274,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000055.jpg 145,49,159,63,1 4,243,18,257,4 140,190,154,204,1 294,203,322,231,9 103,379,131,407,9 92,98,148,154,0 283,45,339,101,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000056.jpg 65,154,177,266,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000057.jpg 263,294,285,316,9 233,190,255,212,2 203,95,245,137,3 20,91,76,147,6 26,157,68,199,8 150,217,178,245,8 315,256,357,298,9 125,252,237,364,5 318,307,402,391,5 185,12,269,96,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000058.jpg 86,266,100,280,1 266,110,280,124,3 22,78,64,120,0 23,343,79,399,8 76,88,160,172,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000059.jpg 331,339,353,361,5 276,58,332,114,8 158,301,186,329,3 44,268,72,296,6 94,100,178,184,8 192,240,304,352,5 83,224,167,308,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000060.jpg 127,301,183,357,1 85,353,113,381,8 341,273,383,315,1 207,17,235,45,9 146,73,174,101,3 208,173,320,285,5 30,118,114,202,7 146,102,230,186,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000061.jpg 164,4,178,18,9 84,313,98,327,3 317,307,331,321,8 328,153,370,195,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000062.jpg 31,387,53,409,3 193,17,215,39,4 306,309,320,323,6 6,246,90,330,9 191,228,303,340,0 179,58,263,142,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000063.jpg 143,113,185,155,2 56,64,112,120,5 210,154,322,266,4 117,282,229,394,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000064.jpg 108,44,220,156,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000065.jpg 253,232,275,254,4 126,382,148,404,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000066.jpg 42,326,64,348,1 223,287,245,309,5 277,79,291,93,9 6,149,34,177,1 201,92,229,120,7 332,338,360,366,7 124,147,152,175,9 7,5,63,61,5 365,6,407,48,6 118,281,230,393,5 242,2,326,86,4 241,199,353,311,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000067.jpg 114,236,128,250,1 286,68,370,152,8 197,72,281,156,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000068.jpg 375,186,403,214,6 19,247,75,303,7 86,301,142,357,8 350,57,392,99,3 123,104,151,132,6 166,69,250,153,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000069.jpg 373,76,395,98,2 27,351,41,365,2 59,241,81,263,8 304,240,360,296,1 386,358,414,386,1 357,134,399,176,7 52,343,108,399,3 25,122,67,164,4 217,316,259,358,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000070.jpg 291,390,305,404,3 23,189,37,203,1 284,103,312,131,4 62,214,104,256,9 366,354,394,382,8 257,161,313,217,3 80,100,192,212,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000071.jpg 81,105,95,119,6 7,183,29,205,5 13,56,125,168,1 84,199,196,311,9 310,58,394,142,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000072.jpg 349,111,371,133,3 290,277,304,291,3 346,330,402,386,0 20,22,76,78,7 246,203,274,231,0 333,215,375,257,6 77,153,189,265,0 2,285,114,397,0 105,40,217,152,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000073.jpg 198,124,212,138,6 179,265,221,307,6 3,68,45,110,3 56,261,112,317,0 233,19,261,47,8 308,211,336,239,2 323,321,379,377,5 163,145,275,257,9 16,132,128,244,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000074.jpg 95,53,117,75,2 260,175,282,197,9 1,134,23,156,6 130,179,186,235,9 83,266,139,322,4 354,121,382,149,9 51,286,79,314,8 274,265,358,349,5 24,109,108,193,5 304,35,388,119,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000075.jpg 247,245,261,259,6 36,40,64,68,5 41,226,97,282,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000076.jpg 76,127,118,169,9 73,280,129,336,7 226,177,282,233,2 213,74,255,116,3 32,194,116,278,4 236,259,320,343,7 283,95,395,207,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000077.jpg 307,263,321,277,4 273,46,295,68,3 2,26,44,68,9 287,177,371,261,4 119,286,203,370,0 241,319,325,403,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000078.jpg 38,189,60,211,2 275,9,289,23,8 194,219,208,233,4 105,8,133,36,9 203,37,231,65,2 83,72,125,114,9 247,127,331,211,3 209,267,321,379,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000079.jpg 230,232,244,246,3 138,182,160,204,6 117,264,131,278,9 275,83,303,111,5 29,77,71,119,4 160,120,202,162,7 103,346,145,388,5 232,116,288,172,7 113,210,225,322,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000080.jpg 386,34,400,48,8 160,389,174,403,6 38,353,66,381,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000081.jpg 121,250,143,272,2 27,267,41,281,6 130,148,186,204,8 41,351,97,407,1 338,162,380,204,1 53,198,109,254,2 203,297,245,339,8 27,31,69,73,0 210,29,322,141,1 119,47,203,131,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000082.jpg 120,306,148,334,6 94,234,150,290,8 69,134,125,190,2 15,107,71,163,8 144,262,228,346,3 203,64,315,176,7 312,15,396,99,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000083.jpg 377,159,399,181,3 331,390,353,412,4 39,227,81,269,9 102,19,186,103,2 100,295,212,407,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000084.jpg 274,325,296,347,4 342,399,356,413,5 115,114,227,226,9 29,255,141,367,3 284,33,396,145,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000085.jpg 74,236,116,278,4 87,61,129,103,5 86,353,114,381,1 197,196,239,238,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000086.jpg 186,363,208,385,7 1,274,57,330,4 367,324,409,366,3 43,139,71,167,4 8,215,64,271,3 232,134,260,162,7 37,78,93,134,1 187,176,299,288,2 108,26,220,138,4 76,254,188,366,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000087.jpg 97,329,111,343,3 384,164,406,186,7 6,140,28,162,2 149,86,205,142,4 252,68,308,124,1 176,332,218,374,7 206,242,318,354,2 44,235,128,319,4 4,7,88,91,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000088.jpg 46,284,102,340,1 106,222,148,264,6 314,20,370,76,1 239,329,295,385,4 290,211,332,253,1 263,120,319,176,8 298,270,410,382,0 10,63,122,175,8 214,8,298,92,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000089.jpg 6,186,48,228,9 162,53,246,137,9 260,264,344,348,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000090.jpg 278,293,300,315,0 350,91,372,113,9 210,241,252,283,9 54,369,82,397,8 171,59,227,115,9 62,102,90,130,3 115,317,171,373,9 126,267,154,295,8 317,137,401,221,2 312,306,396,390,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000091.jpg 317,236,331,250,3 343,271,385,313,0 36,70,92,126,2 67,16,95,44,7 43,214,99,270,8 278,204,306,232,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000092.jpg 280,125,308,153,4 303,39,331,67,7 23,139,79,195,0 102,149,130,177,2 3,312,87,396,7 264,289,376,401,0 71,43,183,155,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000093.jpg 165,121,179,135,4 207,256,229,278,3 239,50,267,78,6 366,173,408,215,6 151,178,207,234,8 67,220,95,248,9 17,256,129,368,7 330,24,414,108,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000094.jpg 348,274,370,296,7 159,75,187,103,1 67,232,123,288,8 193,317,221,345,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000095.jpg 335,268,357,290,5 330,222,344,236,2 71,218,93,240,8 35,372,77,414,6 260,150,316,206,5 113,353,169,409,3 292,309,348,365,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000096.jpg 67,58,81,72,8 336,326,358,348,2 25,201,47,223,0 11,95,39,123,6 227,214,269,256,5 72,195,128,251,8 89,31,173,115,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000097.jpg 85,232,107,254,5 161,318,183,340,5 170,380,184,394,4 232,271,274,313,3 286,254,342,310,2 168,105,280,217,3 32,287,116,371,9 129,5,213,89,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000098.jpg 387,35,401,49,7 165,120,187,142,7 127,178,149,200,4 179,286,291,398,0 195,162,307,274,4 43,243,155,355,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000099.jpg 48,140,70,162,6 221,204,249,232,1 258,234,300,276,8 80,62,136,118,8 151,191,207,247,4 314,42,370,98,7 81,258,123,300,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000100.jpg 156,312,178,334,2 349,345,363,359,9 204,353,218,367,3 75,324,117,366,7 157,111,185,139,6 302,264,358,320,8 71,21,127,77,9 141,2,197,58,3 127,93,155,121,4 11,73,95,157,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000101.jpg 39,328,53,342,9 84,97,112,125,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000102.jpg 142,357,164,379,1 15,343,37,365,6 155,200,197,242,9 265,297,321,353,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000103.jpg 60,45,74,59,8 265,107,287,129,0 363,147,385,169,5 127,118,183,174,7 191,325,233,367,9 42,205,154,317,8 213,123,325,235,5 122,23,206,107,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000104.jpg 68,107,82,121,2 125,191,147,213,2 179,127,235,183,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000105.jpg 347,345,369,367,3 17,137,59,179,2 264,210,292,238,9 363,306,391,334,5 271,112,299,140,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000106.jpg 47,70,61,84,4 202,365,216,379,7 250,98,306,154,4 346,291,374,319,3 79,210,135,266,6 309,152,351,194,1 212,265,324,377,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000107.jpg 322,326,378,382,1 208,90,264,146,7 43,164,85,206,0 97,147,153,203,5 257,346,285,374,6 149,239,261,351,5 329,93,413,177,4 261,13,345,97,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000108.jpg 110,130,124,144,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000109.jpg 325,334,347,356,3 95,351,117,373,5 91,102,119,130,5 381,187,409,215,4 333,233,361,261,2 175,304,231,360,6 147,182,189,224,4 308,1,392,85,2 201,86,313,198,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000110.jpg 134,0,156,22,8 278,339,334,395,0 199,315,227,343,6 23,131,65,173,6 54,214,82,242,6 265,34,377,146,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000111.jpg 223,325,245,347,7 130,281,144,295,4 99,210,155,266,7 197,42,253,98,3 281,134,365,218,1 111,275,223,387,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000112.jpg 71,287,93,309,8 13,210,27,224,4 285,374,299,388,7 233,88,275,130,7 10,82,38,110,0 43,112,85,154,4 193,204,235,246,9 251,188,307,244,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000113.jpg 354,120,376,142,9 250,394,264,408,6 298,172,340,214,3 199,177,241,219,2 172,261,228,317,2 317,226,373,282,0 0,5,84,89,0 87,285,171,369,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000114.jpg 165,317,187,339,4 250,266,272,288,6 12,325,54,367,6 89,185,117,213,5 133,19,175,61,0 156,70,198,112,8 114,108,226,220,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000115.jpg 280,389,302,411,6 153,391,175,413,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000116.jpg 159,73,201,115,4 54,361,96,403,6 123,142,165,184,6 187,277,243,333,2 158,348,200,390,9 246,179,302,235,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000117.jpg 24,0,38,14,4 145,285,159,299,2 6,103,48,145,0 292,213,348,269,2 231,99,343,211,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000118.jpg 54,296,96,338,0 229,277,271,319,6 270,368,312,410,0 95,283,123,311,4 279,159,391,271,8 59,36,171,148,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000119.jpg 371,116,393,138,3 157,291,171,305,7 354,250,376,272,3 111,27,153,69,4 10,301,38,329,7 146,304,188,346,6 65,88,93,116,0 80,126,164,210,8 233,103,345,215,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000120.jpg 111,175,125,189,0 76,102,104,130,9 96,139,208,251,1 183,290,267,374,3 306,119,390,203,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000121.jpg 257,368,279,390,6 236,3,258,25,5 301,299,315,313,8 140,253,182,295,0 143,67,199,123,8 27,366,55,394,8 31,47,73,89,5 278,84,390,196,2 299,202,383,286,1 26,116,110,200,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000122.jpg 94,226,108,240,1 369,175,391,197,7 112,16,154,58,3 373,144,401,172,8 353,211,395,253,0 314,297,398,381,2 174,38,286,150,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000123.jpg 120,114,134,128,2 129,391,143,405,4 311,236,325,250,9 6,375,34,403,0 10,212,52,254,0 51,287,93,329,3 167,12,223,68,3 111,24,167,80,7 220,175,332,287,8 129,296,241,408,0 8,54,120,166,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000124.jpg 83,53,105,75,1 351,213,393,255,2 210,150,266,206,1 88,107,200,219,1 173,291,257,375,3 5,311,89,395,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000125.jpg 267,367,309,409,4 116,14,172,70,5 165,240,193,268,4 12,302,96,386,6 23,153,135,265,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000126.jpg 126,365,154,393,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000127.jpg 293,363,307,377,6 151,3,165,17,2 23,142,107,226,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000128.jpg 102,92,214,204,5 203,309,287,393,2 254,213,338,297,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000129.jpg 348,75,362,89,0 245,357,259,371,4 189,312,231,354,6 372,126,414,168,3 179,164,207,192,0 26,357,82,413,2 288,261,344,317,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000130.jpg 155,174,197,216,8 57,64,113,120,7 203,112,259,168,6 361,208,403,250,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000131.jpg 218,315,232,329,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000132.jpg 278,106,390,218,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000133.jpg 356,300,370,314,8 261,75,275,89,7 313,8,335,30,1 283,235,325,277,2 12,242,40,270,3 247,160,275,188,5 248,21,304,77,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000134.jpg 66,172,88,194,1 53,327,67,341,8 318,347,332,361,4 15,272,57,314,4 213,264,241,292,0 285,55,397,167,8 142,79,226,163,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000135.jpg 294,381,316,403,6 102,382,116,396,2 365,246,379,260,3 5,196,47,238,6 250,264,334,348,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000136.jpg 32,59,46,73,3 123,334,137,348,0 233,44,289,100,4 298,210,340,252,3 143,164,255,276,8 42,246,154,358,4 328,74,412,158,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000137.jpg 336,3,358,25,7 372,179,394,201,4 283,158,325,200,7 296,359,338,401,7 387,367,415,395,1 40,296,152,408,8 67,57,151,141,1 221,232,305,316,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000138.jpg 329,211,343,225,7 236,98,264,126,2 294,178,406,290,2 3,130,115,242,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000139.jpg 297,271,319,293,5 20,102,34,116,9 113,105,135,127,3 320,141,376,197,3 220,284,276,340,5 229,112,271,154,9 40,137,96,193,7 163,30,205,72,6 124,149,236,261,9 33,260,145,372,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000140.jpg 140,209,196,265,2 277,178,389,290,2 214,35,326,147,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000141.jpg 184,129,296,241,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000142.jpg 101,172,115,186,5 28,222,56,250,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000143.jpg 357,163,399,205,6 81,212,123,254,6 240,65,296,121,6 275,224,317,266,4 303,377,331,405,5 315,108,343,136,9 54,308,138,392,2 9,79,93,163,5 117,155,229,267,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000144.jpg 196,149,210,163,3 65,384,79,398,5 90,138,112,160,5 187,82,299,194,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000145.jpg 203,258,217,272,8 220,78,276,134,3 302,205,358,261,2 279,88,335,144,9 365,274,407,316,7 7,137,63,193,4 114,259,226,371,5 104,69,216,181,4 261,290,373,402,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000146.jpg 94,190,108,204,5 144,270,158,284,6 369,361,391,383,0 169,201,211,243,5 39,238,123,322,8 154,58,266,170,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000147.jpg 383,387,397,401,0 28,201,42,215,8 50,142,78,170,6 139,357,195,413,9 360,360,388,388,1 363,299,405,341,0 350,54,392,96,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000148.jpg 217,361,231,375,4 345,339,387,381,6 190,35,246,91,4 31,357,87,413,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000149.jpg 135,280,149,294,4 367,380,389,402,9 333,186,355,208,2 285,31,341,87,3 358,314,414,370,3 138,6,250,118,5 234,273,318,357,0 129,136,241,248,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000150.jpg 12,44,124,156,8 240,27,324,111,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000151.jpg 338,228,360,250,3 314,141,336,163,7 60,315,88,343,9 237,52,321,136,1 54,64,138,148,3 110,197,194,281,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000152.jpg 254,355,276,377,8 336,192,378,234,1 36,265,64,293,1 357,85,385,113,6 141,161,225,245,1 75,240,187,352,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000153.jpg 116,38,130,52,0 283,31,297,45,7 356,75,398,117,8 314,11,356,53,8 115,319,171,375,4 132,250,160,278,9 44,338,72,366,0 325,316,409,400,7 10,57,94,141,4 211,217,295,301,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000154.jpg 296,50,310,64,9 55,76,83,104,5 144,202,186,244,1 209,34,251,76,3 229,296,285,352,5 92,291,134,333,8 275,106,387,218,5 6,169,118,281,1 168,84,280,196,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000155.jpg 287,59,309,81,2 348,145,362,159,3 248,287,270,309,8 50,288,134,372,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000156.jpg 169,172,281,284,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000157.jpg 307,235,329,257,3 70,346,92,368,1 322,312,378,368,5 325,201,367,243,0 321,32,377,88,2 236,135,292,191,2 130,238,214,322,1 41,118,153,230,1 63,9,175,121,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000158.jpg 348,292,362,306,3 282,363,324,405,5 148,263,176,291,5 185,106,213,134,6 337,101,393,157,2 8,331,92,415,8 65,166,149,250,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000159.jpg 313,66,335,88,0 150,389,172,411,0 46,207,68,229,7 78,69,134,125,6 293,93,377,177,1 168,268,280,380,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000160.jpg 129,240,143,254,0 277,86,291,100,9 9,256,65,312,0 72,0,114,42,5 120,95,176,151,5 129,313,185,369,7 23,373,65,415,3 234,158,318,242,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000161.jpg 27,223,83,279,7 101,1,213,113,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000162.jpg 16,275,128,387,0 297,82,381,166,7 131,288,243,400,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000163.jpg 130,142,144,156,9 21,56,35,70,0 151,279,207,335,0 278,265,306,293,1 240,121,268,149,2 136,155,178,197,5 330,350,386,406,2 302,178,386,262,4 131,21,243,133,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000164.jpg 74,319,88,333,7 162,175,184,197,8 213,177,227,191,3 261,295,303,337,1 317,195,373,251,1 183,33,239,89,5 171,322,227,378,8 30,301,58,329,2 74,20,102,48,4 73,41,185,153,4 223,78,307,162,1 321,254,405,338,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000165.jpg 166,273,188,295,5 371,362,413,404,5 11,72,39,100,6 201,88,229,116,3 373,134,415,176,6 228,264,270,306,3 85,96,197,208,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000166.jpg 34,312,48,326,2 157,101,213,157,7 340,213,396,269,4 30,0,72,42,7 192,162,220,190,2 243,252,327,336,3 5,210,117,322,3 247,9,359,121,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000167.jpg 94,54,150,110,1 384,90,412,118,7 306,330,348,372,1 70,223,126,279,7 174,32,230,88,4 272,111,384,223,5 128,134,212,218,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000168.jpg 85,260,127,302,8 106,151,218,263,6 186,32,298,144,8 235,277,347,389,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000169.jpg 31,161,143,273,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000170.jpg 198,204,212,218,7 77,37,119,79,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000171.jpg 189,236,231,278,4 228,238,340,350,5 124,303,208,387,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000172.jpg 217,326,239,348,7 166,40,188,62,2 334,255,362,283,8 53,38,95,80,0 256,219,284,247,6 302,145,386,229,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000173.jpg 31,76,53,98,1 220,355,248,383,5 266,228,294,256,2 347,17,403,73,4 73,85,115,127,6 55,200,167,312,1 188,64,300,176,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000174.jpg 270,335,284,349,7 72,216,94,238,8 4,103,18,117,9 136,34,164,62,8 76,122,104,150,4 148,113,232,197,5 294,80,378,164,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000175.jpg 182,97,266,181,5 275,269,387,381,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000176.jpg 61,301,75,315,0 208,238,320,350,1 178,116,290,228,0 175,7,287,119,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000177.jpg 334,198,390,254,9 148,240,190,282,5 161,136,217,192,1 160,95,202,137,6 77,169,119,211,5 233,27,275,69,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000178.jpg 8,271,22,285,9 261,254,303,296,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000179.jpg 67,254,123,310,6 259,319,287,347,6 43,77,85,119,0 324,91,352,119,4 353,7,409,63,3 65,339,93,367,7 129,25,241,137,2 278,288,390,400,8 157,149,269,261,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000180.jpg 242,313,256,327,0 148,276,170,298,0 331,370,373,412,7 135,118,163,146,2 18,165,74,221,3 83,26,111,54,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000181.jpg 398,138,412,152,4 286,23,300,37,3 60,120,74,134,0 15,357,71,413,2 343,382,371,410,2 197,34,309,146,8 81,64,165,148,9 216,292,300,376,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000182.jpg 210,254,232,276,2 236,220,258,242,2 81,182,109,210,1 260,342,302,384,1 254,150,282,178,4 117,279,159,321,6 105,3,189,87,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000183.jpg 220,285,242,307,7 208,13,230,35,6 243,159,299,215,9 0,126,28,154,6 136,125,220,209,6 69,222,153,306,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000184.jpg 15,79,29,93,0 143,400,157,414,6 28,383,42,397,2 300,56,412,168,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000185.jpg 320,88,362,130,4 352,11,408,67,4 299,315,327,343,2 157,282,199,324,2 224,247,266,289,6 309,343,351,385,3 65,288,149,372,1 77,111,189,223,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000186.jpg 175,266,189,280,7 3,363,17,377,2 82,74,138,130,2 178,63,206,91,9 47,366,89,408,7 206,173,290,257,3 299,156,411,268,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000187.jpg 303,192,325,214,8 117,261,139,283,2 12,370,34,392,7 342,135,384,177,8 55,236,97,278,0 347,177,389,219,2 250,233,278,261,6 25,149,81,205,4 221,27,305,111,5 299,256,411,368,6 143,271,227,355,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000188.jpg 81,241,103,263,3 258,292,280,314,6 313,263,335,285,0 223,26,265,68,3 163,96,205,138,9 225,183,267,225,3 113,101,155,143,2 294,54,350,110,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000189.jpg 204,336,226,358,1 313,233,335,255,4 107,88,149,130,2 70,281,182,393,1 296,23,408,135,7 130,132,242,244,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000190.jpg 54,63,82,91,8 106,340,162,396,6 370,0,398,28,8 38,370,80,412,1 141,204,183,246,5 199,83,241,125,2 272,234,356,318,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000191.jpg 228,131,256,159,3 187,154,229,196,7 245,37,273,65,0 169,287,211,329,5 302,272,344,314,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000192.jpg 278,93,292,107,2 343,197,357,211,6 213,56,227,70,0 42,210,126,294,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000193.jpg 107,264,219,376,4 274,84,358,168,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000194.jpg 70,277,92,299,0 285,330,299,344,4 34,73,76,115,6 75,49,103,77,1 44,300,72,328,6 254,229,296,271,8 88,97,172,181,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000195.jpg 231,166,287,222,1 190,225,302,337,7 26,125,110,209,8 15,217,99,301,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000196.jpg 301,319,323,341,0 153,168,175,190,4 27,228,69,270,2 141,57,183,99,6 132,306,188,362,9 53,308,81,336,2 295,184,323,212,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000197.jpg 192,229,206,243,1 198,204,220,226,6 118,118,202,202,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000198.jpg 287,178,315,206,0 339,266,395,322,0 34,155,118,239,5 131,65,243,177,2 256,236,340,320,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000199.jpg 355,387,369,401,2 265,271,307,313,5 69,265,125,321,2 174,206,216,248,8 250,121,362,233,2 167,80,251,164,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000200.jpg 244,249,286,291,3 198,316,226,344,6 15,281,71,337,2 257,215,285,243,4 152,261,208,317,3 375,339,403,367,0 231,290,343,402,1 130,76,242,188,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000201.jpg 317,259,331,273,6 54,85,76,107,1 336,193,392,249,9 251,27,335,111,4 64,216,176,328,0 242,279,326,363,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000202.jpg 346,224,368,246,3 76,4,132,60,3 341,305,383,347,6 18,95,74,151,0 166,263,208,305,3 63,273,147,357,0 243,178,355,290,3 280,2,392,114,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000203.jpg 137,117,179,159,8 264,96,376,208,2 268,269,352,353,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000204.jpg 89,270,111,292,7 355,27,369,41,8 357,355,399,397,0 38,16,94,72,3 260,92,316,148,1 180,130,208,158,1 219,175,261,217,9 72,157,184,269,8 194,284,306,396,5 329,99,413,183,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000205.jpg 76,174,90,188,6 382,276,404,298,5 189,218,203,232,4 220,52,304,136,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000206.jpg 55,325,83,353,1 249,329,333,413,9 140,174,224,258,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000207.jpg 38,194,80,236,0 319,6,347,34,6 13,75,55,117,0 71,360,99,388,5 80,116,136,172,1 192,372,220,400,4 63,228,175,340,6 301,70,385,154,7 293,229,377,313,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000208.jpg 205,335,219,349,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000209.jpg 183,116,211,144,5 204,329,232,357,5 311,328,367,384,2 100,359,142,401,7 205,196,233,224,0 243,89,299,145,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000210.jpg 70,362,84,376,9 232,265,260,293,8 334,111,362,139,2 24,165,80,221,8 21,323,63,365,1 124,118,236,230,7 324,293,408,377,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000211.jpg 205,187,247,229,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000212.jpg 166,311,180,325,9 213,319,235,341,2 328,200,356,228,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000213.jpg 7,95,49,137,9 1,46,29,74,6 83,215,139,271,9 216,14,328,126,3 214,249,326,361,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000214.jpg 129,121,143,135,4 174,163,188,177,9 30,213,72,255,3 268,188,296,216,5 129,242,185,298,9 327,1,355,29,0 21,79,105,163,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000215.jpg 17,133,31,147,0 308,85,322,99,1 336,304,378,346,8 245,144,287,186,5 212,202,240,230,7 230,257,314,341,8 45,253,129,337,6 55,107,167,219,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000216.jpg 233,211,255,233,9 109,293,123,307,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000217.jpg 301,99,413,211,3 111,14,195,98,7 172,97,284,209,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000218.jpg 142,108,164,130,2 167,259,189,281,1 138,149,160,171,9 15,250,71,306,4 332,264,360,292,4 373,157,415,199,2 187,310,243,366,1 186,91,242,147,3 282,92,310,120,9 259,293,371,405,7 260,135,372,247,9 60,170,144,254,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000219.jpg 221,3,243,25,9 34,7,48,21,3 337,344,359,366,6 267,270,309,312,4 45,5,157,117,6 245,94,357,206,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000220.jpg 314,61,356,103,6 49,191,105,247,3 382,316,410,344,8 166,159,250,243,2 242,242,326,326,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000221.jpg 386,372,408,394,8 88,308,110,330,4 0,110,56,166,3 373,50,401,78,8 304,174,346,216,3 352,180,380,208,0 43,43,99,99,7 53,197,109,253,4 109,260,193,344,4 280,68,392,180,8 134,118,246,230,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000222.jpg 200,86,222,108,2 159,146,187,174,3 147,32,175,60,8 271,152,299,180,0 81,206,137,262,3 45,94,101,150,3 360,27,388,55,8 255,72,339,156,4 155,207,239,291,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000223.jpg 172,133,186,147,2 129,300,151,322,4 85,158,113,186,5 253,101,309,157,7 187,222,243,278,8 256,19,312,75,9 19,185,103,269,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000224.jpg 51,129,107,185,6 361,257,403,299,1 54,39,138,123,1 264,208,348,292,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000225.jpg 215,120,237,142,1 348,130,370,152,5 318,265,374,321,4 290,107,346,163,8 24,229,66,271,1 145,160,257,272,2 93,261,177,345,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000226.jpg 62,91,76,105,0 185,283,199,297,7 357,116,413,172,5 251,175,307,231,1 346,193,374,221,0 146,231,188,273,5 93,239,121,267,0 102,20,144,62,4 199,17,283,101,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000227.jpg 100,208,122,230,9 225,108,247,130,1 303,337,331,365,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000228.jpg 211,41,267,97,9 133,190,175,232,8 58,359,86,387,6 321,1,363,43,9 204,307,260,363,2 266,319,350,403,6 95,18,207,130,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000229.jpg 234,282,290,338,7 249,106,333,190,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000230.jpg 152,226,208,282,5 14,26,56,68,0 239,4,281,46,0 224,309,266,351,1 103,14,215,126,1 236,128,348,240,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000231.jpg 97,292,153,348,1 177,359,233,415,9 64,45,106,87,3 198,9,226,37,1 19,191,47,219,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000232.jpg 192,175,206,189,6 116,257,130,271,4 162,310,246,394,3 81,109,193,221,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000233.jpg 336,203,358,225,8 161,157,175,171,6 312,83,334,105,9 326,344,382,400,0 228,134,270,176,6 180,4,222,46,2 340,224,396,280,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000234.jpg 290,88,312,110,9 173,57,195,79,1 345,69,359,83,4 61,43,117,99,9 220,355,262,397,3 290,223,374,307,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000235.jpg 280,313,302,335,1 79,293,93,307,2 7,286,35,314,0 327,138,411,222,1 245,148,329,232,5 211,13,323,125,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000236.jpg 12,362,26,376,0 177,192,191,206,7 95,298,151,354,9 337,29,379,71,6 182,88,210,116,1 311,144,353,186,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000237.jpg 24,81,38,95,3 193,75,207,89,4 103,0,187,84,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000238.jpg 26,380,54,408,9 179,282,207,310,7 179,2,221,44,5 19,75,75,131,5 258,59,286,87,2 126,161,210,245,2 263,241,375,353,3 45,254,157,366,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000239.jpg 122,281,144,303,2 4,176,26,198,9 195,297,223,325,5 359,136,387,164,1 77,98,105,126,4 51,273,93,315,0 263,20,305,62,5 141,107,253,219,5 275,157,387,269,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000240.jpg 339,21,361,43,1 158,350,214,406,8 176,71,218,113,5 58,73,86,101,2 67,131,179,243,4 19,241,131,353,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000241.jpg 392,153,406,167,3 190,309,204,323,5 131,229,145,243,0 260,374,288,402,1 65,95,121,151,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000242.jpg 337,336,359,358,7 195,370,237,412,8 90,93,174,177,7 215,109,327,221,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000243.jpg 390,158,404,172,9 34,333,62,361,0 179,124,207,152,5 209,140,265,196,2 12,59,68,115,4 35,368,77,410,5 160,246,272,358,7 156,6,240,90,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000244.jpg 43,338,65,360,2 397,101,411,115,4 383,245,405,267,1 14,7,56,49,5 190,131,246,187,3 290,107,346,163,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000245.jpg 206,166,228,188,3 260,231,288,259,7 129,2,171,44,3 315,167,343,195,4 55,269,139,353,4 220,98,304,182,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000246.jpg 170,149,212,191,5 190,264,246,320,0 4,115,116,227,6 211,132,323,244,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000247.jpg 262,53,284,75,7 5,165,27,187,3 339,98,381,140,6 186,176,242,232,6 250,304,334,388,1 76,129,160,213,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000248.jpg 47,383,61,397,0 98,369,112,383,8 273,354,295,376,5 84,29,112,57,6 121,250,149,278,8 40,205,82,247,5 184,79,240,135,0 201,231,257,287,5 166,216,194,244,8 277,172,361,256,0 237,50,321,134,5 299,255,383,339,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000249.jpg 232,0,288,56,6 74,299,116,341,1 266,284,308,326,7 225,276,253,304,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000250.jpg 216,325,230,339,0 6,116,28,138,6 313,323,341,351,1 360,319,402,361,7 17,173,73,229,9 129,188,241,300,7 306,188,390,272,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000251.jpg 372,278,394,300,9 209,155,265,211,4 74,86,116,128,4 28,323,70,365,9 99,342,127,370,7 119,167,161,209,9 138,319,222,403,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000252.jpg 56,376,70,390,7 111,242,195,326,8 42,24,154,136,3 144,149,228,233,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000253.jpg 221,242,249,270,8 60,71,88,99,9 172,17,214,59,7 313,356,369,412,7 195,357,223,385,5 26,335,68,377,6 178,103,290,215,1 0,127,112,239,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000254.jpg 156,65,178,87,4 54,206,68,220,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000255.jpg 91,213,105,227,3 188,148,202,162,1 274,174,302,202,4 22,261,78,317,6 208,294,264,350,0 159,253,215,309,4 235,83,277,125,9 245,210,329,294,8 26,8,138,120,8 278,48,390,160,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000256.jpg 260,400,274,414,3 6,354,34,382,1 49,243,91,285,2 150,45,206,101,0 96,149,124,177,8 227,31,339,143,8 124,197,236,309,2 5,47,117,159,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000257.jpg 318,315,340,337,2 368,238,382,252,5 93,145,205,257,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000258.jpg 196,363,210,377,4 370,379,384,393,4 299,112,313,126,5 267,161,295,189,8 142,228,170,256,2 207,374,235,402,6 206,201,262,257,4 156,265,268,377,1 65,78,149,162,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000259.jpg 231,222,245,236,3 336,322,392,378,4 62,107,90,135,8 279,276,307,304,7 338,153,394,209,8 145,219,257,331,6 241,2,353,114,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000260.jpg 220,384,242,406,7 185,353,207,375,6 26,144,40,158,8 332,217,360,245,4 149,306,177,334,2 354,134,410,190,8 27,205,83,261,0 94,186,150,242,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000261.jpg 304,102,318,116,7 123,218,145,240,9 3,98,115,210,7 142,89,254,201,5 49,253,161,365,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000262.jpg 283,208,339,264,8 11,303,95,387,4 127,63,239,175,1 98,232,210,344,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000263.jpg 276,278,298,300,8 96,150,152,206,0 190,6,246,62,7 192,358,248,414,9 129,21,157,49,7 245,144,301,200,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000264.jpg 222,141,244,163,9 201,337,243,379,7 32,197,74,239,2 272,233,314,275,1 82,333,110,361,9 123,49,207,133,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000265.jpg 340,162,354,176,7 143,44,157,58,4 151,11,173,33,7 271,259,299,287,7 69,202,97,230,7 135,136,191,192,4 355,336,411,392,0 246,102,274,130,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000266.jpg 130,308,172,350,1 69,40,111,82,9 109,32,221,144,1 211,235,295,319,7 298,284,382,368,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000267.jpg 391,22,413,44,9 241,344,255,358,8 311,148,325,162,1 244,215,300,271,0 304,199,360,255,6 184,124,212,152,7 312,368,340,396,6 15,232,71,288,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000268.jpg 371,233,385,247,8 319,330,341,352,9 46,66,68,88,0 31,309,87,365,9 123,61,179,117,8 64,122,106,164,2 369,13,397,41,8 348,117,404,173,6 323,228,351,256,7 44,168,128,252,2 200,171,284,255,2 131,277,243,389,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000269.jpg 258,332,280,354,5 387,377,401,391,6 259,180,281,202,3 134,130,190,186,0 15,147,43,175,4 288,304,344,360,3 117,248,173,304,6 68,28,152,112,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000270.jpg 104,94,126,116,2 357,150,379,172,8 193,205,305,317,4 138,328,222,412,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000271.jpg 294,169,316,191,2 18,46,32,60,9 37,243,79,285,2 176,262,260,346,2 69,56,181,168,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000272.jpg 43,182,99,238,4 191,225,247,281,0 76,278,104,306,4 328,250,384,306,1 346,160,388,202,8 39,70,151,182,0 116,283,228,395,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000273.jpg 150,139,164,153,0 2,187,58,243,1 314,176,356,218,3 240,8,296,64,6 116,1,228,113,0 69,172,153,256,7 266,63,350,147,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000274.jpg 330,180,414,264,4 18,61,130,173,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000275.jpg 258,41,280,63,1 56,258,84,286,4 42,98,98,154,5 357,92,399,134,4 27,12,69,54,4 228,248,256,276,1 121,22,233,134,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000276.jpg 180,254,208,282,6 66,173,108,215,7 139,196,181,238,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000277.jpg 94,368,108,382,1 162,236,190,264,0 176,370,204,398,3 310,290,352,332,9 197,27,239,69,6 74,39,186,151,3 293,36,405,148,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000278.jpg 29,182,43,196,3 353,303,367,317,8 253,68,275,90,7 118,211,160,253,4 128,99,170,141,1 192,148,248,204,2 87,17,115,45,4 87,294,199,406,4 298,34,382,118,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000279.jpg 54,297,82,325,8 209,75,237,103,6 18,239,46,267,6 201,175,243,217,7 56,70,112,126,6 238,163,350,275,9 80,220,192,332,4 287,57,399,169,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000280.jpg 376,281,390,295,0 218,251,260,293,6 26,220,82,276,1 220,129,276,185,2 255,364,283,392,3 247,41,303,97,5 185,284,213,312,2 55,47,139,131,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000281.jpg 306,29,328,51,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000282.jpg 10,179,52,221,8 325,66,381,122,9 105,334,161,390,2 281,228,365,312,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000283.jpg 166,36,180,50,6 45,318,59,332,1 114,259,128,273,1 240,23,296,79,0 182,44,210,72,0 357,139,399,181,6 241,267,269,295,9 145,84,257,196,3 186,295,298,407,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000284.jpg 224,84,280,140,2 370,314,398,342,9 214,286,298,370,2 51,81,163,193,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000285.jpg 114,234,128,248,5 220,63,242,85,7 171,270,199,298,1 80,45,122,87,8 47,283,75,311,3 127,328,155,356,6 174,84,230,140,7 231,206,273,248,3 41,171,153,283,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000286.jpg 364,182,386,204,0 56,353,78,375,3 198,129,212,143,3 298,85,354,141,3 236,41,278,83,7 211,299,253,341,0 5,58,47,100,0 36,170,148,282,1 144,15,228,99,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000287.jpg 303,293,317,307,0 85,207,141,263,2 93,64,149,120,9 171,280,255,364,7 173,11,285,123,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000288.jpg 266,50,308,92,7 287,189,343,245,4 270,284,354,368,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000289.jpg 87,73,101,87,8 23,149,37,163,0 101,85,185,169,4 118,184,230,296,1 239,95,323,179,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000290.jpg 364,27,386,49,0 133,328,189,384,8 89,177,145,233,6 28,68,56,96,9 15,2,71,58,6 24,114,80,170,3 69,238,97,266,1 284,205,368,289,7 85,31,197,143,4 169,182,281,294,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000291.jpg 248,124,262,138,1 287,265,309,287,9 235,153,263,181,5 98,99,154,155,9 315,192,343,220,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000292.jpg 131,282,145,296,2 173,261,195,283,1 320,294,342,316,6 128,190,184,246,2 137,138,179,180,9 146,300,230,384,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000293.jpg 53,40,67,54,9 47,244,89,286,8 73,83,129,139,1 228,298,284,354,3 334,222,376,264,0 230,127,272,169,2 243,186,271,214,6 307,69,391,153,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000294.jpg 296,267,318,289,2 375,104,403,132,1 275,22,303,50,1 344,352,386,394,5 320,137,404,221,6 17,51,101,135,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000295.jpg 290,320,304,334,8 13,90,35,112,4 191,49,205,63,0 199,74,241,116,6 222,287,250,315,4 149,94,177,122,3 351,229,407,285,1 117,186,173,242,1 206,322,290,406,1 240,168,352,280,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000296.jpg 86,239,142,295,3 312,175,396,259,3 188,202,272,286,8 61,325,145,409,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000297.jpg 202,146,224,168,4 267,277,281,291,0 126,195,182,251,0 216,316,244,344,7 105,281,147,323,9 84,332,126,374,9 49,251,105,307,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000298.jpg 52,234,66,248,6 358,391,372,405,0 47,301,61,315,4 186,218,228,260,7 275,9,303,37,3 253,43,281,71,6 5,167,117,279,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000299.jpg 192,63,206,77,9 181,21,195,35,1 105,267,133,295,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000300.jpg 146,37,168,59,0 388,166,402,180,7 22,274,36,288,2 69,140,153,224,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000301.jpg 210,199,224,213,7 86,323,100,337,4 259,184,273,198,5 210,170,322,282,4 79,152,191,264,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000302.jpg 66,378,94,406,8 368,329,396,357,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000303.jpg 17,108,31,122,0 314,41,336,63,4 50,270,72,292,5 111,180,139,208,1 40,89,96,145,2 97,247,139,289,3 302,90,358,146,3 230,191,286,247,2 343,322,371,350,3 226,303,338,415,9 122,292,206,376,6 215,99,299,183,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000304.jpg 175,335,197,357,8 172,288,214,330,7 284,193,312,221,1 251,235,363,347,4 4,136,116,248,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000305.jpg 154,83,168,97,1 100,179,114,193,6 61,330,117,386,9 74,220,116,262,9 323,203,379,259,4 60,59,172,171,4 243,55,327,139,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000306.jpg 83,261,97,275,2 330,249,344,263,0 192,39,220,67,3 192,212,304,324,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000307.jpg 128,108,150,130,0 352,196,374,218,3 246,30,302,86,4 362,283,404,325,2 55,103,97,145,6 335,32,377,74,0 71,186,113,228,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000308.jpg 234,264,262,292,9 356,18,398,60,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000309.jpg 98,303,120,325,3 29,247,71,289,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000310.jpg 198,178,220,200,3 60,315,88,343,1 263,166,291,194,0 148,277,176,305,6 298,261,410,373,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000311.jpg 108,11,136,39,1 332,106,360,134,1 87,228,143,284,3 117,96,173,152,6 292,288,404,400,3 168,161,280,273,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000312.jpg 255,64,269,78,3 356,155,384,183,0 322,147,350,175,6 200,371,242,413,7 19,98,61,140,5 75,247,187,359,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000313.jpg 389,302,403,316,1 112,236,126,250,3 163,191,219,247,6 81,57,123,99,1 317,211,401,295,5 93,244,205,356,0 244,120,328,204,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000314.jpg 242,2,256,16,4 190,290,246,346,0 323,228,351,256,6 48,57,104,113,1 125,38,237,150,7 77,193,189,305,1 212,138,324,250,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000315.jpg 6,345,34,373,5 187,222,229,264,7 325,264,367,306,2 96,292,138,334,6 31,113,87,169,3 78,167,106,195,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000316.jpg 121,295,143,317,1 300,290,322,312,1 169,193,211,235,6 41,75,97,131,8 116,237,172,293,3 346,354,402,410,9 172,48,284,160,0 282,151,366,235,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000317.jpg 165,317,221,373,3 257,318,313,374,5 76,49,104,77,0 308,257,350,299,4 238,148,350,260,5 35,212,119,296,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000318.jpg 285,292,299,306,4 199,335,221,357,6 364,242,378,256,1 102,16,158,72,9 300,368,342,410,0 208,221,320,333,4 45,259,129,343,9 272,133,356,217,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000319.jpg 113,70,127,84,4 225,401,239,415,6 281,183,337,239,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000320.jpg 184,277,206,299,4 329,42,357,70,6 1,15,57,71,1 14,125,56,167,3 257,283,369,395,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000321.jpg 255,203,339,287,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000322.jpg 35,65,49,79,6 370,194,412,236,2 312,36,354,78,8 76,166,132,222,8 187,95,215,123,8 88,370,130,412,9 46,220,102,276,9 147,234,259,346,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000323.jpg 280,302,336,358,3 235,157,319,241,1 78,262,162,346,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000324.jpg 60,9,74,23,2 370,2,384,16,8 387,164,409,186,4 250,231,278,259,9 249,302,291,344,0 292,290,334,332,4 211,19,295,103,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000325.jpg 108,21,130,43,8 155,8,267,120,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000326.jpg 128,83,150,105,6 136,341,192,397,3 181,51,237,107,6 296,126,338,168,7 109,112,151,154,0 326,199,368,241,0 45,320,101,376,3 214,185,326,297,1 272,26,356,110,0 280,298,364,382,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000327.jpg 49,330,105,386,4 257,56,313,112,7 136,179,220,263,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000328.jpg 226,320,240,334,6 324,209,346,231,0 208,207,222,221,6 113,369,141,397,8 98,247,154,303,6 354,306,410,362,4 87,176,143,232,6 253,218,309,274,7 2,186,44,228,6 289,47,373,131,7 123,2,207,86,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000329.jpg 265,240,307,282,2 85,290,127,332,8 144,194,228,278,0 165,4,277,116,8 254,302,338,386,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000330.jpg 65,106,93,134,7 203,237,259,293,1 252,104,308,160,6 166,277,194,305,8 355,213,397,255,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000331.jpg 126,71,154,99,0 180,104,236,160,5 171,305,227,361,8 205,167,247,209,3 250,309,334,393,7 9,239,93,323,0 72,142,184,254,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000332.jpg 279,179,293,193,2 400,140,414,154,9 95,37,109,51,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000333.jpg 166,79,188,101,6 203,289,259,345,7 266,350,308,392,9 266,140,350,224,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000334.jpg 104,178,132,206,9 158,150,200,192,3 53,168,95,210,5 75,307,159,391,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000335.jpg 64,323,106,365,7 141,110,197,166,8 215,11,243,39,9 297,30,339,72,8 206,272,318,384,1 213,129,325,241,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000336.jpg 306,64,328,86,1 184,96,212,124,6 27,343,83,399,8 26,168,82,224,9 288,185,316,213,7 311,137,395,221,1 47,17,159,129,3 128,200,212,284,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000337.jpg 244,223,258,237,7 98,68,120,90,5 296,334,324,362,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000338.jpg 69,368,91,390,0 142,101,226,185,3 253,31,365,143,9 184,196,296,308,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000339.jpg 208,22,264,78,7 333,180,361,208,9 78,20,120,62,9 190,126,232,168,3 198,286,240,328,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000340.jpg 343,101,365,123,2 285,20,341,76,9 191,47,233,89,6 80,380,108,408,5 190,193,232,235,5 188,297,244,353,9 83,140,125,182,9 48,230,160,342,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000341.jpg 278,248,292,262,6 310,374,324,388,8 155,3,239,87,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000342.jpg 56,399,70,413,0 192,282,214,304,4 151,8,173,30,4 33,322,117,406,3 203,46,287,130,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000343.jpg 340,51,368,79,1 46,221,74,249,0 176,218,204,246,6 199,212,283,296,1 102,298,214,410,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000344.jpg 326,53,348,75,8 90,34,112,56,4 19,91,131,203,3 184,158,268,242,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000345.jpg 172,156,186,170,2 130,254,214,338,3 221,63,333,175,2 288,260,372,344,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000346.jpg 167,214,181,228,1 7,134,21,148,7 190,247,232,289,6 294,45,336,87,3 314,179,370,235,0 85,260,141,316,9 149,29,205,85,4 218,84,330,196,3 5,327,89,411,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000347.jpg 98,210,120,232,4 233,135,289,191,1 385,33,413,61,1 304,178,332,206,9 251,0,293,42,4 221,354,249,382,3 327,112,355,140,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000348.jpg 281,127,295,141,1 167,354,181,368,2 8,375,22,389,5 218,255,274,311,9 347,245,403,301,3 11,262,53,304,2 82,230,110,258,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000349.jpg 341,303,355,317,7 7,283,29,305,7 215,248,257,290,8 102,72,144,114,0 346,158,374,186,9 165,72,193,100,3 296,99,324,127,2 371,76,413,118,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000350.jpg 265,345,307,387,0 228,201,312,285,4 28,259,112,343,9 215,55,327,167,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000351.jpg 162,266,176,280,1 68,363,82,377,4 332,108,346,122,9 178,220,206,248,8 332,302,388,358,1 130,185,172,227,8 199,29,255,85,3 229,101,257,129,3 252,177,336,261,7 198,329,282,413,6 65,104,149,188,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000352.jpg 180,261,202,283,4 394,298,408,312,6 307,163,329,185,2 150,281,192,323,5 303,287,331,315,2 274,13,316,55,1 344,1,386,43,3 248,192,276,220,4 53,58,165,170,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000353.jpg 155,380,177,402,6 67,71,95,99,3 357,67,413,123,1 287,315,343,371,4 235,33,319,117,0 123,108,235,220,0 50,216,134,300,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000354.jpg 87,299,109,321,4 89,4,103,18,1 319,41,347,69,7 138,77,180,119,1 17,255,59,297,9 290,212,318,240,0 256,213,284,241,9 130,230,186,286,3 331,61,415,145,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000355.jpg 192,239,206,253,0 255,173,311,229,8 371,123,413,165,1 132,252,188,308,2 13,155,69,211,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000356.jpg 362,46,404,88,8 334,236,376,278,1 159,44,201,86,1 206,231,262,287,7 157,96,241,180,7 65,37,149,121,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000357.jpg 252,42,274,64,4 277,53,319,95,2 54,74,138,158,7 194,283,306,395,4 108,273,192,357,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000358.jpg 223,40,245,62,4 132,395,146,409,7 207,380,229,402,6 302,41,330,69,8 182,46,224,88,1 79,165,121,207,9 46,351,102,407,3 160,96,188,124,6 198,143,254,199,8 242,211,354,323,0 124,282,208,366,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000359.jpg 4,333,18,347,1 64,392,86,414,9 359,58,381,80,0 295,276,323,304,2 102,81,158,137,1 65,32,107,74,0 50,242,92,284,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000360.jpg 260,74,274,88,1 15,4,37,26,8 360,381,374,395,3 102,186,130,214,0 346,208,402,264,3 9,44,93,128,0 182,10,266,94,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000361.jpg 106,125,120,139,6 343,238,385,280,4 77,224,119,266,0 257,150,299,192,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000362.jpg 351,312,373,334,5 62,105,118,161,5 247,335,303,391,2 199,302,227,330,5 106,158,162,214,1 251,154,279,182,8 111,26,139,54,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000363.jpg 279,30,293,44,7 301,260,323,282,3 182,334,224,376,3 135,229,163,257,7 313,124,397,208,5 27,245,139,357,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000364.jpg 113,74,127,88,5 322,339,336,353,2 257,129,285,157,3 57,279,99,321,5 299,179,327,207,8 130,192,158,220,7 139,246,181,288,0 248,44,290,86,3 136,303,248,415,9 126,82,210,166,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000365.jpg 106,66,128,88,4 177,384,191,398,8 148,159,190,201,7 0,272,56,328,6 157,277,185,305,4 41,168,125,252,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000366.jpg 378,194,400,216,3 146,152,168,174,6 288,76,302,90,2 3,337,31,365,5 37,20,149,132,1 317,17,401,101,1 267,98,351,182,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000367.jpg 373,240,395,262,7 219,332,241,354,8 213,184,269,240,1 49,248,161,360,5 189,16,301,128,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000368.jpg 379,270,393,284,3 85,170,99,184,2 103,317,125,339,7 140,240,196,296,1 71,65,183,177,3 246,18,358,130,1 55,225,139,309,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000369.jpg 18,107,40,129,7 173,151,195,173,1 66,197,80,211,3 103,358,131,386,1 243,302,299,358,8 173,251,229,307,9 20,260,76,316,4 3,197,31,225,5 257,84,313,140,7 258,159,342,243,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000370.jpg 38,79,80,121,3 107,221,163,277,3 54,307,96,349,8 116,194,144,222,3 149,300,233,384,3 223,206,335,318,9 91,98,175,182,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000371.jpg 49,350,63,364,1 218,159,302,243,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000372.jpg 186,354,242,410,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000373.jpg 21,91,43,113,2 83,327,105,349,5 172,27,200,55,3 147,284,189,326,2 215,229,327,341,3 4,265,88,349,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000374.jpg 157,96,269,208,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000375.jpg 328,278,342,292,8 299,363,313,377,2 206,177,220,191,8 135,216,177,258,4 119,132,161,174,2 255,300,367,412,7 298,179,410,291,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000376.jpg 116,144,138,166,3 217,205,259,247,5 27,4,83,60,1 85,326,113,354,5 153,165,181,193,5 381,166,409,194,9 235,289,347,401,5 118,280,230,392,4 284,58,396,170,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000377.jpg 252,311,294,353,6 41,5,83,47,1 142,229,184,271,1 101,83,157,139,0 82,276,110,304,8 121,155,163,197,4 16,296,100,380,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000378.jpg 34,187,56,209,7 376,141,390,155,0 225,70,239,84,4 61,222,103,264,4 294,286,336,328,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000379.jpg 151,133,173,155,2 165,155,193,183,9 234,334,290,390,6 352,226,408,282,7 294,105,350,161,8 198,207,240,249,3 79,329,135,385,1 11,184,95,268,9 100,242,184,326,0 147,1,231,85,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000380.jpg 372,361,394,383,2 323,164,345,186,2 327,63,341,77,7 183,314,225,356,3 90,123,146,179,4 196,2,308,114,5 11,167,95,251,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000381.jpg 25,332,47,354,5 266,48,288,70,1 200,54,214,68,7 84,38,140,94,2 326,0,382,56,6 80,113,136,169,4 246,73,358,185,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000382.jpg 226,29,240,43,5 273,365,301,393,4 52,222,164,334,5 282,289,366,373,3 95,118,179,202,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000383.jpg 72,304,94,326,9 5,4,61,60,3 11,177,67,233,5 294,116,322,144,2 310,30,394,114,8 175,297,287,409,6 284,273,368,357,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000384.jpg 60,319,74,333,9 243,15,257,29,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000385.jpg 323,348,337,362,1 361,156,375,170,4 139,28,153,42,9 202,334,230,362,8 18,214,74,270,3 336,211,378,253,3 211,134,295,218,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000386.jpg 66,356,122,412,6 248,11,290,53,1 3,189,31,217,1 298,319,326,347,9 278,113,390,225,1 17,46,129,158,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000387.jpg 49,52,63,66,6 314,216,342,244,4 140,159,168,187,6 264,115,348,199,5 126,190,238,302,2 14,184,98,268,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000388.jpg 9,250,93,334,3 202,129,286,213,9 242,278,354,390,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000389.jpg 195,170,209,184,3 181,96,195,110,0 14,159,56,201,0 15,289,71,345,8 102,132,144,174,7 31,346,73,388,5 218,309,260,351,7 191,32,275,116,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000390.jpg 323,48,345,70,7 240,104,254,118,2 303,321,331,349,3 150,112,206,168,3 185,216,227,258,6 15,186,57,228,6 163,324,247,408,0 247,153,359,265,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000391.jpg 363,107,385,129,2 270,200,292,222,4 230,254,314,338,2 91,275,175,359,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000392.jpg 77,164,99,186,8 76,144,90,158,8 72,5,100,33,9 257,150,299,192,5 94,84,122,112,9 34,338,76,380,5 297,6,409,118,0 315,264,399,348,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000393.jpg 142,11,164,33,4 63,101,85,123,5 328,301,412,385,3 51,300,163,412,0 64,115,176,227,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000394.jpg 192,281,206,295,5 269,153,283,167,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000395.jpg 359,295,373,309,6 79,44,93,58,0 380,185,394,199,1 166,96,208,138,3 300,323,384,407,6 134,159,246,271,9 238,245,322,329,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000396.jpg 94,95,116,117,6 328,370,356,398,1 286,331,314,359,2 91,116,133,158,9 64,257,106,299,6 242,9,354,121,4 162,303,246,387,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000397.jpg 145,399,159,413,8 391,94,413,116,1 393,121,415,143,8 329,308,357,336,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000398.jpg 73,226,115,268,4 236,237,292,293,7 263,64,305,106,1 73,327,115,369,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000399.jpg 180,22,222,64,3 42,38,84,80,2 309,280,365,336,9 230,268,286,324,8 119,91,175,147,2 338,79,366,107,3 37,160,149,272,6 300,98,412,210,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000400.jpg 91,127,113,149,5 392,264,414,286,8 16,149,30,163,1 302,39,386,123,7 294,288,406,400,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000401.jpg 132,172,146,186,0 303,363,317,377,5 345,30,401,86,3 279,185,391,297,7 228,331,312,415,2 21,93,133,205,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000402.jpg 249,332,305,388,2 68,54,124,110,3 309,302,365,358,7 18,191,130,303,9 256,4,368,116,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000403.jpg 182,25,204,47,2 226,104,240,118,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000404.jpg 345,7,359,21,8 112,328,134,350,0 292,303,306,317,6 78,73,120,115,4 301,323,357,379,9 123,174,151,202,0 258,292,286,320,6 250,116,278,144,1 42,193,98,249,3 308,113,392,197,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000405.jpg 235,48,291,104,1 339,214,367,242,4 300,28,412,140,0 39,117,123,201,7 242,203,326,287,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000406.jpg 168,30,224,86,0 299,81,341,123,9 147,357,189,399,9 64,132,120,188,5 370,297,398,325,6 325,138,381,194,8 18,10,102,94,8 54,224,138,308,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000407.jpg 149,183,163,197,9 374,60,388,74,7 13,24,35,46,5 296,62,352,118,0 171,139,255,223,8 163,42,247,126,1 139,273,251,385,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000408.jpg 60,21,74,35,3 8,199,50,241,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000409.jpg 171,55,193,77,1 401,79,415,93,7 150,382,164,396,0 212,351,254,393,5 176,290,218,332,0 24,171,66,213,8 55,266,139,350,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000410.jpg 306,48,320,62,2 166,207,188,229,4 321,81,335,95,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000411.jpg 104,159,118,173,3 263,256,277,270,5 175,97,217,139,0 28,124,70,166,1 114,213,198,297,7 217,68,329,180,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000412.jpg 282,391,304,413,9 128,207,142,221,1 188,29,202,43,2 357,199,399,241,8 175,244,231,300,4 235,323,291,379,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000413.jpg 185,159,227,201,8 23,160,51,188,4 251,233,293,275,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000414.jpg 15,171,71,227,3 127,121,169,163,5 260,53,316,109,0 154,294,238,378,4 181,176,265,260,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000415.jpg 162,138,204,180,3 67,194,123,250,4 20,20,62,62,2 34,108,62,136,9 251,103,307,159,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000416.jpg 121,186,135,200,1 28,113,56,141,7 78,148,106,176,9 136,100,178,142,8 298,4,326,32,7 14,229,98,313,8 205,198,317,310,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000417.jpg 111,195,133,217,4 33,103,55,125,4 327,365,341,379,3 52,331,108,387,7 215,163,271,219,8 347,370,375,398,8 321,100,377,156,4 153,194,181,222,3 16,295,58,337,0 107,78,191,162,9 163,330,247,414,3 264,212,376,324,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000418.jpg 91,152,113,174,6 94,376,116,398,7 320,154,404,238,3 81,25,193,137,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000419.jpg 297,368,319,390,4 301,179,323,201,8 14,373,56,415,4 276,217,318,259,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000420.jpg 140,18,162,40,9 165,119,207,161,8 17,139,45,167,7 177,42,205,70,0 137,157,249,269,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000421.jpg 10,394,24,408,9 263,22,375,134,5 5,21,89,105,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000422.jpg 205,157,219,171,3 300,336,322,358,5 177,60,219,102,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000423.jpg 80,291,94,305,1 234,120,248,134,4 152,55,208,111,2 220,234,276,290,4 55,324,83,352,5 29,129,85,185,8 231,85,343,197,1 113,298,225,410,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000424.jpg 97,260,125,288,4 285,358,327,400,3 134,117,190,173,5 244,14,272,42,3 202,238,314,350,9 17,247,101,331,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000425.jpg 322,120,336,134,2 85,108,107,130,9 136,62,164,90,6 41,68,83,110,3 14,184,56,226,2 3,329,31,357,2 132,33,160,61,0 243,270,327,354,1 138,121,222,205,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000426.jpg 375,153,397,175,0 163,285,177,299,4 95,38,117,60,8 68,9,96,37,1 319,194,375,250,6 2,312,86,396,7 107,159,219,271,3 218,303,330,415,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000427.jpg 375,366,397,388,9 219,386,233,400,5 38,82,60,104,4 58,64,100,106,8 376,209,404,237,6 240,2,296,58,9 374,31,402,59,2 297,23,339,65,6 37,144,149,256,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000428.jpg 187,226,229,268,5 239,168,281,210,2 321,135,363,177,3 167,64,223,120,7 324,343,366,385,5 1,330,29,358,7 26,227,138,339,6 258,14,342,98,8 13,54,125,166,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000429.jpg 343,352,399,408,0 15,344,43,372,3 89,23,145,79,4 298,59,326,87,4 211,161,239,189,9 376,116,404,144,5 204,226,288,310,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000430.jpg 295,255,309,269,4 123,99,137,113,9 167,179,181,193,7 105,195,161,251,0 84,286,140,342,3 258,123,342,207,1 271,31,355,115,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000431.jpg 46,350,88,392,9 320,233,348,261,0 361,232,403,274,1 224,352,252,380,7 285,307,327,349,7 71,156,183,268,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000432.jpg 380,189,394,203,0 153,69,195,111,7 124,165,166,207,8 328,262,370,304,7 38,242,80,284,7 120,263,162,305,6 228,42,312,126,2 165,250,277,362,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000433.jpg 310,60,338,88,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000434.jpg 88,30,110,52,4 241,322,263,344,7 13,155,35,177,2 297,302,339,344,5 258,151,300,193,2 161,213,245,297,4 29,199,141,311,0 274,0,358,84,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000435.jpg 279,333,301,355,9 242,217,298,273,3 149,38,205,94,9 84,299,140,355,1 70,19,98,47,9 345,313,387,355,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000436.jpg 168,182,182,196,5 77,306,99,328,3 293,292,315,314,9 14,255,70,311,2 179,317,221,359,3 17,361,59,403,4 116,255,144,283,6 23,43,107,127,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000437.jpg 94,42,136,84,9 151,315,193,357,8 374,287,402,315,8 314,75,398,159,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000438.jpg 304,188,388,272,5 172,184,284,296,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000439.jpg 135,261,177,303,5 0,303,84,387,5 232,213,344,325,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000440.jpg 172,363,186,377,6 359,11,373,25,8 143,109,165,131,0 72,312,100,340,9 383,12,411,40,3 80,58,122,100,1 354,243,382,271,6 199,79,227,107,3 215,197,271,253,0 129,152,213,236,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000441.jpg 125,49,237,161,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000442.jpg 117,8,159,50,1 214,306,242,334,7 167,190,209,232,1 53,261,81,289,2 192,76,234,118,7 95,244,179,328,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000443.jpg 262,241,276,255,9 174,196,196,218,5 203,54,231,82,2 6,373,34,401,5 346,221,388,263,7 5,124,61,180,0 9,242,51,284,5 314,234,342,262,1 237,264,349,376,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000444.jpg 340,314,354,328,8 205,314,219,328,2 245,105,301,161,9 348,146,404,202,0 61,338,117,394,2 291,3,347,59,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000445.jpg 330,399,344,413,2 94,197,150,253,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000446.jpg 192,323,206,337,4 321,14,335,28,0 63,263,119,319,9 337,354,379,396,6 6,75,62,131,5 270,252,312,294,1 209,6,237,34,0 163,224,205,266,3 123,7,207,91,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000447.jpg 95,158,117,180,6 95,390,117,412,8 180,229,222,271,5 330,234,386,290,5 2,306,58,362,3 328,199,356,227,3 141,288,253,400,4 66,24,178,136,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000448.jpg 233,7,247,21,6 298,192,320,214,0 362,279,404,321,7 265,384,293,412,3 226,274,282,330,1 18,268,46,296,6 76,308,132,364,5 150,191,234,275,7 239,99,323,183,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000449.jpg 251,53,273,75,4 276,149,290,163,2 395,59,409,73,3 80,281,122,323,7 134,12,162,40,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000450.jpg 0,245,14,259,0 287,64,301,78,1 160,339,202,381,4 234,261,346,373,6 37,238,149,350,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000451.jpg 319,201,341,223,3 392,333,406,347,4 145,132,159,146,7 65,216,107,258,0 329,85,413,169,9 76,293,160,377,0 174,229,286,341,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000452.jpg 134,145,218,229,4 68,33,152,117,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000453.jpg 48,199,62,213,2 155,186,211,242,3 208,132,250,174,1 308,273,336,301,6 194,267,250,323,3 121,367,149,395,9 304,301,388,385,1 140,16,252,128,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000454.jpg 206,386,220,400,6 190,169,204,183,5 332,234,360,262,6 95,48,151,104,2 186,257,228,299,4 76,113,118,155,3 55,181,111,237,2 127,201,155,229,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000455.jpg 118,332,140,354,1 117,373,131,387,8 243,22,285,64,3 54,171,82,199,0 118,243,160,285,0 75,34,117,76,5 71,205,113,247,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000456.jpg 117,182,131,196,6 150,260,192,302,7 154,121,182,149,8 233,251,261,279,2 255,354,297,396,2 161,20,273,132,0 50,105,134,189,5 7,261,91,345,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000457.jpg 143,66,165,88,8 21,90,77,146,6 211,310,267,366,9 259,140,315,196,4 362,83,390,111,3 165,185,277,297,0 15,240,127,352,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000458.jpg 228,50,242,64,3 322,271,350,299,2 334,132,362,160,6 77,171,133,227,9 171,52,227,108,6 29,190,71,232,9 229,188,271,230,3 219,266,331,378,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000459.jpg 331,35,353,57,8 281,329,295,343,5 126,346,140,360,2 211,71,239,99,6 146,83,202,139,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000460.jpg 353,288,367,302,9 306,379,334,407,9 92,125,134,167,5 204,68,316,180,9 27,254,139,366,1 237,238,321,322,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000461.jpg 316,323,338,345,8 10,185,38,213,1 327,122,369,164,4 229,115,285,171,1 206,202,318,314,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000462.jpg 46,362,68,384,0 242,15,256,29,3 334,162,390,218,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000463.jpg 396,356,410,370,5 324,298,338,312,3 59,268,115,324,6 222,311,250,339,2 333,206,375,248,3 278,243,320,285,4 36,49,120,133,8 140,185,252,297,2 207,9,291,93,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000464.jpg 8,85,22,99,8 23,121,79,177,8 125,138,181,194,1 203,198,245,240,8 250,152,278,180,2 301,334,343,376,3 56,9,140,93,5 288,66,400,178,1 46,229,130,313,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000465.jpg 113,248,135,270,3 11,19,25,33,9 46,53,60,67,2 269,131,311,173,3 366,144,408,186,4 386,118,414,146,3 128,358,170,400,5 45,140,101,196,7 203,226,315,338,8 94,49,178,133,0 6,307,90,391,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000466.jpg 341,295,363,317,5 293,142,307,156,7 202,38,258,94,4 375,299,403,327,6 132,90,216,174,8 194,163,306,275,4 32,298,116,382,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000467.jpg 226,81,240,95,4 337,11,393,67,7 103,178,131,206,2 107,220,163,276,5 74,2,102,30,0 179,185,221,227,6 255,260,339,344,1 219,115,331,227,3 85,73,169,157,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000468.jpg 295,226,309,240,0 314,166,328,180,1 246,271,288,313,2 24,246,52,274,1 26,74,138,186,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000469.jpg 140,36,162,58,7 328,209,350,231,7 153,336,209,392,3 341,82,383,124,8 223,290,251,318,6 230,195,314,279,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000470.jpg 317,117,331,131,2 191,227,233,269,1 83,273,125,315,0 101,225,143,267,1 55,346,97,388,8 52,251,80,279,0 240,318,282,360,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000471.jpg 68,64,90,86,3 355,160,383,188,4 17,12,45,40,2 198,281,310,393,1 60,174,172,286,6 206,146,290,230,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000472.jpg 342,350,356,364,8 344,248,386,290,4 139,55,195,111,6 351,135,393,177,7 58,219,170,331,1 228,42,312,126,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000473.jpg 129,10,143,24,1 278,20,334,76,1 51,61,107,117,8 227,128,255,156,5 345,28,401,84,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000474.jpg 52,365,74,387,8 373,393,395,415,6 285,144,341,200,0 260,359,288,387,0 230,47,286,103,6 190,193,218,221,7 317,246,345,274,4 58,77,170,189,2 23,250,135,362,2 292,281,376,365,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000475.jpg 159,346,173,360,5 191,98,205,112,4 188,355,210,377,1 239,312,295,368,7 62,245,146,329,1 193,204,277,288,2 51,76,135,160,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000476.jpg 189,235,211,257,8 313,55,335,77,6 209,179,265,235,1 331,208,415,292,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000477.jpg 107,101,129,123,7 217,157,231,171,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000478.jpg 246,314,260,328,5 61,79,83,101,3 391,305,405,319,3 285,10,313,38,9 110,360,152,402,4 312,369,340,397,3 194,98,250,154,1 111,113,153,155,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000479.jpg 343,106,357,120,0 190,180,246,236,9 48,147,90,189,3 143,92,199,148,5 202,334,258,390,7 19,307,75,363,2 276,272,318,314,9 66,222,178,334,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000480.jpg 313,357,355,399,2 143,303,185,345,8 383,74,411,102,7 137,252,179,294,4 143,114,199,170,8 255,22,367,134,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000481.jpg 154,185,176,207,8 86,84,100,98,6 254,255,276,277,5 372,71,400,99,0 241,300,283,342,6 221,60,333,172,3 8,137,120,249,5 66,242,178,354,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000482.jpg 206,28,220,42,4 152,73,166,87,0 3,316,31,344,5 320,229,362,271,9 310,82,352,124,6 125,290,167,332,2 76,368,104,396,6 188,77,300,189,6 83,206,167,290,2 176,218,260,302,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000483.jpg 166,117,194,145,7 225,4,281,60,6 281,182,337,238,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000484.jpg 99,87,121,109,0 168,217,190,239,5 220,289,248,317,2 53,282,81,310,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000485.jpg 168,69,210,111,8 128,204,212,288,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000486.jpg 100,147,114,161,4 101,375,123,397,0 81,257,103,279,1 356,248,398,290,3 223,163,265,205,9 204,281,260,337,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000487.jpg 221,198,333,310,6 287,67,371,151,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000488.jpg 83,27,97,41,1 152,68,174,90,2 308,289,336,317,8 291,56,403,168,6 23,280,135,392,1 32,126,144,238,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000489.jpg 344,232,358,246,6 151,163,165,177,0 290,227,332,269,1 143,317,199,373,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000490.jpg 245,155,267,177,5 361,266,383,288,4 171,328,213,370,4 28,109,70,151,9 209,280,321,392,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000491.jpg 260,79,282,101,2 217,102,329,214,6 39,5,151,117,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000492.jpg 122,253,206,337,9 201,201,285,285,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000493.jpg 228,47,284,103,3 106,53,162,109,0 209,200,293,284,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000494.jpg 281,355,303,377,8 363,340,391,368,8 36,191,64,219,6 247,275,303,331,1 159,68,271,180,0 78,160,162,244,4 100,281,184,365,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000495.jpg 25,182,39,196,0 26,155,48,177,4 219,218,275,274,0 263,359,305,401,9 95,248,151,304,4 202,84,286,168,4 65,124,177,236,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000496.jpg 318,360,346,388,9 4,333,46,375,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000497.jpg 239,208,253,222,7 5,328,27,350,6 126,89,168,131,9 214,359,270,415,4 333,89,389,145,4 226,132,268,174,5 2,83,44,125,6 323,24,351,52,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000498.jpg 387,287,401,301,9 46,221,88,263,4 271,88,327,144,3 368,0,396,28,7 286,290,342,346,2 115,350,171,406,6 345,136,401,192,8 164,218,276,330,6 25,65,137,177,3 149,8,261,120,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000499.jpg 110,86,166,142,7 112,293,168,349,2 306,114,334,142,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000500.jpg 222,302,250,330,3 47,359,89,401,8 93,98,149,154,5 166,319,194,347,6 196,29,252,85,0 220,341,276,397,8 71,158,155,242,7 181,146,293,258,8 21,236,133,348,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000501.jpg 395,163,409,177,1 23,270,37,284,4 138,168,194,224,9 59,160,101,202,1 84,234,196,346,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000502.jpg 210,66,224,80,3 101,380,115,394,8 292,137,306,151,2 11,303,53,345,6 201,292,257,348,4 178,153,220,195,7 39,65,151,177,9 288,259,372,343,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000503.jpg 204,223,246,265,2 272,169,314,211,7 324,333,352,361,6 312,48,368,104,2 354,103,396,145,7 22,131,78,187,4 193,278,305,390,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000504.jpg 267,243,281,257,7 87,390,101,404,8 103,117,117,131,6 268,80,324,136,7 38,331,94,387,4 243,268,285,310,0 140,172,182,214,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000505.jpg 129,141,171,183,0 350,278,406,334,5 92,248,176,332,1 281,33,365,117,6 187,277,271,361,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000506.jpg 193,155,215,177,3 212,265,268,321,5 62,276,146,360,0 193,52,277,136,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000507.jpg 240,370,254,384,2 91,44,147,100,4 22,360,64,402,3 10,15,94,99,2 239,118,323,202,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000508.jpg 191,147,213,169,7 338,101,360,123,0 31,344,45,358,8 6,298,34,326,0 146,201,230,285,6 262,128,374,240,7 115,17,227,129,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000509.jpg 252,283,274,305,1 127,139,149,161,9 252,7,280,35,7 123,353,179,409,4 141,262,197,318,7 89,217,117,245,8 14,215,70,271,4 289,295,317,323,4 39,35,123,119,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000510.jpg 66,288,94,316,4 234,129,318,213,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000511.jpg 79,87,93,101,0 321,92,377,148,3 40,291,82,333,8 12,368,54,410,7 207,276,319,388,9 5,186,89,270,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000512.jpg 15,4,29,18,6 47,193,69,215,2 5,19,33,47,0 76,350,104,378,2 234,144,262,172,8 270,249,382,361,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000513.jpg 375,96,389,110,9 289,341,311,363,3 282,46,310,74,3 90,157,146,213,5 254,179,296,221,7 342,111,384,153,0 290,214,346,270,3 71,67,99,95,1 200,219,284,303,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000514.jpg 183,139,197,153,9 288,247,344,303,2 212,118,254,160,1 65,175,177,287,8 38,293,122,377,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000515.jpg 162,308,218,364,4 343,41,371,69,9 341,79,397,135,0 315,322,371,378,2 93,128,177,212,3 171,22,283,134,6 236,224,320,308,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000516.jpg 24,303,46,325,6 84,218,98,232,4 127,117,183,173,1 55,303,139,387,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000517.jpg 101,247,115,261,6 224,240,238,254,6 341,214,369,242,3 255,69,311,125,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000518.jpg 331,249,345,263,1 371,144,393,166,8 338,337,360,359,3 142,12,184,54,5 41,182,97,238,5 95,68,179,152,7 70,292,182,404,3 152,171,264,283,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000519.jpg 125,306,139,320,5 191,18,205,32,8 237,317,259,339,3 41,86,83,128,0 373,371,415,413,9 94,214,178,298,5 249,234,333,318,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000520.jpg 135,90,157,112,6 257,323,279,345,9 132,210,174,252,7 328,152,356,180,0 27,53,55,81,1 96,142,138,184,9 149,371,191,413,1 29,226,85,282,2 96,284,180,368,1 207,7,291,91,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000521.jpg 158,53,172,67,0 244,387,266,409,4 2,354,16,368,0 365,217,393,245,6 281,243,365,327,4 60,58,144,142,4 77,169,161,253,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000522.jpg 281,210,303,232,2 176,241,190,255,4 228,73,312,157,9 61,22,145,106,3 299,174,383,258,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000523.jpg 224,135,252,163,3 357,45,413,101,6 142,228,184,270,1 8,99,36,127,6 292,369,334,411,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000524.jpg 342,33,364,55,5 249,201,333,285,7 12,50,124,162,8 16,277,128,389,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000525.jpg 169,202,183,216,6 278,384,300,406,8 41,65,83,107,5 85,250,141,306,1 243,107,299,163,1 61,358,117,414,7 125,54,237,166,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000526.jpg 275,256,331,312,4 103,255,187,339,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000527.jpg 84,179,112,207,6 78,22,120,64,0 156,286,184,314,4 25,292,67,334,6 104,302,146,344,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000528.jpg 54,174,76,196,4 19,286,61,328,7 7,66,49,108,4 366,272,408,314,7 21,19,49,47,5 98,124,154,180,2 215,64,271,120,1 143,244,255,356,5 277,269,361,353,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000529.jpg 212,86,254,128,7 354,196,382,224,4 241,351,297,407,2 353,350,409,406,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000530.jpg 214,116,236,138,6 334,7,348,21,2 319,345,375,401,1 76,182,132,238,0 13,256,125,368,2 296,207,408,319,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000531.jpg 83,11,105,33,1 398,65,412,79,4 62,82,118,138,3 334,93,362,121,2 89,198,145,254,3 168,131,252,215,8 231,3,343,115,2 234,218,318,302,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000532.jpg 7,114,29,136,1 242,29,270,57,2 248,203,304,259,7 356,283,384,311,9 360,57,388,85,8 35,218,63,246,4 38,244,94,300,0 167,82,279,194,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000533.jpg 189,342,211,364,4 249,57,305,113,7 213,247,269,303,4 186,104,242,160,6 32,111,144,223,5 55,0,139,84,6 31,297,115,381,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000534.jpg 82,393,96,407,6 58,108,80,130,0 372,145,386,159,4 106,23,218,135,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000535.jpg 132,244,188,300,8 366,26,408,68,3 271,103,327,159,9 210,131,266,187,6 204,270,260,326,3 144,8,228,92,5 59,100,171,212,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000536.jpg 229,38,243,52,6 287,296,343,352,1 171,207,199,235,0 20,78,76,134,9 248,274,290,316,8 169,91,281,203,9 51,185,163,297,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000537.jpg 294,366,308,380,7 181,129,203,151,3 372,256,400,284,1 304,300,332,328,1 224,46,266,88,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000538.jpg 91,210,113,232,3 96,179,110,193,1 91,239,113,261,3 318,67,374,123,2 150,304,206,360,6 139,240,167,268,4 19,173,61,215,9 274,204,386,316,6 12,10,124,122,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000539.jpg 350,362,364,376,8 101,29,143,71,8 209,253,265,309,0 304,217,388,301,1 43,187,127,271,6 140,98,224,182,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000540.jpg 325,73,339,87,1 65,90,107,132,3 252,52,364,164,0 167,156,279,268,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000541.jpg 274,7,288,21,0 329,279,351,301,2 283,310,311,338,1 340,351,396,407,7 165,96,277,208,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000542.jpg 167,372,189,394,1 98,188,112,202,7 367,80,381,94,3 270,342,312,384,4 0,274,28,302,7 207,64,291,148,4 47,96,159,208,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000543.jpg 312,284,334,306,5 191,374,213,396,0 261,354,289,382,0 29,367,57,395,4 54,245,96,287,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000544.jpg 371,177,393,199,1 249,122,271,144,6 50,278,92,320,5 272,292,356,376,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000545.jpg 98,33,140,75,1 385,274,413,302,9 308,24,350,66,2 247,21,289,63,4 293,296,349,352,5 363,336,405,378,1 61,214,173,326,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000546.jpg 258,84,272,98,9 161,35,189,63,6 74,261,130,317,6 83,80,111,108,7 245,255,329,339,4 200,113,312,225,7 91,98,203,210,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000547.jpg 320,29,342,51,3 137,199,159,221,6 331,317,345,331,1 365,207,393,235,3 18,5,60,47,8 238,245,280,287,4 5,368,33,396,5 91,386,119,414,3 97,155,125,183,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000548.jpg 55,103,77,125,7 70,281,84,295,0 264,167,348,251,9 119,129,231,241,6 139,259,251,371,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000549.jpg 210,89,266,145,1 334,350,390,406,2 329,231,357,259,6 70,5,112,47,4 290,9,402,121,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000550.jpg 205,124,227,146,8 149,54,171,76,2 285,202,307,224,1 219,16,275,72,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000551.jpg 360,81,382,103,8 172,117,214,159,3 295,234,337,276,1 350,155,406,211,1 130,212,172,254,0 325,302,409,386,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000552.jpg 245,331,267,353,9 159,312,215,368,8 50,0,92,42,2 68,100,96,128,4 331,243,373,285,8 16,296,100,380,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000553.jpg 69,257,111,299,0 11,71,53,113,0 147,227,203,283,9 237,93,265,121,7 361,37,389,65,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000554.jpg 380,176,402,198,0 232,304,254,326,4 179,145,201,167,0 109,338,165,394,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000555.jpg 353,23,367,37,0 62,214,90,242,5 106,62,148,104,0 193,176,221,204,2 277,94,305,122,1 218,195,260,237,3 191,115,233,157,3 284,214,368,298,2 193,303,305,415,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000556.jpg 196,266,218,288,6 91,352,105,366,0 37,193,79,235,9 52,366,94,408,5 174,338,202,366,2 295,73,323,101,9 350,113,378,141,0 98,212,140,254,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000557.jpg 310,45,324,59,9 2,69,30,97,8 56,195,98,237,6 213,371,241,399,4 165,23,221,79,2 103,106,145,148,2 25,155,67,197,4 141,180,225,264,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000558.jpg 7,44,21,58,1 326,54,340,68,8 31,279,73,321,0 322,121,378,177,9 42,83,154,195,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000559.jpg 368,122,382,136,3 282,89,338,145,8 5,336,33,364,8 109,306,151,348,3 44,73,100,129,4 275,337,331,393,0 76,132,188,244,5 164,230,276,342,6 288,183,400,295,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000560.jpg 216,171,230,185,0 126,339,148,361,1 34,144,62,172,7 385,287,413,315,0 21,319,49,347,5 160,346,188,374,4 29,181,71,223,8 67,369,95,397,1 245,288,357,400,8 248,64,360,176,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000561.jpg 370,217,412,259,5 311,300,353,342,5 67,238,109,280,8 368,25,410,67,4 110,154,222,266,5 281,181,365,265,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000562.jpg 186,84,200,98,8 14,340,36,362,1 252,278,308,334,0 109,217,137,245,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000563.jpg 336,126,364,154,7 31,212,73,254,9 229,69,271,111,9 23,29,79,85,3 141,356,169,384,7 162,109,218,165,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000564.jpg 141,203,155,217,5 100,292,114,306,8 347,248,403,304,0 323,126,379,182,8 164,90,276,202,1 101,13,185,97,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000565.jpg 310,394,324,408,9 157,105,199,147,7 219,119,261,161,0 247,157,331,241,4 232,285,316,369,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000566.jpg 168,325,210,367,2 67,367,109,409,0 59,139,101,181,7 272,32,314,74,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000567.jpg 199,95,221,117,4 316,265,372,321,4 139,72,181,114,9 23,322,65,364,1 128,293,170,335,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000568.jpg 111,374,133,396,3 151,99,173,121,5 268,228,282,242,2 23,210,51,238,9 44,108,100,164,1 205,138,233,166,0 298,162,410,274,6 40,297,124,381,5 26,8,110,92,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000569.jpg 188,68,300,180,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000570.jpg 304,62,332,90,6 27,253,69,295,2 289,188,317,216,1 78,66,120,108,0 99,303,211,415,1 330,126,414,210,8 136,61,248,173,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000571.jpg 265,90,279,104,1 310,89,324,103,1 366,191,394,219,6 207,349,249,391,6 46,275,88,317,5 111,237,139,265,6 172,301,200,329,4 117,40,159,82,0 248,154,332,238,1 69,114,181,226,9 222,250,306,334,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000572.jpg 265,170,287,192,6 112,141,126,155,7 120,386,142,408,5 198,150,240,192,9 298,23,340,65,1 310,250,352,292,7 199,292,311,404,1 55,269,139,353,8 73,4,157,88,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000573.jpg 141,23,155,37,2 202,368,216,382,8 175,230,189,244,2 58,111,86,139,7 221,347,263,389,6 77,218,189,330,0 257,83,369,195,9 234,207,346,319,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000574.jpg 1,170,23,192,4 329,71,351,93,3 243,10,271,38,2 288,203,316,231,0 186,311,242,367,4 32,65,74,107,0 252,249,364,361,3 171,129,283,241,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000575.jpg 227,48,249,70,3 175,92,231,148,9 368,273,396,301,6 109,208,151,250,1 303,99,359,155,3 43,46,85,88,9 331,30,359,58,4 11,239,95,323,6 245,293,329,377,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000576.jpg 5,14,27,36,0 59,312,73,326,3 40,163,82,205,9 384,228,412,256,1 272,140,300,168,1 156,118,198,160,6 348,180,390,222,6 116,184,228,296,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000577.jpg 352,219,380,247,8 15,311,71,367,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000578.jpg 244,287,266,309,5 310,48,338,76,5 84,323,140,379,2 137,216,179,258,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000579.jpg 211,130,239,158,5 107,62,219,174,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000580.jpg 209,82,223,96,6 258,345,314,401,2 40,27,68,55,3 126,137,154,165,3 14,188,56,230,8 84,212,196,324,9 10,71,94,155,9 214,187,298,271,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000581.jpg 304,192,346,234,5 133,278,175,320,0 39,93,123,177,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000582.jpg 263,313,285,335,8 348,301,404,357,2 363,144,391,172,0 79,293,107,321,5 121,131,177,187,6 68,363,96,391,5 222,81,334,193,0 14,36,126,148,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000583.jpg 365,281,407,323,0 137,358,179,400,0 164,305,220,361,0 128,31,184,87,2 179,154,207,182,1 220,28,304,112,3 70,211,154,295,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000584.jpg 292,384,314,406,1 284,330,298,344,9 8,360,22,374,6 294,60,336,102,5 84,328,126,370,7 245,175,357,287,9 136,252,248,364,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000585.jpg 163,165,185,187,1 26,220,40,234,6 54,17,76,39,9 294,331,350,387,3 220,137,276,193,2 81,275,137,331,9 23,128,51,156,6 4,182,32,210,0 94,384,122,412,3 290,87,402,199,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000586.jpg 119,283,141,305,8 28,170,50,192,2 326,106,410,190,1 289,269,401,381,9 95,18,207,130,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000587.jpg 299,236,313,250,0 220,157,276,213,3 234,304,290,360,0 175,272,231,328,2 139,55,251,167,0 295,201,407,313,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000588.jpg 89,322,103,336,6 38,175,52,189,6 189,42,301,154,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000589.jpg 24,139,38,153,4 35,214,63,242,1 130,21,172,63,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000590.jpg 116,208,130,222,2 83,34,105,56,2 359,135,387,163,8 279,62,321,104,2 284,106,326,148,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000591.jpg 83,143,97,157,6 296,241,318,263,0 16,56,38,78,9 166,16,208,58,4 84,236,112,264,5 275,5,387,117,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000592.jpg 197,282,219,304,9 269,100,283,114,7 255,4,277,26,5 232,16,344,128,7 17,303,129,415,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000593.jpg 221,297,235,311,1 107,327,191,411,1 29,65,113,149,7 240,167,352,279,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000594.jpg 285,72,341,128,8 199,53,241,95,8 170,105,226,161,9 17,209,129,321,5 298,304,382,388,6 24,106,108,190,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000595.jpg 217,208,231,222,4 113,221,127,235,7 365,103,379,117,8 311,274,367,330,7 208,69,250,111,0 185,317,241,373,8 64,282,106,324,4 115,271,171,327,9 171,248,227,304,4 30,7,114,91,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000596.jpg 335,269,349,283,3 190,295,302,407,3 330,305,414,389,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000597.jpg 224,272,252,300,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000598.jpg 374,379,396,401,8 333,345,347,359,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000599.jpg 276,329,290,343,9 78,364,100,386,6 67,257,81,271,1 212,173,254,215,3 305,215,333,243,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000600.jpg 228,28,256,56,0 162,298,218,354,0 167,176,251,260,6 221,290,305,374,1 57,30,141,114,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000601.jpg 216,350,230,364,5 53,226,67,240,6 122,281,206,365,1 272,13,356,97,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000602.jpg 113,10,127,24,7 97,92,111,106,7 57,344,71,358,7 200,266,242,308,5 57,18,141,102,9 39,268,151,380,9 264,222,376,334,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000603.jpg 389,379,411,401,0 140,257,162,279,2 90,387,118,415,8 313,203,397,287,0 16,301,100,385,3 166,80,278,192,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000604.jpg 92,197,106,211,3 243,238,327,322,8 125,121,209,205,8 10,242,94,326,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000605.jpg 22,248,44,270,7 154,262,210,318,2 118,36,146,64,8 324,155,366,197,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000606.jpg 305,327,319,341,1 24,319,38,333,0 49,188,77,216,2 164,109,206,151,8 133,292,175,334,4 380,205,408,233,3 272,57,384,169,7 127,184,211,268,9 231,206,343,318,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000607.jpg 235,147,249,161,0 343,270,365,292,4 21,253,77,309,7 170,325,212,367,7 260,218,316,274,6 0,83,42,125,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000608.jpg 173,70,195,92,7 154,313,176,335,5 189,230,203,244,4 55,196,97,238,4 36,153,64,181,5 293,307,349,363,1 127,339,183,395,4 28,60,70,102,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000609.jpg 315,327,343,355,4 170,369,198,397,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000610.jpg 340,307,362,329,9 44,335,100,391,2 106,208,148,250,9 125,7,167,49,8 12,121,68,177,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000611.jpg 116,240,130,254,6 298,109,312,123,6 333,112,361,140,6 161,234,217,290,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000612.jpg 83,39,105,61,8 322,11,350,39,5 232,87,260,115,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000613.jpg 312,187,326,201,2 385,6,399,20,3 247,207,261,221,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000614.jpg 193,85,249,141,9 96,336,152,392,1 175,248,203,276,9 202,168,244,210,8 114,252,170,308,0 219,328,261,370,4 287,210,399,322,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000615.jpg 321,226,335,240,9 303,363,331,391,1 38,75,94,131,5 174,132,216,174,9 57,283,85,311,9 43,348,99,404,8 282,281,324,323,9 72,171,156,255,8 137,235,249,347,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000616.jpg 364,176,386,198,3 101,371,115,385,1 158,401,172,415,8 55,150,139,234,1 48,243,132,327,7 190,134,274,218,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000617.jpg 375,147,389,161,5 195,283,217,305,3 351,360,379,388,9 5,35,33,63,4 278,54,362,138,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000618.jpg 191,201,213,223,6 32,84,46,98,7 215,325,229,339,7 258,161,314,217,6 142,70,170,98,8 102,360,144,402,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000619.jpg 312,339,334,361,3 186,59,298,171,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000620.jpg 35,176,49,190,4 183,107,239,163,5 4,35,88,119,4 253,291,365,403,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000621.jpg 42,74,64,96,4 123,231,165,273,3 226,312,254,340,6 98,165,154,221,4 45,253,87,295,1 187,57,229,99,1 313,70,397,154,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000622.jpg 181,247,195,261,5 342,290,364,312,7 278,212,300,234,1 5,69,61,125,7 248,278,290,320,2 67,18,95,46,7 231,146,259,174,0 111,50,195,134,8 173,330,257,414,6 78,241,162,325,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000623.jpg 134,162,148,176,2 165,371,187,393,2 112,202,154,244,0 119,294,175,350,5 31,145,73,187,3 197,292,309,404,2 271,191,355,275,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000624.jpg 308,215,330,237,2 236,233,264,261,6 284,141,340,197,2 24,264,136,376,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000625.jpg 247,37,269,59,1 377,281,391,295,0 321,35,349,63,3 306,232,334,260,6 36,233,64,261,8 99,50,141,92,1 193,38,221,66,3 318,266,374,322,9 254,58,366,170,2 140,319,224,403,1 310,327,394,411,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000626.jpg 70,306,84,320,4 348,105,362,119,0 173,358,229,414,9 232,215,274,257,0 348,131,390,173,7 126,45,168,87,1 176,71,288,183,2 308,235,392,319,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000627.jpg 106,103,120,117,9 74,91,88,105,2 293,318,315,340,3 377,202,405,230,1 127,51,183,107,4 315,222,371,278,7 150,141,262,253,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000628.jpg 335,256,357,278,0 91,262,113,284,7 59,6,143,90,4 220,309,304,393,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000629.jpg 18,93,40,115,6 118,239,140,261,6 230,62,272,104,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000630.jpg 207,168,221,182,1 239,3,253,17,2 148,61,190,103,2 349,272,377,300,9 292,165,348,221,3 282,272,338,328,5 78,223,190,335,6 98,103,210,215,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000631.jpg 99,90,113,104,4 143,144,157,158,9 276,151,332,207,0 326,324,410,408,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000632.jpg 39,92,53,106,1 94,242,150,298,9 223,223,279,279,3 119,134,175,190,0 344,1,372,29,0 301,229,385,313,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000633.jpg 288,25,310,47,4 178,401,192,415,5 96,120,124,148,4 243,377,271,405,1 232,324,274,366,0 337,98,365,126,6 278,139,320,181,6 205,241,289,325,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000634.jpg 184,274,240,330,6 299,358,327,386,9 37,27,79,69,1 120,45,204,129,7 73,328,157,412,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000635.jpg 177,152,233,208,9 151,321,179,349,7 264,56,320,112,9 185,109,213,137,3 129,45,185,101,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000636.jpg 78,252,134,308,8 325,336,367,378,9 45,3,73,31,7 54,32,110,88,8 141,245,169,273,3 70,329,112,371,0 118,53,202,137,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000637.jpg 250,44,272,66,9 245,381,273,409,0 314,285,356,327,1 265,338,293,366,9 234,175,276,217,6 170,72,226,128,9 163,162,191,190,0 136,188,220,272,3 111,297,223,409,0 286,150,370,234,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000638.jpg 240,122,262,144,5 136,154,192,210,1 299,349,341,391,2 172,57,214,99,3 194,257,250,313,8 242,30,326,114,0 52,29,164,141,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000639.jpg 156,159,170,173,8 208,294,230,316,8 239,240,261,262,5 315,177,371,233,8 114,221,170,277,5 186,45,228,87,4 233,195,261,223,3 50,379,78,407,5 288,276,372,360,4 64,79,148,163,6 70,295,154,379,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000640.jpg 176,87,190,101,9 260,185,288,213,2 199,93,255,149,4 191,23,233,65,1 220,200,262,242,8 279,112,391,224,0 116,237,200,321,3 327,19,411,103,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000641.jpg 63,206,85,228,4 147,81,161,95,5 42,272,70,300,6 134,88,218,172,2 308,173,392,257,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000642.jpg 295,332,337,374,4 332,383,360,411,7 235,179,347,291,6 35,159,147,271,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000643.jpg 196,238,218,260,5 220,33,242,55,6 255,216,277,238,8 314,138,342,166,9 319,260,347,288,7 147,215,175,243,5 205,123,261,179,7 112,357,154,399,9 41,155,125,239,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000644.jpg 79,156,107,184,1 261,172,303,214,7 92,260,148,316,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000645.jpg 281,278,303,300,5 74,398,88,412,2 130,213,152,235,3 299,117,327,145,9 243,274,271,302,5 184,325,226,367,0 342,18,398,74,6 212,19,268,75,8 33,313,117,397,8 178,181,262,265,5 9,102,121,214,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000646.jpg 0,10,14,24,0 107,190,121,204,1 62,124,90,152,7 358,146,414,202,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000647.jpg 162,315,184,337,5 353,58,367,72,5 229,121,257,149,6 74,303,116,345,1 140,49,196,105,8 241,40,325,124,0 212,190,324,302,1 125,181,209,265,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000648.jpg 324,95,346,117,7 115,64,129,78,1 320,352,376,408,6 4,185,60,241,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000649.jpg 198,231,220,253,8 296,265,318,287,2 160,29,216,85,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000650.jpg 283,265,305,287,9 239,295,295,351,8 135,293,163,321,9 349,41,391,83,2 200,71,228,99,6 209,171,265,227,3 120,193,176,249,9 269,114,381,226,7 52,310,136,394,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000651.jpg 14,271,28,285,3 81,154,95,168,2 52,174,74,196,2 151,270,193,312,8 235,67,263,95,2 312,363,340,391,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000652.jpg 127,127,141,141,6 68,246,90,268,1 259,33,371,145,9 180,301,292,413,1 42,62,126,146,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000653.jpg 102,313,124,335,9 157,69,171,83,9 280,268,302,290,4 70,74,126,130,3 273,200,301,228,3 220,279,262,321,0 90,226,118,254,0 310,160,338,188,2 169,94,253,178,4 303,305,387,389,6 296,46,408,158,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000654.jpg 337,199,379,241,7 142,196,170,224,8 310,7,366,63,0 280,111,336,167,6 334,287,376,329,9 248,273,276,301,4 125,248,237,360,2 4,156,88,240,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000655.jpg 26,131,48,153,2 57,156,79,178,9 185,289,207,311,0 303,124,415,236,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000656.jpg 222,56,236,70,6 147,139,203,195,1 86,198,128,240,4 254,255,282,283,6 99,326,127,354,8 303,185,359,241,4 205,107,261,163,3 109,14,221,126,3 147,240,259,352,3 248,4,360,116,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000657.jpg 290,54,318,82,8 128,121,156,149,4 111,7,153,49,9 249,314,277,342,8 384,2,412,30,9 290,183,402,295,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000658.jpg 45,175,59,189,6 88,189,110,211,4 314,46,328,60,6 130,126,214,210,1 9,273,121,385,1 78,8,190,120,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000659.jpg 260,380,274,394,7 248,193,270,215,0 24,48,38,62,4 78,28,134,84,8 290,41,402,153,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000660.jpg 216,251,230,265,6 217,291,231,305,6 265,282,279,296,1 89,348,131,390,6 289,347,345,403,6 135,86,163,114,7 302,134,414,246,2 136,151,248,263,8 21,211,133,323,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000661.jpg 191,227,213,249,5 63,74,77,88,2 151,240,179,268,5 126,308,154,336,7 304,320,346,362,2 21,329,63,371,2 355,304,397,346,4 236,20,320,104,3 253,125,365,237,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000662.jpg 183,241,197,255,0 225,218,247,240,3 294,116,350,172,1 9,157,93,241,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000663.jpg 2,135,44,177,8 222,332,264,374,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000664.jpg 127,334,169,376,9 310,84,338,112,1 7,106,35,134,5 305,244,347,286,9 301,141,357,197,1 62,330,90,358,6 38,139,150,251,2 164,54,248,138,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000665.jpg 146,348,160,362,6 289,96,401,208,2 71,270,183,382,6 292,283,376,367,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000666.jpg 270,165,292,187,5 146,326,160,340,7 175,226,189,240,6 75,259,103,287,6 130,143,186,199,9 326,191,354,219,1 108,105,150,147,0 311,325,353,367,6 177,293,261,377,5 248,45,360,157,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000667.jpg 5,217,19,231,0 287,333,309,355,3 20,278,62,320,2 61,40,173,152,3 224,109,308,193,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000668.jpg 355,4,369,18,1 112,98,126,112,5 39,257,67,285,5 94,227,150,283,0 95,153,137,195,1 289,370,331,412,2 127,308,169,350,5 226,56,268,98,8 272,147,384,259,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000669.jpg 272,325,286,339,0 130,321,152,343,6 291,237,313,259,9 142,270,170,298,8 249,151,305,207,6 66,53,150,137,0 234,7,318,91,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000670.jpg 299,78,313,92,4 211,102,225,116,3 20,192,42,214,0 372,270,414,312,2 249,9,305,65,2 94,379,122,407,5 18,343,74,399,3 143,298,199,354,1 372,316,400,344,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000671.jpg 150,114,192,156,5 328,100,356,128,8 261,68,317,124,4 77,243,189,355,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000672.jpg 337,168,351,182,9 149,71,163,85,0 148,11,162,25,7 273,15,315,57,7 56,17,112,73,9 94,127,136,169,0 350,0,378,28,3 269,166,381,278,4 81,293,193,405,8 156,37,268,149,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000673.jpg 229,195,251,217,7 315,397,329,411,5 110,270,124,284,8 206,253,248,295,7 178,166,220,208,2 239,14,295,70,4 139,179,167,207,6 49,48,77,76,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000674.jpg 55,275,83,303,9 308,37,350,79,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000675.jpg 185,328,241,384,7 83,178,125,220,9 149,63,177,91,1 254,194,282,222,2 232,380,260,408,5 136,102,248,214,9 31,271,143,383,4 289,302,373,386,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000676.jpg 182,196,266,280,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000677.jpg 34,26,62,54,0 300,220,328,248,1 36,87,92,143,0 160,72,272,184,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000678.jpg 48,101,70,123,1 293,233,315,255,7 35,67,57,89,5 153,38,181,66,9 64,36,148,120,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000679.jpg 166,126,188,148,3 108,333,136,361,8 137,304,193,360,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000680.jpg 158,6,180,28,0 108,103,150,145,6 278,369,320,411,0 57,304,99,346,2 192,315,234,357,6 136,335,192,391,1 352,171,408,227,4 192,97,304,209,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000681.jpg 115,74,137,96,8 364,273,378,287,2 2,221,58,277,7 264,160,376,272,7 145,35,229,119,5 284,279,396,391,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000682.jpg 368,350,382,364,4 387,279,409,301,5 115,7,227,119,6 126,202,238,314,8 10,119,122,231,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000683.jpg 59,53,81,75,3 239,340,261,362,1 60,198,172,310,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000684.jpg 14,362,36,384,5 167,105,181,119,3 306,286,328,308,2 50,288,106,344,9 243,285,285,327,8 226,67,254,95,0 260,40,316,96,5 163,335,205,377,8 53,183,81,211,2 176,95,288,207,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000685.jpg 10,200,24,214,5 238,24,252,38,6 12,81,34,103,3 246,259,330,343,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000686.jpg 67,112,89,134,0 330,147,352,169,7 106,184,134,212,7 14,268,42,296,6 279,20,321,62,7 53,164,95,206,8 130,283,242,395,3 179,46,291,158,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000687.jpg 60,401,74,415,0 204,314,218,328,0 262,170,346,254,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000688.jpg 56,340,70,354,1 30,184,44,198,3 6,53,28,75,3 148,231,204,287,3 297,38,353,94,9 67,304,95,332,1 15,153,43,181,9 154,150,196,192,0 76,155,104,183,7 271,238,383,350,8 95,293,207,405,6 195,67,279,151,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000689.jpg 354,42,376,64,1 87,164,143,220,3 203,175,259,231,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000690.jpg 360,59,382,81,6 91,209,133,251,7 312,230,368,286,2 93,105,177,189,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000691.jpg 162,300,176,314,4 48,287,104,343,9 119,311,161,353,6 370,211,412,253,5 98,207,154,263,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000692.jpg 353,329,367,343,0 45,199,59,213,3 318,172,360,214,9 66,220,94,248,1 99,264,127,292,9 234,227,318,311,0 296,88,380,172,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000693.jpg 350,56,372,78,4 192,347,214,369,0 70,6,92,28,4 291,1,319,29,3 128,201,156,229,6 334,100,362,128,6 225,109,309,193,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000694.jpg 14,14,36,36,3 297,62,311,76,3 54,276,110,332,7 11,259,39,287,2 193,96,235,138,3 93,6,177,90,1 254,133,366,245,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000695.jpg 300,240,328,268,1 278,17,334,73,6 244,166,272,194,6 200,204,256,260,4 11,248,123,360,7 151,99,235,183,9 43,133,127,217,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000696.jpg 393,375,407,389,2 309,256,331,278,2 177,335,233,391,0 285,156,369,240,2 195,181,279,265,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000697.jpg 304,168,318,182,0 103,132,131,160,2 286,225,398,337,6 192,257,276,341,9 132,87,216,171,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000698.jpg 179,319,235,375,2 329,11,357,39,2 306,242,348,284,4 116,359,172,415,7 13,282,55,324,6 91,181,119,209,1 310,68,394,152,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000699.jpg 211,297,233,319,6 48,168,70,190,7 182,154,238,210,4 80,113,164,197,3 114,225,198,309,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000700.jpg 120,132,232,244,9 77,241,161,325,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000701.jpg 130,287,152,309,3 389,323,403,337,9 133,181,189,237,5 70,182,126,238,4 215,60,271,116,8 231,212,287,268,5 263,370,291,398,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000702.jpg 92,294,106,308,4 137,250,159,272,3 90,128,112,150,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000703.jpg 137,47,165,75,6 184,271,212,299,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000704.jpg 393,104,407,118,1 357,156,379,178,7 15,28,43,56,8 279,38,321,80,6 308,132,350,174,2 304,239,388,323,5 184,67,268,151,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000705.jpg 379,45,407,73,1 291,168,333,210,7 155,153,183,181,1 95,86,151,142,4 262,229,346,313,1 259,63,343,147,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000706.jpg 108,45,122,59,3 303,276,325,298,3 142,256,198,312,0 55,327,83,355,3 359,268,387,296,8 309,26,351,68,9 196,191,238,233,4 5,221,47,263,6 157,30,241,114,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000707.jpg 105,249,127,271,0 212,260,226,274,8 374,174,396,196,2 341,357,397,413,4 101,78,157,134,0 257,11,285,39,1 263,142,305,184,3 98,272,154,328,3 173,354,215,396,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000708.jpg 266,56,280,70,0 353,83,375,105,6 272,138,314,180,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000709.jpg 74,93,116,135,7 162,9,218,65,1 120,172,148,200,2 263,156,291,184,9 233,360,275,402,7 182,203,266,287,1 246,70,330,154,1 25,2,109,86,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000710.jpg 239,258,261,280,7 293,251,405,363,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000711.jpg 2,268,24,290,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000712.jpg 278,192,292,206,3 233,388,247,402,2 248,65,360,177,2 244,293,328,377,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000713.jpg 73,211,95,233,6 182,118,204,140,1 121,348,163,390,2 296,335,324,363,3 84,89,112,117,3 178,227,220,269,2 293,140,377,224,3 87,123,171,207,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000714.jpg 119,246,203,330,0 303,9,387,93,8 256,96,368,208,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000715.jpg 124,229,138,243,1 2,104,24,126,5 0,387,22,409,0 377,339,405,367,2 9,354,37,382,1 205,290,233,318,9 228,217,270,259,6 79,281,121,323,5 322,282,350,310,3 30,111,142,223,6 239,102,323,186,7 139,15,251,127,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000716.jpg 391,105,405,119,2 98,124,120,146,8 248,239,276,267,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000717.jpg 214,368,236,390,3 141,111,163,133,0 293,94,315,116,4 166,2,222,58,8 250,225,362,337,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000718.jpg 236,172,250,186,3 147,200,175,228,5 241,311,283,353,7 305,346,347,388,5 240,188,268,216,4 140,0,168,28,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000719.jpg 79,133,101,155,0 342,222,364,244,6 95,356,109,370,9 42,317,84,359,3 305,6,361,62,1 63,384,91,412,6 158,142,200,184,5 230,110,342,222,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000720.jpg 77,297,133,353,2 238,122,350,234,9 211,242,323,354,9 53,104,165,216,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000721.jpg 24,139,46,161,7 190,284,218,312,4 242,41,298,97,9 198,173,254,229,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000722.jpg 202,215,216,229,4 312,21,334,43,8 151,321,173,343,1 56,361,98,403,7 216,356,244,384,5 319,356,375,412,6 312,297,354,339,1 135,241,191,297,2 335,89,391,145,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000723.jpg 71,307,85,321,9 194,2,216,24,4 267,115,309,157,7 318,74,374,130,1 31,256,73,298,6 86,114,142,170,9 173,266,215,308,0 303,162,387,246,5 181,62,265,146,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000724.jpg 325,26,347,48,3 144,255,172,283,2 102,340,130,368,3 152,308,180,336,4 319,247,347,275,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000725.jpg 187,335,201,349,1 268,380,290,402,3 8,134,120,246,1 184,139,268,223,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000726.jpg 304,33,332,61,9 222,26,278,82,9 142,80,170,108,0 323,147,365,189,8 364,279,406,321,1 91,185,175,269,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000727.jpg 67,317,81,331,4 222,335,264,377,3 29,40,85,96,5 25,261,67,303,3 113,271,155,313,8 225,221,281,277,0 294,190,336,232,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000728.jpg 217,174,239,196,5 111,27,125,41,0 378,0,400,22,3 136,149,164,177,5 301,98,357,154,0 128,178,212,262,1 106,266,218,378,3 246,150,330,234,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000729.jpg 341,241,363,263,2 83,253,97,267,9 23,82,79,138,4 355,191,397,233,3 18,352,46,380,2 188,361,230,403,7 214,162,256,204,4 305,48,347,90,0 257,89,369,201,7 254,199,338,283,0 115,58,227,170,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000730.jpg 114,84,136,106,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000731.jpg 287,358,301,372,3 340,64,382,106,6 58,23,114,79,3 43,138,85,180,4 246,59,274,87,7 29,206,113,290,2 113,134,225,246,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000732.jpg 27,202,41,216,6 199,70,213,84,6 163,103,205,145,0 311,375,339,403,0 306,89,362,145,1 108,13,136,41,9 174,197,286,309,1 114,310,198,394,8 25,31,109,115,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000733.jpg 230,193,244,207,4 367,313,389,335,5 320,195,362,237,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000734.jpg 277,228,361,312,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000735.jpg 339,311,361,333,9 344,268,366,290,1 300,227,342,269,7 305,38,333,66,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000736.jpg 259,279,273,293,5 85,193,107,215,6 106,271,148,313,5 4,339,46,381,8 189,76,301,188,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000737.jpg 150,68,164,82,1 279,167,307,195,1 135,119,191,175,4 25,2,81,58,2 308,79,364,135,3 282,229,394,341,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000738.jpg 157,23,213,79,7 51,200,107,256,8 243,36,327,120,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000739.jpg 320,235,342,257,2 264,129,278,143,8 69,198,97,226,3 129,357,185,413,1 219,185,303,269,5 187,101,271,185,4 131,239,215,323,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000740.jpg 365,69,393,97,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000741.jpg 170,120,212,162,9 287,143,329,185,5 316,280,344,308,9 328,101,412,185,5 79,323,163,407,9 2,36,86,120,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000742.jpg 16,60,72,116,1 326,153,410,237,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000743.jpg 73,94,129,150,0 127,115,169,157,2 190,273,232,315,5 351,316,407,372,0 342,242,398,298,4 114,161,226,273,3 201,54,313,166,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000744.jpg 300,353,342,395,2 160,119,188,147,1 166,355,208,397,6 214,230,298,314,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000745.jpg 101,246,115,260,6 357,169,413,225,6 177,271,233,327,2 174,104,258,188,6 50,73,162,185,6 254,20,366,132,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000746.jpg 72,273,100,301,7 56,39,98,81,0 187,223,299,335,9 170,10,282,122,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000747.jpg 202,369,244,411,6 169,238,211,280,3 30,243,58,271,8 351,371,393,413,7 6,91,34,119,1 246,344,302,400,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000748.jpg 283,179,339,235,0 131,161,215,245,0 57,275,169,387,5 195,89,279,173,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000749.jpg 5,105,19,119,7 376,210,398,232,7 219,52,261,94,1 113,323,169,379,5 273,148,301,176,6 234,229,346,341,7 43,235,127,319,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000750.jpg 276,184,298,206,1 362,304,404,346,3 132,18,216,102,3 257,281,341,365,3 73,297,185,409,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000751.jpg 167,171,189,193,9 0,19,56,75,3 33,173,145,285,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000752.jpg 316,289,338,311,5 217,217,239,239,3 146,124,168,146,1 291,332,333,374,4 380,129,408,157,4 159,195,215,251,9 85,194,113,222,0 337,235,379,277,0 55,222,167,334,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000753.jpg 251,19,265,33,9 208,190,222,204,9 101,326,157,382,8 1,75,57,131,2 157,51,213,107,0 263,0,305,42,3 92,168,204,280,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000754.jpg 63,11,119,67,7 30,10,58,38,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000755.jpg 249,358,263,372,1 113,126,225,238,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000756.jpg 95,385,117,407,1 315,347,329,361,6 82,140,124,182,6 367,39,395,67,4 283,69,311,97,3 263,211,347,295,8 143,157,255,269,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000757.jpg 176,105,190,119,2 391,41,413,63,9 261,227,283,249,7 4,178,60,234,8 273,122,301,150,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000758.jpg 73,257,87,271,2 369,79,397,107,5 57,318,113,374,8 43,214,71,242,5 121,95,177,151,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000759.jpg 351,313,407,369,8 305,363,333,391,3 318,28,360,70,4 193,152,221,180,9 37,153,65,181,4 315,102,399,186,0 44,302,156,414,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000760.jpg 182,93,238,149,2 340,225,396,281,7 141,257,169,285,2 220,208,262,250,5 15,180,71,236,8 253,62,365,174,6 222,301,334,413,0 329,281,413,365,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000761.jpg 71,366,93,388,8 26,110,40,124,8 118,109,146,137,7 309,199,351,241,0 241,26,353,138,8 90,284,174,368,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000762.jpg 11,199,39,227,0 205,131,233,159,2 382,282,410,310,1 134,49,176,91,6 131,204,215,288,2 12,78,96,162,1 38,280,122,364,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000763.jpg 258,253,286,281,7 2,148,114,260,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000764.jpg 247,382,269,404,0 215,359,229,373,7 76,35,118,77,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000765.jpg 146,342,160,356,5 31,115,45,129,1 305,276,327,298,8 10,285,122,397,9 229,26,341,138,9 39,54,123,138,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000766.jpg 104,332,118,346,1 347,385,361,399,3 117,31,145,59,7 47,250,103,306,7 95,89,151,145,2 11,302,39,330,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000767.jpg 291,57,313,79,7 227,199,249,221,4 250,53,272,75,7 76,122,118,164,5 352,288,408,344,5 77,241,105,269,9 284,272,312,300,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000768.jpg 13,302,41,330,5 108,130,150,172,1 293,344,321,372,0 178,220,220,262,6 170,57,282,169,3 217,189,329,301,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000769.jpg 6,296,118,408,6 73,191,185,303,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000770.jpg 79,200,107,228,4 99,292,155,348,2 191,346,247,402,9 85,80,197,192,2 286,155,370,239,8 234,29,346,141,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000771.jpg 205,181,227,203,2 250,147,264,161,6 183,385,197,399,5 13,109,55,151,4 290,255,346,311,2 148,39,190,81,1 122,223,164,265,2 104,53,132,81,4 10,32,38,60,9 230,65,342,177,9 57,88,169,200,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000772.jpg 154,334,210,390,5 299,332,327,360,9 172,148,228,204,0 262,132,318,188,3 109,148,165,204,1 266,22,378,134,6 290,198,374,282,2 168,215,280,327,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000773.jpg 200,250,222,272,1 344,198,358,212,1 253,183,295,225,0 301,95,357,151,1 77,242,119,284,7 380,15,408,43,6 366,331,408,373,7 352,209,380,237,8 176,117,260,201,3 20,77,132,189,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000774.jpg 350,258,364,272,3 42,268,154,380,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000775.jpg 302,360,324,382,5 372,320,394,342,1 208,75,250,117,9 252,64,336,148,0 7,86,119,198,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000776.jpg 333,203,347,217,7 30,342,86,398,7 349,84,405,140,1 368,195,396,223,4 276,350,304,378,6 33,252,117,336,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000777.jpg 48,364,70,386,6 286,357,342,413,5 81,175,109,203,8 173,83,229,139,8 14,222,56,264,5 22,1,50,29,9 176,301,288,413,6 132,141,244,253,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000778.jpg 321,230,343,252,3 384,178,406,200,5 132,178,154,200,9 52,281,94,323,5 42,23,98,79,9 316,18,344,46,8 194,104,236,146,2 305,354,361,410,4 189,159,217,187,2 1,123,113,235,2 136,224,220,308,6 273,104,357,188,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000779.jpg 224,275,238,289,1 367,52,381,66,4 139,19,251,131,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000780.jpg 259,23,281,45,6 76,131,104,159,3 2,216,44,258,3 7,137,49,179,6 222,252,278,308,9 58,9,100,51,5 159,249,215,305,9 82,302,194,414,5 161,3,245,87,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000781.jpg 136,201,150,215,1 139,83,153,97,2 284,152,340,208,8 195,165,251,221,7 318,7,360,49,9 68,272,180,384,0 276,248,360,332,0 19,162,131,274,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000782.jpg 191,309,205,323,4 306,292,320,306,7 314,393,336,415,0 131,112,173,154,9 47,350,75,378,5 99,261,155,317,9 182,9,266,93,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000783.jpg 68,103,180,215,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000784.jpg 61,338,75,352,3 347,191,369,213,9 253,56,267,70,6 23,188,65,230,2 334,277,390,333,1 34,265,90,321,3 176,280,218,322,3 316,5,400,89,5 65,103,149,187,6 146,327,230,411,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000785.jpg 45,38,101,94,9 137,16,221,100,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000786.jpg 199,278,221,300,7 370,149,392,171,5 349,296,371,318,7 331,33,373,75,3 310,127,338,155,1 20,238,132,350,4 35,78,119,162,8 237,285,349,397,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000787.jpg 200,307,214,321,8 283,324,311,352,0 364,231,392,259,5 94,116,122,144,5 210,34,238,62,0 60,236,88,264,9 320,349,348,377,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000788.jpg 286,228,342,284,6 128,383,156,411,0 56,142,84,170,4 247,274,275,302,6 208,348,250,390,5 142,200,226,284,4 54,263,138,347,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000789.jpg 76,67,90,81,3 128,327,150,349,1 138,205,180,247,8 249,344,277,372,6 340,21,396,77,3 91,329,119,357,4 338,107,394,163,9 133,76,175,118,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000790.jpg 15,209,37,231,8 70,275,84,289,9 200,248,256,304,1 40,268,68,296,1 20,300,132,412,5 295,83,379,167,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000791.jpg 199,181,221,203,2 144,169,158,183,0 164,78,186,100,8 328,269,384,325,4 182,88,238,144,7 133,314,189,370,1 382,276,410,304,6 300,145,412,257,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000792.jpg 47,33,75,61,8 18,154,74,210,1 77,227,105,255,3 205,333,247,375,8 207,4,249,46,7 283,322,311,350,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000793.jpg 296,153,310,167,8 196,190,210,204,2 56,237,78,259,4 383,282,411,310,2 334,331,362,359,6 168,21,210,63,8 58,31,170,143,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000794.jpg 320,203,334,217,1 53,133,75,155,9 132,282,160,310,2 159,130,201,172,7 303,33,415,145,5 36,2,148,114,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000795.jpg 13,378,27,392,0 301,232,315,246,0 199,113,241,155,7 86,295,142,351,6 281,256,309,284,6 36,228,92,284,6 67,168,123,224,2 187,323,215,351,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000796.jpg 173,307,187,321,8 111,6,153,48,7 281,230,393,342,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000797.jpg 187,127,201,141,1 283,320,305,342,1 141,302,169,330,7 343,113,385,155,1 79,11,135,67,3 55,71,97,113,9 199,80,227,108,8 234,19,262,47,3 97,151,209,263,4 220,192,304,276,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000798.jpg 287,292,309,314,8 21,81,49,109,5 185,72,213,100,7 159,31,201,73,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000799.jpg 37,65,51,79,0 72,337,114,379,0 196,258,224,286,6 156,130,198,172,6 252,61,294,103,0 95,149,137,191,9 297,318,353,374,4 142,8,226,92,8 319,143,403,227,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000800.jpg 258,124,286,152,0 168,268,224,324,4 102,379,130,407,2 74,17,158,101,5 144,82,228,166,2 8,195,92,279,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000801.jpg 332,13,346,27,4 338,363,366,391,5 206,311,234,339,5 251,350,307,406,5 302,94,330,122,6 164,19,276,131,1 141,167,225,251,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000802.jpg 244,387,266,409,3 226,18,248,40,5 66,247,122,303,2 154,61,210,117,1 79,200,121,242,2 313,271,341,299,2 11,31,95,115,4 185,120,297,232,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000803.jpg 327,191,341,205,3 64,354,78,368,3 233,279,255,301,8 58,254,142,338,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000804.jpg 232,69,246,83,6 262,107,318,163,0 135,121,247,233,5 175,263,259,347,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000805.jpg 269,339,291,361,3 60,138,82,160,2 307,207,321,221,3 142,191,184,233,0 165,116,221,172,8 211,246,267,302,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000806.jpg 279,10,301,32,8 181,277,195,291,9 265,74,321,130,3 161,180,217,236,2 282,138,310,166,0 252,216,294,258,0 56,1,168,113,5 162,246,274,358,7 322,128,406,212,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000807.jpg 229,134,285,190,9 295,255,351,311,2 111,196,139,224,9 30,81,114,165,8 140,193,252,305,3 309,101,393,185,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000808.jpg 41,30,69,58,6 344,220,386,262,8 21,337,49,365,4 124,98,152,126,3 382,332,410,360,3 265,140,321,196,8 36,174,148,286,0 183,38,267,122,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000809.jpg 58,277,72,291,7 337,295,351,309,5 377,244,391,258,3 260,128,288,156,7 56,10,112,66,6 181,244,237,300,9 71,189,155,273,6 174,13,286,125,8 68,274,180,386,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000810.jpg 171,98,199,126,2 261,304,303,346,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000811.jpg 0,117,14,131,2 42,4,84,46,1 344,327,400,383,9 42,328,98,384,0 14,197,126,309,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000812.jpg 58,85,72,99,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000813.jpg 187,64,201,78,9 184,271,212,299,5 35,330,63,358,8 335,80,377,122,2 253,226,309,282,3 50,78,78,106,5 344,1,386,43,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000814.jpg 342,169,356,183,3 336,198,392,254,7 196,295,238,337,9 187,338,243,394,4 354,118,410,174,2 8,59,50,101,6 20,303,76,359,2 172,75,256,159,8 279,277,363,361,7 105,187,217,299,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000815.jpg 242,375,264,397,4 376,77,390,91,9 15,208,57,250,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000816.jpg 24,375,38,389,1 209,218,237,246,0 109,2,165,58,6 339,84,367,112,3 186,288,242,344,2 70,281,126,337,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000817.jpg 336,265,350,279,2 93,358,115,380,2 350,194,364,208,6 59,222,87,250,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000818.jpg 176,74,232,130,9 278,139,320,181,2 142,255,198,311,7 349,213,377,241,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000819.jpg 62,301,76,315,9 27,23,83,79,2 185,141,213,169,3 292,222,334,264,9 253,366,281,394,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000820.jpg 215,358,237,380,0 208,27,222,41,1 367,391,389,413,1 71,108,127,164,7 167,145,223,201,8 112,40,154,82,4 167,225,209,267,7 120,275,176,331,5 35,296,119,380,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000821.jpg 27,105,49,127,9 303,330,325,352,4 181,95,223,137,9 17,41,59,83,3 332,232,388,288,4 275,284,303,312,6 149,333,191,375,4 72,195,184,307,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000822.jpg 391,319,413,341,9 43,97,71,125,3 29,301,141,413,2 187,240,271,324,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000823.jpg 139,249,153,263,1 112,289,140,317,0 138,164,166,192,3 201,0,257,56,7 371,95,399,123,2 184,337,240,393,7 286,111,370,195,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000824.jpg 369,311,391,333,6 241,197,297,253,5 192,7,220,35,9 175,346,217,388,0 236,45,292,101,4 37,281,93,337,2 280,245,364,329,9 293,29,405,141,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000825.jpg 201,194,223,216,4 79,307,101,329,4 337,79,351,93,9 347,328,375,356,6 146,284,174,312,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000826.jpg 210,197,224,211,2 218,214,246,242,0 177,111,219,153,1 53,367,95,409,1 17,107,101,191,1 126,265,238,377,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000827.jpg 291,184,305,198,1 198,164,226,192,5 332,117,388,173,4 257,221,313,277,4 175,327,217,369,1 248,41,290,83,8 61,293,145,377,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000828.jpg 391,76,413,98,1 160,388,182,410,8 312,324,334,346,1 268,224,310,266,3 47,199,75,227,5 333,195,375,237,4 132,258,216,342,6 69,35,181,147,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000829.jpg 380,168,408,196,3 341,328,397,384,3 58,193,100,235,4 351,282,393,324,1 293,124,377,208,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000830.jpg 213,13,235,35,5 209,38,251,80,1 92,234,204,346,7 87,44,199,156,8 266,104,378,216,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000831.jpg 70,317,84,331,4 63,38,85,60,4 290,17,312,39,4 188,259,230,301,5 28,121,84,177,9 74,278,186,390,8 201,141,313,253,8 86,26,198,138,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000832.jpg 270,171,312,213,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000833.jpg 58,91,72,105,6 89,33,201,145,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000834.jpg 159,194,215,250,8 274,58,330,114,3 72,363,114,405,7 296,215,408,327,1 2,131,114,243,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000835.jpg 152,195,180,223,9 55,189,111,245,9 152,343,208,399,8 44,298,156,410,4 215,280,299,364,3 258,91,342,175,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000836.jpg 366,28,388,50,7 174,158,216,200,6 213,241,255,283,4 260,197,372,309,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000837.jpg 359,124,373,138,1 168,186,190,208,3 142,247,164,269,9 127,317,155,345,8 9,19,51,61,2 221,75,249,103,7 109,54,193,138,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000838.jpg 219,386,241,408,4 359,340,381,362,4 53,123,81,151,1 232,132,274,174,4 280,215,322,257,8 145,44,187,86,4 299,33,355,89,2 56,275,112,331,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000839.jpg 351,358,373,380,8 138,222,160,244,4 233,39,289,95,7 116,346,172,402,4 17,130,59,172,5 284,298,340,354,4 89,153,131,195,8 250,243,278,271,0 1,19,85,103,6 260,128,372,240,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000840.jpg 125,386,147,408,8 188,390,202,404,6 311,248,395,332,9 29,158,141,270,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000841.jpg 255,350,269,364,4 266,21,294,49,6 61,197,89,225,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000842.jpg 277,335,291,349,8 20,33,34,47,1 120,386,134,400,3 340,204,382,246,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000843.jpg 315,252,337,274,1 287,183,329,225,2 327,303,369,345,9 217,353,245,381,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000844.jpg 302,200,324,222,7 298,44,410,156,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000845.jpg 385,163,399,177,5 106,288,128,310,7 33,163,89,219,2 291,280,319,308,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000846.jpg 4,312,26,334,6 316,319,338,341,4 7,277,35,305,0 265,177,307,219,9 354,87,382,115,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000847.jpg 251,193,273,215,5 279,330,293,344,1 25,363,39,377,4 68,156,180,268,3 293,306,377,390,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000848.jpg 72,151,86,165,7 332,215,346,229,1 143,134,157,148,9 73,6,101,34,4 330,316,386,372,3 141,233,169,261,4 206,49,290,133,4 64,250,148,334,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000849.jpg 21,17,43,39,4 17,64,45,92,7 332,71,388,127,7 270,318,326,374,6 53,259,165,371,1 151,0,263,112,7 216,127,328,239,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000850.jpg 91,21,133,63,5 62,237,118,293,1 160,25,202,67,4 220,216,276,272,6 139,243,167,271,7 247,41,359,153,6 142,270,254,382,7 9,1,93,85,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000851.jpg 84,319,106,341,0 349,371,391,413,1 3,247,31,275,9 8,373,36,401,0 276,110,388,222,4 209,290,321,402,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000852.jpg 315,241,329,255,8 153,319,181,347,1 28,194,70,236,6 196,226,252,282,6 290,285,346,341,0 374,147,402,175,2 123,66,165,108,4 242,117,354,229,7 108,208,192,292,6 279,6,391,118,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000853.jpg 190,161,212,183,1 286,189,308,211,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000854.jpg 12,344,26,358,4 361,298,383,320,1 111,320,139,348,3 318,305,346,333,1 138,263,250,375,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000855.jpg 266,256,322,312,1 105,171,161,227,7 196,116,280,200,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000856.jpg 254,191,268,205,6 4,39,18,53,3 198,130,220,152,9 263,300,305,342,2 286,151,328,193,0 32,156,88,212,1 45,49,73,77,1 222,50,250,78,1 162,49,204,91,7 56,221,168,333,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000857.jpg 125,56,139,70,1 247,98,261,112,7 293,173,335,215,4 184,104,268,188,2 296,277,408,389,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000858.jpg 292,238,306,252,8 289,367,311,389,6 55,281,111,337,7 172,352,214,394,0 213,293,255,335,4 315,303,343,331,2 125,74,181,130,1 299,147,383,231,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000859.jpg 139,314,161,336,9 194,90,216,112,4 286,263,398,375,7 25,264,109,348,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000860.jpg 265,217,287,239,8 84,180,112,208,2 209,263,237,291,5 188,86,300,198,7 79,208,191,320,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000861.jpg 319,121,333,135,8 37,12,121,96,5 150,326,234,410,7 218,181,302,265,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000862.jpg 273,53,295,75,3 118,99,160,141,2 203,139,259,195,1 94,264,136,306,1 290,180,346,236,7 233,366,275,408,9 354,364,396,406,8 291,49,375,133,8 156,301,240,385,4 292,251,404,363,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000863.jpg 55,349,83,377,2 162,132,204,174,3 236,234,278,276,7 251,64,293,106,6 351,26,407,82,9 327,161,411,245,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000864.jpg 321,349,343,371,7 143,63,157,77,6 128,249,156,277,3 207,255,263,311,7 260,155,302,197,4 169,223,211,265,4 116,212,144,240,9 140,129,168,157,3 22,302,134,414,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000865.jpg 248,54,270,76,0 152,114,174,136,2 118,1,160,43,2 240,343,296,399,5 9,183,65,239,1 295,66,379,150,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000866.jpg 26,290,48,312,0 85,369,99,383,0 215,257,229,271,5 385,353,413,381,6 314,264,356,306,5 61,266,103,308,3 11,204,67,260,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000867.jpg 12,350,26,364,0 193,10,221,38,1 3,47,45,89,5 209,279,265,335,6 16,108,128,220,8 123,40,235,152,0 330,17,414,101,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000868.jpg 193,300,207,314,7 120,372,142,394,6 339,322,367,350,9 30,45,72,87,6 4,288,46,330,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000869.jpg 70,349,84,363,6 279,45,301,67,1 344,59,358,73,9 237,108,293,164,0 18,205,46,233,1 291,294,319,322,4 311,75,353,117,0 131,16,159,44,2 143,223,255,335,2 291,186,403,298,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000870.jpg 299,24,341,66,1 104,38,216,150,6 234,99,346,211,5 134,298,218,382,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000871.jpg 133,63,155,85,4 69,130,83,144,7 247,28,269,50,6 217,261,301,345,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000872.jpg 338,342,380,384,5 1,171,57,227,3 69,0,97,28,9 146,290,174,318,2 329,27,371,69,4 330,387,358,415,0 166,129,278,241,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000873.jpg 218,28,232,42,1 276,330,304,358,2 172,111,214,153,9 184,244,226,286,5 230,248,314,332,2 312,273,396,357,9 37,241,149,353,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000874.jpg 192,175,206,189,0 79,146,101,168,6 345,234,367,256,5 228,361,256,389,4 273,118,315,160,3 212,41,268,97,4 335,181,377,223,4 304,305,346,347,0 103,216,215,328,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000875.jpg 34,167,118,251,3 142,211,226,295,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000876.jpg 375,322,389,336,2 233,297,247,311,8 346,247,402,303,4 98,239,154,295,9 104,38,132,66,1 322,13,364,55,1 339,107,381,149,4 239,34,323,118,5 11,326,95,410,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000877.jpg 234,30,248,44,6 359,37,387,65,1 125,346,167,388,2 317,281,359,323,3 246,370,274,398,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000878.jpg 245,156,267,178,9 307,62,329,84,8 101,376,115,390,5 167,354,223,410,7 105,58,147,100,9 298,92,326,120,3 184,243,296,355,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000879.jpg 6,168,48,210,1 178,359,220,401,6 219,205,247,233,3 242,209,354,321,2 277,91,361,175,2 73,134,185,246,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000880.jpg 73,378,87,392,2 75,194,89,208,0 228,182,242,196,0 255,20,311,76,1 174,322,202,350,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000881.jpg 106,367,120,381,4 86,300,100,314,5 155,296,197,338,9 187,247,215,275,7 276,265,332,321,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000882.jpg 225,247,253,275,5 128,259,170,301,3 16,38,72,94,3 35,235,119,319,8 255,174,367,286,7 108,73,220,185,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000883.jpg 76,395,90,409,5 268,286,282,300,1 8,191,50,233,8 11,75,67,131,1 241,189,283,231,4 218,95,260,137,8 76,264,160,348,9 259,51,343,135,2 177,315,261,399,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000884.jpg 25,299,67,341,7 23,160,51,188,8 31,99,59,127,6 118,127,160,169,8 323,87,379,143,7 70,24,154,108,7 182,105,266,189,5 260,220,372,332,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000885.jpg 67,106,89,128,6 28,219,84,275,8 309,285,365,341,6 174,353,202,381,7 254,263,310,319,9 110,262,152,304,9 147,130,203,186,3 225,86,337,198,4 1,136,85,220,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000886.jpg 205,291,227,313,7 385,20,407,42,9 242,319,264,341,4 288,54,400,166,2 89,314,173,398,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000887.jpg 333,164,347,178,9 181,20,237,76,6 243,45,299,101,3 195,123,251,179,3 111,220,167,276,4 221,231,333,343,8 21,114,133,226,4 294,56,406,168,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000888.jpg 387,280,409,302,4 118,207,146,235,9 165,259,193,287,9 357,358,399,400,7 63,262,119,318,5 201,244,257,300,7 311,18,339,46,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000889.jpg 257,313,313,369,1 19,82,47,110,9 150,14,178,42,4 344,27,400,83,9 96,68,138,110,9 306,356,362,412,3 51,248,135,332,3 219,132,303,216,5 145,265,257,377,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000890.jpg 12,281,34,303,2 384,131,406,153,5 194,59,208,73,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000891.jpg 126,237,140,251,4 75,178,97,200,3 212,312,268,368,3 39,9,95,65,2 274,167,302,195,0 139,324,167,352,1 360,187,388,215,0 278,47,306,75,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000892.jpg 18,93,60,135,6 0,130,28,158,3 124,4,152,32,7 292,337,348,393,4 279,119,391,231,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000893.jpg 93,361,107,375,8 221,190,277,246,1 350,69,392,111,1 244,337,300,393,5 182,316,210,344,2 295,292,379,376,5 104,93,216,205,1 303,142,387,226,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000894.jpg 190,148,204,162,5 371,339,393,361,3 177,206,191,220,3 240,170,296,226,7 321,266,349,294,5 94,87,150,143,2 191,358,247,414,4 288,125,344,181,6 75,284,117,326,3 102,191,214,303,8 206,42,290,126,3 326,4,410,88,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000895.jpg 80,219,122,261,5 241,153,283,195,8 237,230,265,258,0 278,57,320,99,7 366,382,394,410,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000896.jpg 90,324,104,338,5 208,315,222,329,5 368,11,382,25,8 306,136,362,192,8 37,89,65,117,7 261,118,303,160,7 106,3,162,59,4 164,99,206,141,7 283,54,311,82,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000897.jpg 388,309,410,331,8 5,136,19,150,1 338,238,366,266,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000898.jpg 386,124,400,138,8 307,274,335,302,3 55,256,139,340,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000899.jpg 312,67,334,89,8 107,83,121,97,1 397,316,411,330,4 117,25,145,53,8 43,233,85,275,2 101,144,185,228,7 260,98,344,182,5 291,200,403,312,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000900.jpg 187,240,243,296,0 228,7,312,91,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000901.jpg 136,275,158,297,4 117,172,131,186,4 341,32,355,46,4 105,43,133,71,7 317,97,373,153,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000902.jpg 143,42,255,154,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000903.jpg 137,171,159,193,6 92,235,106,249,9 392,165,406,179,1 14,240,56,282,3 78,52,106,80,6 40,129,96,185,1 319,362,361,404,0 312,22,368,78,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000904.jpg 272,3,384,115,3 74,114,186,226,7 202,164,286,248,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000905.jpg 97,304,153,360,3 107,367,149,409,2 113,77,155,119,1 85,206,113,234,2 137,230,165,258,9 182,68,294,180,2 206,276,318,388,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000906.jpg 296,345,338,387,9 276,320,304,348,8 172,208,256,292,0 124,8,208,92,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000907.jpg 119,383,147,411,9 36,48,78,90,1 21,213,63,255,8 147,35,259,147,5 253,85,365,197,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000908.jpg 77,314,91,328,2 175,28,287,140,2 248,247,332,331,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000909.jpg 107,395,121,409,4 160,112,182,134,9 265,208,321,264,9 321,109,377,165,5 323,172,379,228,0 329,36,385,92,5 227,51,311,135,7 90,150,202,262,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000910.jpg 19,123,131,235,3 14,6,126,118,2 76,257,160,341,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000911.jpg 152,182,174,204,9 211,45,239,73,0 19,225,75,281,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000912.jpg 108,303,136,331,6 313,213,341,241,3 49,268,105,324,1 169,184,211,226,1 293,49,321,77,6 270,109,382,221,3 176,231,260,315,5 301,264,413,376,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000913.jpg 209,132,223,146,9 334,230,356,252,3 50,171,64,185,4 261,20,303,62,3 268,142,324,198,3 17,259,59,301,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000914.jpg 145,10,159,24,2 214,173,228,187,2 139,133,181,175,4 109,65,137,93,1 84,98,126,140,8 163,34,205,76,8 137,191,179,233,9 140,356,182,398,1 32,247,116,331,3 222,222,334,334,0 258,41,342,125,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000915.jpg 251,81,293,123,4 65,114,93,142,9 189,271,217,299,4 263,220,291,248,6 299,108,411,220,6 123,124,235,236,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000916.jpg 371,145,385,159,9 312,184,326,198,4 312,104,326,118,1 252,149,308,205,1 269,372,311,414,0 256,55,284,83,2 265,226,377,338,7 77,317,161,401,3 113,195,225,307,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000917.jpg 279,378,301,400,9 275,178,331,234,4 66,33,150,117,2 74,260,158,344,5 22,119,134,231,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000918.jpg 261,266,303,308,8 150,96,178,124,2 120,296,176,352,3 298,148,410,260,2 208,66,292,150,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000919.jpg 47,360,69,382,6 165,39,193,67,9 263,107,319,163,2 307,41,349,83,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000920.jpg 368,177,382,191,8 56,282,70,296,0 219,2,261,44,7 153,364,195,406,0 2,51,114,163,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000921.jpg 345,104,387,146,3 329,188,371,230,0 274,223,330,279,5 36,94,64,122,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000922.jpg 101,118,143,160,6 64,235,120,291,0 211,94,267,150,4 327,241,383,297,7 176,234,288,346,3 283,68,395,180,5 127,151,211,235,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000923.jpg 306,148,362,204,9 231,116,273,158,2 236,264,292,320,9 65,319,107,361,1 76,70,104,98,0 71,134,183,246,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000924.jpg 295,166,317,188,4 103,124,117,138,8 40,258,54,272,7 337,207,393,263,2 246,45,274,73,0 125,85,167,127,5 2,151,114,263,9 330,110,414,194,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000925.jpg 319,178,333,192,5 256,178,270,192,2 190,251,246,307,9 265,255,349,339,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000926.jpg 279,357,321,399,4 68,10,124,66,3 4,268,32,296,7 234,67,276,109,8 149,219,177,247,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000927.jpg 221,318,235,332,5 308,191,364,247,0 12,217,68,273,9 96,188,180,272,8 164,331,248,415,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000928.jpg 132,0,146,14,2 364,400,378,414,7 134,29,156,51,9 186,195,242,251,0 241,217,269,245,6 215,107,257,149,4 220,375,248,403,0 16,225,72,281,5 304,223,388,307,0 279,28,391,140,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000929.jpg 39,196,123,280,4 178,49,290,161,5 282,244,394,356,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000930.jpg 295,45,309,59,5 390,7,404,21,6 68,168,82,182,5 306,100,334,128,0 296,135,408,247,2 211,328,295,412,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000931.jpg 203,238,225,260,4 336,395,350,409,3 326,134,368,176,8 41,76,97,132,9 247,44,275,72,6 375,299,403,327,6 289,50,373,134,8 310,175,394,259,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000932.jpg 284,166,306,188,3 129,270,151,292,6 310,264,366,320,9 139,88,195,144,2 197,154,239,196,2 218,354,274,410,2 13,214,41,242,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000933.jpg 35,202,57,224,4 7,343,29,365,5 72,166,100,194,0 260,126,288,154,5 320,141,376,197,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000934.jpg 68,23,90,45,2 307,203,363,259,1 254,33,296,75,4 303,3,331,31,3 259,138,315,194,5 213,204,297,288,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000935.jpg 6,40,20,54,7 303,155,325,177,3 272,230,294,252,6 43,6,99,62,2 329,24,371,66,8 89,332,131,374,0 238,10,266,38,5 102,248,186,332,7 54,74,166,186,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000936.jpg 178,211,192,225,2 16,368,58,410,0 89,135,131,177,2 272,1,300,29,6 344,64,372,92,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000937.jpg 277,170,291,184,7 317,91,373,147,0 356,198,398,240,4 55,138,111,194,5 53,223,95,265,5 338,43,380,85,5 198,152,240,194,4 36,3,148,115,4 189,13,301,125,8 95,243,179,327,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000938.jpg 256,277,270,291,6 20,180,48,208,2 50,122,92,164,3 66,32,108,74,5 330,11,386,67,5 228,87,270,129,3 257,255,369,367,8 160,133,272,245,1 79,249,191,361,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000939.jpg 297,88,311,102,3 69,274,91,296,7 144,3,166,25,3 365,169,393,197,6 105,178,133,206,1 148,127,232,211,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000940.jpg 187,132,229,174,8 196,43,280,127,0 283,21,395,133,1 20,124,132,236,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000941.jpg 44,282,66,304,8 128,14,170,56,4 348,170,404,226,1 264,37,306,79,0 213,180,255,222,6 300,282,412,394,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000942.jpg 238,283,260,305,6 31,213,73,255,0 283,298,395,410,1 291,110,375,194,5 85,199,197,311,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000943.jpg 227,66,249,88,3 136,305,150,319,3 126,4,140,18,8 152,80,194,122,8 160,184,188,212,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000944.jpg 365,41,387,63,3 137,336,159,358,7 54,24,110,80,0 351,332,393,374,2 238,90,350,202,9 27,267,111,351,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000945.jpg 309,193,337,221,1 303,0,359,56,9 114,63,170,119,8 203,294,259,350,1 38,212,66,240,8 257,337,313,393,5 53,331,137,415,2 176,44,288,156,1 37,131,121,215,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000946.jpg 118,345,132,359,1 371,327,393,349,3 2,104,44,146,1 44,217,100,273,6 28,50,84,106,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000947.jpg 268,267,380,379,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000948.jpg 115,249,137,271,1 79,107,93,121,5 201,81,229,109,7 152,340,180,368,2 328,307,412,391,6 238,57,350,169,1 252,235,336,319,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000949.jpg 178,212,200,234,3 355,78,377,100,1 90,375,112,397,6 357,26,399,68,4 288,203,330,245,5 104,322,160,378,5 185,168,227,210,9 115,48,157,90,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000950.jpg 285,148,369,232,9 89,221,201,333,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000951.jpg 317,145,339,167,3 223,62,279,118,1 177,210,233,266,2 347,301,403,357,1 18,302,60,344,4 140,313,196,369,9 31,78,143,190,4 89,0,173,84,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000952.jpg 278,263,320,305,7 255,16,297,58,3 151,231,207,287,4 81,108,123,150,0 339,122,367,150,8 118,39,230,151,7 42,261,154,373,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000953.jpg 392,292,406,306,6 29,128,43,142,1 285,55,313,83,3 42,115,154,227,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000954.jpg 167,114,181,128,6 202,234,224,256,9 100,335,114,349,9 23,324,79,380,7 94,375,122,403,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000955.jpg 55,224,83,252,7 201,113,229,141,4 124,211,166,253,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000956.jpg 141,383,155,397,1 200,160,222,182,7 110,123,132,145,2 180,300,208,328,1 61,220,117,276,4 5,299,47,341,9 218,48,260,90,5 250,110,334,194,5 220,302,332,414,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000957.jpg 151,6,165,20,6 297,261,353,317,2 143,234,171,262,0 183,5,239,61,3 297,22,339,64,8 176,146,232,202,3 374,224,402,252,8 9,176,121,288,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000958.jpg 183,127,211,155,6 154,10,196,52,4 310,169,338,197,4 283,52,339,108,3 273,355,329,411,1 153,241,209,297,5 72,102,184,214,2 138,302,222,386,1 246,204,358,316,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000959.jpg 187,201,209,223,9 295,191,317,213,0 78,264,92,278,1 260,183,288,211,1 286,220,370,304,9 151,294,263,406,5 137,122,221,206,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000960.jpg 76,279,90,293,3 211,333,233,355,2 43,321,65,343,9 83,50,111,78,9 274,239,330,295,4 169,371,211,413,6 15,111,127,223,5 108,15,220,127,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000961.jpg 120,0,142,22,1 303,248,317,262,2 187,185,201,199,1 363,104,391,132,7 86,313,114,341,4 273,352,315,394,2 90,133,132,175,6 261,62,303,104,6 159,236,271,348,5 303,249,415,361,7 35,227,119,311,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000962.jpg 113,291,135,313,7 109,4,123,18,5 48,196,70,218,6 296,215,324,243,8 318,314,402,398,2 271,51,383,163,3 197,218,281,302,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000963.jpg 329,38,351,60,7 37,389,59,411,4 127,113,149,135,0 248,299,360,411,9 28,173,140,285,1 221,23,305,107,3
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000964.jpg 73,37,87,51,1 332,229,388,285,3 221,243,249,271,0 90,137,132,179,0 136,90,192,146,7 13,320,55,362,8 43,372,85,414,5 238,331,322,415,0 243,143,327,227,4 254,15,366,127,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000965.jpg 291,344,305,358,0 122,29,178,85,8 127,341,169,383,0 250,253,334,337,4 192,77,304,189,7 42,152,154,264,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000966.jpg 232,0,274,42,0 110,362,138,390,5 285,189,341,245,5 20,193,76,249,5 99,58,155,114,7 19,329,103,413,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000967.jpg 235,233,263,261,4 329,316,371,358,9 101,47,143,89,3 362,105,404,147,5 145,166,201,222,6 236,294,320,378,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000968.jpg 121,145,163,187,6 32,97,116,181,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000969.jpg 391,288,405,302,8 84,184,106,206,1 279,181,321,223,1 30,214,86,270,8 130,271,242,383,2 143,77,255,189,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000970.jpg 163,349,205,391,0 275,183,387,295,4 39,233,151,345,2
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000971.jpg 159,183,181,205,2 257,259,299,301,1 105,321,189,405,6 112,202,196,286,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000972.jpg 323,77,337,91,2 74,385,96,407,4 87,288,143,344,6 212,288,268,344,2 134,130,218,214,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000973.jpg 104,15,118,29,1 88,219,102,233,0 27,280,55,308,9 51,159,163,271,0 319,144,403,228,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000974.jpg 372,13,386,27,0 98,272,120,294,3 327,318,383,374,9 13,293,125,405,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000975.jpg 94,387,116,409,0 24,60,80,116,9 344,35,400,91,5 343,133,399,189,8 76,95,160,179,6 141,194,253,306,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000976.jpg 233,180,247,194,2 23,125,45,147,4 180,106,202,128,8 259,91,301,133,1 104,319,146,361,5 76,148,118,190,1 356,356,412,412,3 303,199,359,255,8 47,302,75,330,8 182,248,266,332,3 9,187,121,299,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000977.jpg 80,43,102,65,2 305,95,347,137,1 18,160,60,202,4 24,1,66,43,4 78,349,120,391,0 212,9,254,51,4 294,199,350,255,3 161,88,273,200,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000978.jpg 139,149,195,205,2 294,193,336,235,7 153,377,181,405,5 300,31,412,143,2 152,265,236,349,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000979.jpg 344,199,400,255,1 149,102,191,144,2 332,77,388,133,2 55,167,139,251,5 301,251,413,363,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000980.jpg 101,157,123,179,8 214,352,256,394,4 356,230,398,272,0 354,88,396,130,6 53,268,109,324,5 164,259,206,301,7 265,259,321,315,5 0,88,84,172,7 96,11,180,95,9 231,31,315,115,7
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000981.jpg 107,307,135,335,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000982.jpg 302,225,324,247,2 132,182,146,196,6 168,188,190,210,3 16,6,72,62,5 139,99,195,155,8 249,49,277,77,1 184,308,212,336,8 355,333,397,375,9 201,234,285,318,2 41,277,153,389,4
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000983.jpg 215,279,229,293,4 169,198,211,240,6 290,46,374,130,9 15,234,99,318,9 273,295,357,379,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000984.jpg 293,17,315,39,5 290,45,304,59,1 140,393,162,415,5 76,299,104,327,5 314,249,356,291,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000985.jpg 3,57,17,71,0 332,339,374,381,3 124,94,236,206,5 66,21,150,105,5 184,302,296,414,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000986.jpg 131,336,187,392,9 303,69,331,97,1 71,278,127,334,6 278,211,306,239,1 217,332,273,388,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000987.jpg 287,293,309,315,7 102,366,124,388,6 272,196,328,252,4 147,82,203,138,8 204,238,260,294,1 82,227,110,255,0 194,139,250,195,7 159,13,215,69,5 11,247,95,331,8
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000988.jpg 396,199,410,213,8 173,63,187,77,7 241,84,263,106,7 8,73,36,101,3 342,207,370,235,5 100,199,142,241,0 48,30,104,86,2 151,263,207,319,9 138,22,250,134,8 246,147,330,231,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000989.jpg 204,76,218,90,6 61,12,83,34,6 362,219,404,261,3 330,283,386,339,9 146,249,202,305,0 103,185,145,227,5 128,46,240,158,3 268,68,380,180,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000990.jpg 147,67,169,89,6 192,387,206,401,9 219,141,233,155,2 83,20,139,76,3 323,199,365,241,7 194,347,236,389,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000991.jpg 213,354,235,376,7 365,7,387,29,0 195,138,223,166,0 279,165,335,221,2 72,132,100,160,4 108,140,150,182,2 108,7,192,91,7 122,202,234,314,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000992.jpg 85,130,169,214,1 245,179,329,263,6
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000993.jpg 290,310,312,332,3 53,313,95,355,7 179,92,235,148,8 197,319,281,403,9 254,50,338,134,2 59,111,143,195,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000994.jpg 207,79,221,93,0 238,276,252,290,0 35,155,119,239,9 145,150,257,262,9
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000995.jpg 87,32,109,54,0 311,30,333,52,6 333,373,375,415,4 333,176,375,218,3 0,72,28,100,7 238,276,266,304,2 275,48,359,132,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000996.jpg 295,341,323,369,6 233,35,261,63,3 212,227,240,255,6 157,273,241,357,6 29,267,113,351,3 39,58,151,170,1
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000997.jpg 37,98,79,140,5 0,295,56,351,3 73,242,185,354,6 256,27,368,139,2 102,93,186,177,5
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000998.jpg 373,35,395,57,5 35,266,57,288,7 291,244,333,286,3 369,235,397,263,6 279,96,335,152,0 219,260,247,288,1 143,124,171,152,8 158,249,214,305,1 38,290,150,402,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\000999.jpg 234,63,276,105,9 246,275,288,317,6 264,212,320,268,7 186,96,242,152,2 239,113,323,197,2 57,194,169,306,0
+E:\DeepLearning\TensorFlow2.0-Examples\4-Object_Detection\YOLOV3\data\dataset\train\001000.jpg 114,148,136,170,2 259,27,315,83,0 222,217,278,273,3 173,333,215,375,4 74,324,158,408,6 26,166,138,278,8 140,62,224,146,8

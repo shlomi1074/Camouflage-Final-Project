@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Airships</folder>
+	<filename>n02692877_5022.JPEG</filename>
+	<path>E:\FinalProject\Datasets\data\Airships\n02692877_5022.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Airship</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>14</ymin>
+			<xmax>268</xmax>
+			<ymax>127</ymax>
+		</bndbox>
+	</object>
+</annotation>

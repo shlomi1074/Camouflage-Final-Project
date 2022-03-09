@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Tanks</folder>
+	<filename>n04389033_10658.JPEG</filename>
+	<path>E:\FinalProject\Datasets\data\Tanks\n04389033_10658.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tank</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>80</ymin>
+			<xmax>393</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>
