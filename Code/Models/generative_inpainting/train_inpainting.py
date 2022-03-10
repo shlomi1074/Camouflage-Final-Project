@@ -24,7 +24,8 @@ def multigpu_graph_def(model, FLAGS, data, gpu_id=0, loss_type='g'):
         raise ValueError('loss type is not supported.')
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
+def Train(log_dir, output_dir):
     # training data
     FLAGS = ng.Config('inpaint.yml')
     img_shapes = FLAGS.img_shapes
@@ -88,14 +89,14 @@ if __name__ == "__main__":
         graph_def_kwargs={
             'model': model, 'FLAGS': FLAGS, 'data': data, 'loss_type': 'g'},
         spe=FLAGS.train_spe,
-        log_dir=FLAGS.log_dir,
+        log_dir=log_dir,
     )
     # add all callbacks
     trainer.add_callbacks([
         discriminator_training_callback,
         ng.callbacks.WeightsViewer(),
         ng.callbacks.ModelRestorer(trainer.context['saver'], dump_prefix=FLAGS.model_restore+'/snap', optimistic=True),
-        ng.callbacks.ModelSaver(FLAGS.train_spe, trainer.context['saver'], FLAGS.log_dir+'/snap'),
+        ng.callbacks.ModelSaver(FLAGS.train_spe, trainer.context['saver'], output_dir+'/snap'),
         ng.callbacks.SummaryWriter((FLAGS.val_psteps//1), trainer.context['summary_writer'], tf.summary.merge_all()),
     ])
     # launch training

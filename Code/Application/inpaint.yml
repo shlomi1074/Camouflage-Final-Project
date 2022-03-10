@@ -22,10 +22,10 @@ random_seed: False
 padding: 'SAME'
 
 # training
-train_spe: 4000
+train_spe: 8000
 max_iters: 100000000
 viz_max_out: 10
-val_psteps: 2000
+val_psteps: 4000
 
 # data
 data_flist:
@@ -50,13 +50,13 @@ data_flist:
     'data/imagenet/validation_static_view.flist',
   ]
 
-static_view_size: 30
-img_shapes: [512, 680, 3]
+static_view_size: 15
+img_shapes: [416, 416, 3]
 height: 128
 width: 128
 max_delta_height: 32
 max_delta_width: 32
-batch_size: 2
+batch_size: 1
 vertical_margin: 0
 horizontal_margin: 0
 

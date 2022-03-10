@@ -1,4 +1,6 @@
 import tensorflow as tf
+#tf.compat.v1.enable_eager_execution()
+
 import cv2
 import core.utils as utils
 import numpy as np
@@ -99,10 +101,11 @@ class Yolov3Api:
         return image
 
     def train_model(self, log_dir, output_dir):
-        try:
-            run(log_dir, output_dir)
-        except:
-            print('Train failed')
+        run(log_dir, output_dir)
+        # try:
+        #     run(log_dir, output_dir)
+        # except:
+        #     print('Train failed')
 
 
 '''
@@ -112,14 +115,14 @@ if __name__ == "__main__":
 
     model_path = r'E:\FinalProject\Code\Models\YOLOV3\TrainedModel\tanks+airships\yolov3'
     yolov3_api = Yolov3Api(416, 0.5)
-    yolov3_api.load_model(model_path)
+    #yolov3_api.load_model(model_path)
     path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
     out = r"E:\FinalProject\temp"
 
-    start = timer()
-    yolov3_api.detect_target_save(path, out)
-    #yolov3_api.train_model(r'./data/log', out)
-    bboxes = yolov3_api.detect_target_bboxes(path)
-    end = timer()
-    print(end - start)
+    #start = timer()
+    #yolov3_api.detect_target_save(path, out)
+    yolov3_api.train_model(r'./data/yolo/log', out)
+    #bboxes = yolov3_api.detect_target_bboxes(path)
+    #end = timer()
+    #print(end - start)
     #print(single_image_detection_bboxs(path))

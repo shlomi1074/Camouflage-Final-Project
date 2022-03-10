@@ -62,8 +62,8 @@ def setup(log_dir):
 
     optimizer = tf.keras.optimizers.Adam()
     if os.path.exists(logdir): shutil.rmtree(logdir)
+    #writer = tf.contrib.summary.create_file_writer(logdir)
     writer = tf.contrib.summary.create_file_writer(logdir)
-
 
 def train_step(image_data, target):
     global global_steps
@@ -93,6 +93,12 @@ def train_step(image_data, target):
                  "prob_loss: %4.2f   total_loss: %4.2f" %(global_steps, optimizer.lr.numpy(),
                                                           giou_loss, conf_loss,
                                                           prob_loss, total_loss))
+
+        # tf.print("=> STEP %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
+        #          "prob_loss: %4.2f   total_loss: %4.2f" %(global_steps, optimizer.lr.eval(session=tf.compat.v1.Session()),
+        #                                                   giou_loss, conf_loss,
+        #                                                   prob_loss, total_loss))
+
         # update learning rate
         global_steps.assign_add(1)
         if global_steps < warmup_steps:
@@ -104,27 +110,35 @@ def train_step(image_data, target):
         optimizer.lr.assign(lr.numpy())
 
         # writing summary data
-        with writer.as_default():
-            tf.compat.v1.summary.scalar(name="lr", tensor=optimizer.lr) #, step=global_steps)
-            tf.compat.v1.summary.scalar("loss/total_loss", total_loss)#, step=global_steps)
-            tf.compat.v1.summary.scalar("loss/giou_loss", giou_loss)#, step=global_steps)
-            tf.compat.v1.summary.scalar("loss/conf_loss", conf_loss)#, step=global_steps)
-            tf.compat.v1.summary.scalar("loss/prob_loss", prob_loss)#, step=global_steps)
-        writer.flush()
+        with writer.as_default(), tf.contrib.summary.always_record_summaries():
+
+            # tf.compat.v1.summary.scalar(name="lr", tensor=optimizer.lr) #, step=global_steps)
+            # tf.compat.v1.summary.scalar("loss/total_loss", total_loss)#, step=global_steps)
+            # tf.compat.v1.summary.scalar("loss/giou_loss", giou_loss)#, step=global_steps)
+            # tf.compat.v1.summary.scalar("loss/conf_loss", conf_loss)#, step=global_steps)
+            # tf.compat.v1.summary.scalar("loss/prob_loss", prob_loss)#, step=global_steps)
+            tf.contrib.summary.scalar("lr", optimizer.lr, step=global_steps)
+            tf.contrib.summary.scalar("loss/total_loss", total_loss, step=global_steps)
+            tf.contrib.summary.scalar("loss/giou_loss", giou_loss, step=global_steps)
+            tf.contrib.summary.scalar("loss/conf_loss", conf_loss, step=global_steps)
+            tf.contrib.summary.scalar("loss/prob_loss", prob_loss, step=global_steps)
+            writer.flush()
+
 
 
 def run(log_dir, output_dir):
+    tf.summary.FileWriterCache.clear()
     setup(log_dir)
     for epoch in range(cfg.TRAIN.EPOCHS):
         for image_data, target in trainset:
             train_step(image_data, target)
-        model.save_weights(output_dir + r'\yolov3')
+    model.save_weights(output_dir + r'\yolov3')
 
 
 '''
 for tests - needs to be removed 
 '''
 if __name__ == "__main__":
-    run(r"./data/log", r'E:\FinalProject\temp')
+    run(r"./data/log/", r'E:\FinalProject\temp')
 
 
