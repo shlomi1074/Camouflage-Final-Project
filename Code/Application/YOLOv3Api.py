@@ -54,11 +54,13 @@ class Yolov3Api:
         image_data = utils.image_preporcess(np.copy(image), [self.input_size, self.input_size])
         image_data = image_data[np.newaxis, ...].astype(np.float32)
 
-        pred_bbox = self.model.predict(image_data)
-        pred_bbox = [tf.reshape(x, (-1, tf.shape(x)[-1])) for x in pred_bbox]
-        pred_bbox = tf.concat(pred_bbox, axis=0)
-        bboxes = utils.postprocess_boxes(pred_bbox, image_size, self.input_size, self.iou_threshold)
-        bboxes = utils.nms(bboxes, self.iou_threshold, method='nms')
+        graph = tf.get_default_graph()
+        with graph.as_default():
+            pred_bbox = self.model.predict(image_data)
+            pred_bbox = [tf.reshape(x, (-1, tf.shape(x)[-1])) for x in pred_bbox]
+            pred_bbox = tf.concat(pred_bbox, axis=0)
+            bboxes = utils.postprocess_boxes(pred_bbox, image_size, self.input_size, self.iou_threshold)
+            bboxes = utils.nms(bboxes, self.iou_threshold, method='nms')
 
         return image, bboxes
 
@@ -104,7 +106,7 @@ class Yolov3Api:
         run(log_dir, output_dir)
         # try:
         #     run(log_dir, output_dir)
-        # except:
+        # except e:
         #     print('Train failed')
 
 

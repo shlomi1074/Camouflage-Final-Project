@@ -89,6 +89,7 @@ def train_step(image_data, target):
 
         gradients = tape.gradient(total_loss, model.trainable_variables)
         optimizer.apply_gradients(zip(gradients, model.trainable_variables))
+        #lr_array = optimizer.lr.eval(session=tf.compat.v1.Session())
         tf.print("=> STEP %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
                  "prob_loss: %4.2f   total_loss: %4.2f" %(global_steps, optimizer.lr.numpy(),
                                                           giou_loss, conf_loss,
