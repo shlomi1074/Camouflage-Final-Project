@@ -48,7 +48,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="iconSize">
        <size>
@@ -72,22 +72,55 @@
        <attribute name="title">
         <string>About</string>
        </attribute>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QLabel" name="label_8">
         <property name="geometry">
          <rect>
-          <x>240</x>
-          <y>190</y>
-          <width>271</width>
-          <height>181</height>
+          <x>30</x>
+          <y>40</y>
+          <width>601</width>
+          <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
-         <string notr="true">background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #fafafa, stop: 0.4 #f4f4f4,
-                                stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
-         <string>PushButton</string>
+         <string>This application is an implemention of the method presented in the following article:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>70</y>
+          <width>451</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:green</string>
+        </property>
+        <property name="text">
+         <string>&lt;a href=&quot;https://www.mdpi.com/2076-3417/10/15/5284/htm&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/a&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="openExternalLinks">
+         <bool>true</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
         </property>
        </widget>
       </widget>
@@ -369,10 +402,8 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
-  <tabstop>tabWidget</tabstop>
   <tabstop>yoloStartTrainButton</tabstop>
   <tabstop>yoloStopTrainButton</tabstop>
-  <tabstop>pushButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>

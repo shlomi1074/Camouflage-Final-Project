@@ -24,9 +24,11 @@ class Window(QMainWindow):
         self.pushButton_3.setStyleSheet(pb)
         self.yoloStopTrainButton.setStyleSheet(pb)
         self.commands = GuiFunctions(416, 0.5)
+        self.tabWidget.setCurrentIndex(0)
+
         self.yoloStartTrainButton.clicked.connect(self.start_yolo_train)
         self.yoloStopTrainButton.clicked.connect(self.stop_yolo_train)
-        self.thread = None
+
         self.process = None
         self.tensorboard_process = None
 
