@@ -5,10 +5,8 @@ import tensorflow as tf
 
 import YOLOv3Api
 import DeepFiilApi
-import sys
 import os
 import cv2
-import time
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 from tensorflow.python.eager.context import eager_mode, graph_mode
@@ -98,7 +96,4 @@ if __name__ == "__main__":
     cv2.imwrite(r'E:\FinalProject\temp\deep.png', d[0][:, :, ::-1])
     functions.on_deepfill_train_button_click('data/log', r'E:\FinalProject\temp')
     functions.on_yolov3_train_button_click('data/log', r'E:\FinalProject\temp')
-
-
-
 

@@ -13,3 +13,4 @@ contrib~=0.3.0
 cloudbiolinux~=0.1
 cryptography~=36.0.1
 zipp~=3.7.0
+PyQt5~=5.15.6

@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$/../Code/Models/generative_inpainting" />
     <content url="file://$MODULE_DIR$/../Code/Models/neuralgym" />
     <content url="file://$MODULE_DIR$/../Code/scripts" />
+    <content url="file://$MODULE_DIR$/../GUI" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

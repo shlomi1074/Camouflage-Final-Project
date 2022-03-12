@@ -1,2 +1,2 @@
 import os
-os.system("tensorboard --logdir E:\\FinalProject\\Models\\YOLOV3\\data\\log")
+os.system(r"tensorboard --logdir E:\FinalProject\Code\Application\data\logs\yolo_logs")
