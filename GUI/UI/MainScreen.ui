@@ -45,6 +45,9 @@
       <property name="focusPolicy">
        <enum>Qt::TabFocus</enum>
       </property>
+      <property name="toolTipDuration">
+       <number>5</number>
+      </property>
       <property name="styleSheet">
        <string notr="true"/>
       </property>
@@ -464,6 +467,12 @@
           <width>61</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="toolTip">
+         <string>Training steps per epoch</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>5</number>
         </property>
         <property name="styleSheet">
          <string notr="true">color:white</string>
