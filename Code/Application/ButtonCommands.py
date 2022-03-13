@@ -1,15 +1,12 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import tensorflow as tf
-#tf.compat.v1.enable_eager_execution()
-
 import YOLOv3Api
 import DeepFiilApi
-import os
 import cv2
+import tensorflow as tf  # tf.compat.v1.enable_eager_execution()
+from tensorflow.python.eager.context import eager_mode  # , graph_mode
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-from tensorflow.python.eager.context import eager_mode, graph_mode
 # with graph_mode(): with eager_mode():
 
 
@@ -67,7 +64,7 @@ class GuiFunctions:
         mask = self.deepfill_api.paint_mask_on_image(image_path, bboxes)
         deepfill_output = self.deepfill_api.fill_image(image, bboxes)
 
-        return img, yolov3_image,mask , deepfill_output
+        return img, yolov3_image, mask, deepfill_output
         # try:
         #     image, bboxes = self.yolov3_api.detect_target_bboxes(image_path)
         #     yolov3_image = self.yolov3_api.detect_target_draw_bboxes(image_path)
@@ -85,11 +82,11 @@ if __name__ == "__main__":
     print(deep_res)
     yolo_res = functions.load_yolov3_model(r'E:\FinalProject\TrainedModels\YOLOv3\yolov3')
     print(yolo_res)
-    #functions.on_batch_test_button_click(r'E:\FinalProject\Datasets\test_batch', r'E:\FinalProject\temp')
-    #functions.on_deepfill_train_button_click('data/log', r'E:\FinalProject\temp')
-    #i, y,m,d = functions.on_single_test_button_click(r"E:\FinalProject\Datasets\test_batch\n02692877_8463.JPEG")
-    i, y, m, d = functions.on_single_test_button_click("E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG")
-    #functions.yolov3_api.detect_target_bboxes(image_path="E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG")
+    # functions.on_batch_test_button_click(r'E:\FinalProject\Datasets\test_batch', r'E:\FinalProject\temp')
+    # functions.on_deepfill_train_button_click('data/log', r'E:\FinalProject\temp')
+    # i, y,m,d = functions.on_single_test_button_click(r"E:\FinalProject\Datasets\test_batch\n02692877_8463.JPEG")
+    i, y, m, d = functions.on_single_test_button_click(r"E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG")
+    # functions.yolov3_api.detect_target_bboxes(image_path="E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG")
     cv2.imwrite(r'E:\FinalProject\temp\orig.png', i)
     cv2.imwrite(r'E:\FinalProject\temp\yolo.png', y)
     cv2.imwrite(r'E:\FinalProject\temp\mask.png', m)
