@@ -22,7 +22,7 @@ class Window(QMainWindow):
         with open('UI/push_button.css', "r") as fh:
             pb = fh.read()
 
-        self.resize(1200, 800)
+        self.setFixedSize(1200, 800)
         self.tabWidget.setStyleSheet(tw)
         self.pushButton_5.setStyleSheet(pb)
         self.yoloStartTrainButton.setStyleSheet(pb)
@@ -30,47 +30,43 @@ class Window(QMainWindow):
         self.yoloStopTrainButton.setStyleSheet(pb)
         self.commands = GuiFunctions(416, 0.5)
         self.tabWidget.setCurrentIndex(0)
-        self.saveModelButton.setStyleSheet(pb)
-        self.tensorboardLogFolderButton.setStyleSheet(pb)
-        self.saveModelButton_2.setStyleSheet(pb)
-        self.tensorboardLogFolderButton_2.setStyleSheet(pb)
-        self.saveModelButton.setText(self.yolov3_output_folder)
-        self.saveModelButton_2.setText(self.deepfillv1_output_folder)
-        self.tensorboardLogFolderButton.setText(self.yolov3_tensorboard_logs_folder)
-        self.tensorboardLogFolderButton_2.setText(self.deepfillv1_tensorboard_logs_folder)
+        self.saveModelLineText.setText(self.yolov3_output_folder)
+        self.saveModelLineText_2.setText(self.deepfillv1_output_folder)
+        self.tensorboardLogslLineText.setText(self.yolov3_tensorboard_logs_folder)
+        self.tensorboardLogslLineText_2.setText(self.deepfillv1_tensorboard_logs_folder)
         self.trainingTrackerLabel.setVisible(False)
         self.yoloStartTrainButton.clicked.connect(self.start_yolo_train)
         self.yoloStopTrainButton.clicked.connect(self.stop_yolo_train)
-        self.saveModelButton.clicked.connect(self.yolov3_select_model_folder)
-        self.tensorboardLogFolderButton.clicked.connect(self.yolov3_select_logs_folder)
-        self.saveModelButton.clicked.connect(self.deepfillv1_select_model_folder)
-        self.tensorboardLogFolderButton.clicked.connect(self.deepfillv1_select_logs_folder)
+        self.tensorboardLogFolderButton.mousePressEvent = self.yolov3_select_logs_folder
+        self.saveModelButton.mousePressEvent = self.yolov3_select_model_folder
+        self.saveModelButton_2.mousePressEvent = self.deepfillv1_select_model_folder
+        self.tensorboardLogFolderButton_2.mousePressEvent = self.deepfillv1_select_logs_folder
         self.process = None
         self.tensorboard_process = None
 
-    def yolov3_select_model_folder(self):
+    def yolov3_select_model_folder(self, event):
         yolo_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
         if yolo_dir != '' and yolo_dir is not None:
             self.yolov3_output_folder = yolo_dir
-        self.saveModelButton.setText(self.yolov3_output_folder)
+        self.saveModelLineText.setText(self.yolov3_output_folder)
 
-    def yolov3_select_logs_folder(self):
+    def yolov3_select_logs_folder(self, event):
         tensorboard_yolo_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
         if tensorboard_yolo_dir != '' and tensorboard_yolo_dir is not None:
             self.yolov3_tensorboard_logs_folder = tensorboard_yolo_dir
-        self.tensorboardLogFolderButton.setText(self.yolov3_tensorboard_logs_folder)
+        self.tensorboardLogslLineText.setText(self.yolov3_tensorboard_logs_folder)
 
-    def deepfillv1_select_model_folder(self):
+    def deepfillv1_select_model_folder(self, event):
         deep_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
         if deep_dir != '' and deep_dir is not None:
             self.deepfillv1_output_folder = deep_dir
-        self.saveModelButton.setText(self.deepfillv1_output_folder)
+        self.saveModelLineText_2.setText(self.deepfillv1_output_folder)
 
-    def deepfillv1_select_logs_folder(self):
+    def deepfillv1_select_logs_folder(self, event):
         tensorboard_deep_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
         if tensorboard_deep_dir != '' and tensorboard_deep_dir is not None:
             self.deepfillv1_tensorboard_logs_folder = tensorboard_deep_dir
-        self.tensorboardLogFolderButton.setText(self.deepfillv1_tensorboard_logs_folder)
+        self.tensorboardLogslLineText_2.setText(self.deepfillv1_tensorboard_logs_folder)
 
     def start_yolo_train(self):
         self.process = Process(target=self.commands.on_yolov3_train_button_click,

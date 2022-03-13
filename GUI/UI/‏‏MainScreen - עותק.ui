@@ -49,7 +49,7 @@
        <number>5</number>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:#bdbfc0</string>
+       <string notr="true"/>
       </property>
       <property name="tabShape">
        <enum>QTabWidget::Rounded</enum>
@@ -181,7 +181,7 @@
         <property name="geometry">
          <rect>
           <x>210</x>
-          <y>440</y>
+          <y>450</y>
           <width>141</width>
           <height>31</height>
          </rect>
@@ -197,7 +197,7 @@
         <property name="geometry">
          <rect>
           <x>350</x>
-          <y>440</y>
+          <y>450</y>
           <width>141</width>
           <height>31</height>
          </rect>
@@ -299,7 +299,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -315,7 +315,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>1e-3</string>
@@ -331,7 +331,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>1e-6</string>
@@ -347,7 +347,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>30</string>
@@ -363,7 +363,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -373,7 +373,7 @@
         <property name="geometry">
          <rect>
           <x>860</x>
-          <y>440</y>
+          <y>450</y>
           <width>141</width>
           <height>31</height>
          </rect>
@@ -389,7 +389,7 @@
         <property name="geometry">
          <rect>
           <x>720</x>
-          <y>440</y>
+          <y>450</y>
           <width>141</width>
           <height>31</height>
          </rect>
@@ -399,6 +399,32 @@
         </property>
         <property name="text">
          <string>Start Training</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="saveModelButton">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>330</y>
+          <width>281</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save model to:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="tensorboardLogFolderButton">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>400</y>
+          <width>281</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TensorBoard log folder</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_10">
@@ -529,7 +555,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -545,7 +571,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>4000</string>
@@ -561,7 +587,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>100000000</string>
@@ -577,7 +603,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>10</string>
@@ -593,7 +619,7 @@
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:white</string>
         </property>
         <property name="text">
          <string>2000</string>
@@ -615,6 +641,19 @@
          <string>Save model to:</string>
         </property>
        </widget>
+       <widget class="QPushButton" name="saveModelButton_2">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>330</y>
+          <width>281</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save model to:</string>
+        </property>
+       </widget>
        <widget class="QLabel" name="label_18">
         <property name="geometry">
          <rect>
@@ -629,6 +668,19 @@
         </property>
         <property name="text">
          <string>Tensorboard logs directory:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="tensorboardLogFolderButton_2">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>400</y>
+          <width>281</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TensorBoard log folder</string>
         </property>
        </widget>
        <widget class="QLabel" name="trainingTrackerLabel">
@@ -846,15 +898,15 @@
          <enum>Qt::Horizontal</enum>
         </property>
        </widget>
-       <widget class="QLineEdit" name="saveModelLineText">
+       <widget class="QLineEdit" name="lineEdit_11">
         <property name="enabled">
          <bool>false</bool>
         </property>
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>320</y>
-          <width>281</width>
+          <x>230</x>
+          <y>540</y>
+          <width>241</width>
           <height>31</height>
          </rect>
         </property>
@@ -865,11 +917,11 @@
          <string>  Save model to:</string>
         </property>
        </widget>
-       <widget class="QLabel" name="saveModelButton">
+       <widget class="QLabel" name="label_19">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>320</y>
+          <x>430</x>
+          <y>540</y>
           <width>31</width>
           <height>31</height>
          </rect>
@@ -893,187 +945,6 @@
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QLabel" name="saveModelButton_2">
-        <property name="geometry">
-         <rect>
-          <x>960</x>
-          <y>320</y>
-          <width>31</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="autoFillBackground">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; background-color:transparent</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="textFormat">
-         <enum>Qt::RichText</enum>
-        </property>
-        <property name="pixmap">
-         <pixmap>../Resources/Folder_icon.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="saveModelLineText_2">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>720</x>
-          <y>320</y>
-          <width>281</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>  Save model to:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="tensorboardLogFolderButton">
-        <property name="geometry">
-         <rect>
-          <x>450</x>
-          <y>390</y>
-          <width>31</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="autoFillBackground">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; background-color:transparent</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="textFormat">
-         <enum>Qt::RichText</enum>
-        </property>
-        <property name="pixmap">
-         <pixmap>../Resources/Folder_icon.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="tensorboardLogslLineText">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>390</y>
-          <width>281</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Tensorboard logs</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="tensorboardLogFolderButton_2">
-        <property name="geometry">
-         <rect>
-          <x>960</x>
-          <y>390</y>
-          <width>31</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="autoFillBackground">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; background-color:transparent</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="textFormat">
-         <enum>Qt::RichText</enum>
-        </property>
-        <property name="pixmap">
-         <pixmap>../Resources/Folder_icon.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="tensorboardLogslLineText_2">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>720</x>
-          <y>390</y>
-          <width>281</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Tensorboard logs</string>
-        </property>
-       </widget>
-       <zorder>label</zorder>
-       <zorder>label_2</zorder>
-       <zorder>yoloStartTrainButton</zorder>
-       <zorder>yoloStopTrainButton</zorder>
-       <zorder>label_3</zorder>
-       <zorder>label_4</zorder>
-       <zorder>label_5</zorder>
-       <zorder>label_6</zorder>
-       <zorder>label_7</zorder>
-       <zorder>lineEdit</zorder>
-       <zorder>lineEdit_2</zorder>
-       <zorder>lineEdit_3</zorder>
-       <zorder>lineEdit_4</zorder>
-       <zorder>lineEdit_5</zorder>
-       <zorder>pushButton_5</zorder>
-       <zorder>pushButton_3</zorder>
-       <zorder>label_10</zorder>
-       <zorder>label_11</zorder>
-       <zorder>label_12</zorder>
-       <zorder>label_13</zorder>
-       <zorder>label_14</zorder>
-       <zorder>label_15</zorder>
-       <zorder>label_16</zorder>
-       <zorder>lineEdit_6</zorder>
-       <zorder>lineEdit_7</zorder>
-       <zorder>lineEdit_8</zorder>
-       <zorder>lineEdit_9</zorder>
-       <zorder>lineEdit_10</zorder>
-       <zorder>label_17</zorder>
-       <zorder>label_18</zorder>
-       <zorder>trainingTrackerLabel</zorder>
-       <zorder>line</zorder>
-       <zorder>saveModelLineText</zorder>
-       <zorder>saveModelButton</zorder>
-       <zorder>saveModelLineText_2</zorder>
-       <zorder>saveModelButton_2</zorder>
-       <zorder>tensorboardLogslLineText</zorder>
-       <zorder>tensorboardLogFolderButton</zorder>
-       <zorder>tensorboardLogslLineText_2</zorder>
-       <zorder>tensorboardLogFolderButton_2</zorder>
       </widget>
       <widget class="QWidget" name="singleTest">
        <attribute name="title">
