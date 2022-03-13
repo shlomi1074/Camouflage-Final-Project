@@ -3,8 +3,8 @@ import os
 import shutil
 from multiprocessing import Process
 import subprocess
-from PyQt5 import uic, QtCore
-from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QFileDialog
+from PyQt5 import uic
+from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from ButtonCommands import GuiFunctions
 
 
@@ -18,9 +18,9 @@ class Window(QMainWindow):
         # LOAD UI FILE
         self.ui = uic.loadUi(r".\UI\MainScreen.ui", self)
         with open('UI/tab.css', "r") as fh:
-             tw = fh.read()
+            tw = fh.read()
         with open('UI/push_button.css', "r") as fh:
-             pb = fh.read()
+            pb = fh.read()
 
         self.resize(1200, 800)
         self.tabWidget.setStyleSheet(tw)
@@ -49,27 +49,27 @@ class Window(QMainWindow):
         self.tensorboard_process = None
 
     def yolov3_select_model_folder(self):
-        dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
-        if dir != '' and dir is not None:
-            self.yolov3_output_folder = dir
+        yolo_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
+        if yolo_dir != '' and yolo_dir is not None:
+            self.yolov3_output_folder = yolo_dir
         self.saveModelButton.setText(self.yolov3_output_folder)
 
     def yolov3_select_logs_folder(self):
-        dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
-        if dir != '' and dir is not None:
-            self.yolov3_tensorboard_logs_folder = dir
+        tensorboard_yolo_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
+        if tensorboard_yolo_dir != '' and tensorboard_yolo_dir is not None:
+            self.yolov3_tensorboard_logs_folder = tensorboard_yolo_dir
         self.tensorboardLogFolderButton.setText(self.yolov3_tensorboard_logs_folder)
 
     def deepfillv1_select_model_folder(self):
-        dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
-        if dir != '' and dir is not None:
-            self.deepfillv1_output_folder = dir
+        deep_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
+        if deep_dir != '' and deep_dir is not None:
+            self.deepfillv1_output_folder = deep_dir
         self.saveModelButton.setText(self.deepfillv1_output_folder)
 
     def deepfillv1_select_logs_folder(self):
-        dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
-        if dir != '' and dir is not None:
-            self.deepfillv1_tensorboard_logs_folder = dir
+        tensorboard_deep_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
+        if tensorboard_deep_dir != '' and tensorboard_deep_dir is not None:
+            self.deepfillv1_tensorboard_logs_folder = tensorboard_deep_dir
         self.tensorboardLogFolderButton.setText(self.deepfillv1_tensorboard_logs_folder)
 
     def start_yolo_train(self):
