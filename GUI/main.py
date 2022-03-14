@@ -19,22 +19,17 @@ class Window(QMainWindow):
         self.ui = uic.loadUi(r".\UI\MainScreen.ui", self)
         with open('UI/tab.css', "r") as fh:
             tw = fh.read()
-        with open('UI/push_button.css', "r") as fh:
-            pb = fh.read()
 
         self.setFixedSize(1200, 800)
-        self.tabWidget.setStyleSheet(tw)
-        self.pushButton_5.setStyleSheet(pb)
-        self.yoloStartTrainButton.setStyleSheet(pb)
-        self.pushButton_3.setStyleSheet(pb)
-        self.yoloStopTrainButton.setStyleSheet(pb)
+        self.tabContainer.setStyleSheet(tw)
         self.commands = GuiFunctions(416, 0.5)
-        self.tabWidget.setCurrentIndex(0)
+        self.tabContainer.setCurrentIndex(0)
         self.saveModelLineText.setText(self.yolov3_output_folder)
         self.saveModelLineText_2.setText(self.deepfillv1_output_folder)
         self.tensorboardLogslLineText.setText(self.yolov3_tensorboard_logs_folder)
         self.tensorboardLogslLineText_2.setText(self.deepfillv1_tensorboard_logs_folder)
         self.trainingTrackerLabel.setVisible(False)
+        self.tensorboardIcon.setVisible(False)
         self.yoloStartTrainButton.clicked.connect(self.start_yolo_train)
         self.yoloStopTrainButton.clicked.connect(self.stop_yolo_train)
         self.tensorboardLogFolderButton.mousePressEvent = self.yolov3_select_logs_folder
@@ -70,11 +65,12 @@ class Window(QMainWindow):
 
     def start_yolo_train(self):
         self.process = Process(target=self.commands.on_yolov3_train_button_click,
-                               args=(r'..\Code\Application\data\logs\yolo_logs',
-                                     r'..\temp\yolo_model',))
+                               args=(self.yolov3_tensorboard_logs_folder,
+                                     self.yolov3_output_folder,))
         self.process.start()
-        self.run_tensorboard(r'C:\Camouflage-Final-Project\Code\Application\data\logs\yolo_logs')
+        self.run_tensorboard(self.yolov3_tensorboard_logs_folder)
         self.trainingTrackerLabel.setVisible(True)
+        self.tensorboardIcon.setVisible(True)
         self.yoloStartTrainButton.setEnabled(False)
 
     def stop_yolo_train(self):
@@ -86,6 +82,7 @@ class Window(QMainWindow):
             self.tensorboard_process = None
         self.yoloStartTrainButton.setEnabled(True)
         self.trainingTrackerLabel.setVisible(False)
+        self.tensorboardIcon.setVisible(False)
 
     def run_tensorboard(self, log_dir):
         if os.path.exists(log_dir):
