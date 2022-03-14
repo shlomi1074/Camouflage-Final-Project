@@ -28,9 +28,10 @@ class GuiFunctions:
         except:
             return False
 
-    def on_yolov3_train_button_click(self, log_dir, output_path):
+    def on_yolov3_train_button_click(self, log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr):
         with eager_mode():
-            self.yolov3_api.train_model(log_dir, output_path)
+            self.yolov3_api.train_model(log_dir, output_path, int(epochs), int(warmup_epochs),
+                                        float(lr_init), float(end_lr))
 
         # try:
         #     self.yolov3_api.train_model(log_dir, output_path)

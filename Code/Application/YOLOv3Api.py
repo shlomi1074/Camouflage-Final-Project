@@ -102,8 +102,8 @@ class Yolov3Api:
         image = utils.draw_bbox(image, bboxes)
         return image
 
-    def train_model(self, log_dir, output_dir):
-        run(log_dir, output_dir)
+    def train_model(self, log_dir, output_dir, epochs, warmup_epochs, lr_init, end_lr):
+        run(log_dir, output_dir, int(epochs), int(warmup_epochs), float(lr_init), float(end_lr))
         # try:
         #     run(log_dir, output_dir)
         # except e:
