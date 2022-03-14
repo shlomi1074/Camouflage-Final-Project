@@ -27,13 +27,18 @@
    <enum>QTabWidget::Triangular</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <kerning>true</kerning>
+    </font>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QTabWidget" name="tabContainer">
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>9</pointsize>
        </font>
       </property>
       <property name="cursor">
@@ -85,9 +90,9 @@
        <widget class="QLabel" name="label_8">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>40</y>
-          <width>761</width>
+          <x>40</x>
+          <y>110</y>
+          <width>731</width>
           <height>31</height>
          </rect>
         </property>
@@ -97,7 +102,7 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:white</string>
+         <string notr="true"/>
         </property>
         <property name="text">
          <string>This application is an implemention of the method presented in the following article:</string>
@@ -106,8 +111,8 @@
        <widget class="QLabel" name="label_9">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>80</y>
+          <x>40</x>
+          <y>140</y>
           <width>451</width>
           <height>31</height>
          </rect>
@@ -131,6 +136,29 @@
         </property>
         <property name="textInteractionFlags">
          <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>375</x>
+          <y>30</y>
+          <width>450</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Self Adaptive Digital Camouflage</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </widget>
@@ -232,6 +260,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -296,6 +329,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -319,7 +357,7 @@
          <string>2</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="deepfillStopTrainButton">
         <property name="geometry">
          <rect>
           <x>870</x>
@@ -350,7 +388,7 @@
          </size>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="deepfillStartTrainButton">
         <property name="geometry">
          <rect>
           <x>720</x>
@@ -390,6 +428,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -406,6 +449,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -421,6 +469,11 @@
           <width>61</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="toolTip">
          <string>Training steps per epoch</string>
@@ -444,6 +497,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -459,6 +517,11 @@
           <width>91</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -476,6 +539,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -491,6 +559,11 @@
           <width>71</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -508,6 +581,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -523,6 +601,11 @@
           <width>113</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -540,6 +623,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -556,6 +644,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -571,6 +664,11 @@
           <width>113</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -845,6 +943,11 @@
           <height>31</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -967,6 +1070,11 @@
           <height>31</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -1046,6 +1154,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -1062,11 +1175,16 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
         <property name="text">
-         <string>2</string>
+         <string>8</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_22">
@@ -1077,6 +1195,11 @@
           <width>81</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -1115,6 +1238,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -1130,6 +1258,11 @@
           <width>113</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -1147,6 +1280,11 @@
           <height>20</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -1163,6 +1301,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -1178,6 +1321,11 @@
           <width>81</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -1461,6 +1609,23 @@
          <bool>true</bool>
         </property>
        </widget>
+       <widget class="QTextBrowser" name="trainingProcessText">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>571</y>
+          <width>800</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Training process will be displayed here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
        <zorder>label_2</zorder>
        <zorder>label_3</zorder>
        <zorder>label_4</zorder>
@@ -1472,8 +1637,8 @@
        <zorder>lineEdit_3</zorder>
        <zorder>yolo_epochs</zorder>
        <zorder>lineEdit_5</zorder>
-       <zorder>pushButton_5</zorder>
-       <zorder>pushButton_3</zorder>
+       <zorder>deepfillStopTrainButton</zorder>
+       <zorder>deepfillStartTrainButton</zorder>
        <zorder>label_10</zorder>
        <zorder>label_11</zorder>
        <zorder>label_12</zorder>
@@ -1512,6 +1677,7 @@
        <zorder>yoloStopTrainButton</zorder>
        <zorder>line_2</zorder>
        <zorder>tensorboardIcon</zorder>
+       <zorder>trainingProcessText</zorder>
       </widget>
       <widget class="QWidget" name="TrainReport">
        <attribute name="title">

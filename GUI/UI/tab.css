@@ -31,6 +31,7 @@ QTabBar::tab:selected, QTabBar::tab:hover {
                                 stop: 0 #1D699D, stop: 0.4 #1D699D,
                                 stop: 0.5 #1D699D, stop: 1.0 #1D699D); */
     background:#e40444;
+	color: black;
 }
 
 QTabBar::tab:selected {
