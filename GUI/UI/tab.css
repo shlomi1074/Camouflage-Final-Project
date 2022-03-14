@@ -11,23 +11,26 @@ QTabWidget::tab-bar {
 /* Style the tab using the tab sub-control. Note that
     it reads QTabBar _not_ QTabWidget */
 QTabBar::tab {
-    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    /* background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                 stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
-                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3); */
+    background: #2b2b2b;
+    color: #bdbfc0;
     border: 2px solid #C4C4C3;
     border-bottom-color: #C2C7CB; /* same as the pane color */
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     min-width: 8ex;
     padding: 2px;
-	width: 35ex;
+	width: 45ex;
 	height: 12ex;
 }
 
 QTabBar::tab:selected, QTabBar::tab:hover {
-    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+    /* background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
                                 stop: 0 #1D699D, stop: 0.4 #1D699D,
-                                stop: 0.5 #1D699D, stop: 1.0 #1D699D);
+                                stop: 0.5 #1D699D, stop: 1.0 #1D699D); */
+    background:#e40444;
 }
 
 QTabBar::tab:selected {
