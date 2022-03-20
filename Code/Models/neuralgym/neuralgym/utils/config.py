@@ -86,9 +86,9 @@ class Config(dict):
         # parent of IOError, OSError *and* WindowsError where available
         except EnvironmentError:
             logger.error('Please check the file with name of "%s"', filename)
-        print(' APP CONFIG '.center(80, '-'))
-        self.show()
-        print(''.center(80, '-'))
+        #print(' APP CONFIG '.center(80, '-'))
+        #self.show()
+        #print(''.center(80, '-'))
 
     def __getattr__(self, name):
         value = self._cfg_dict[name]

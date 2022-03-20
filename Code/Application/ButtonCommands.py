@@ -1,4 +1,6 @@
 import os
+import sys
+import numpy as np
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import YOLOv3Api
 import DeepFiilApi
@@ -21,7 +23,7 @@ class GuiFunctions:
         return result
 
     def load_deepfill_model(self, deepfill_model_path):
-        # self.deepfill_api.load_model(deepfill_model_path)
+        #self.deepfill_api.load_model(deepfill_model_path)
         try:
             self.deepfill_api.load_model(deepfill_model_path)
             return True
@@ -30,8 +32,15 @@ class GuiFunctions:
 
     def on_yolov3_train_button_click(self, log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr):
         with eager_mode():
-            self.yolov3_api.train_model(log_dir, output_path, int(epochs), int(warmup_epochs),
-                                        float(lr_init), float(end_lr))
+            try:
+                epochs = int(epochs)
+                warmup_epochs = int(warmup_epochs)
+                lr_init = float(lr_init)
+                end_lr = float(end_lr)
+                self.yolov3_api.train_model(log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr)
+            except ValueError:
+                print("Please fill valid parameters")
+
 
         # try:
         #     self.yolov3_api.train_model(log_dir, output_path)
@@ -46,17 +55,17 @@ class GuiFunctions:
         # except:
         #     print("Oops!", sys.exc_info()[0], "occurred.")
 
-    def on_batch_test_button_click(self, input_dir_path, output_dir_path):
-        for filename in os.listdir(input_dir_path):
-            file = os.path.join(input_dir_path, filename)
-            # checking if it is a file
-            if os.path.isfile(file):
-                try:
-                    image, bboxes = self.yolov3_api.detect_target_bboxes(file)
-                    result_image = self.deepfill_api.fill_image(image, bboxes)
-                    cv2.imwrite(output_dir_path + '\\' + file.split("\\")[-1], result_image[0][:, :, ::-1])
-                except:
-                    print("failed: " + file)
+    def on_batch_test_button_click(self, file, input_dir_path, output_dir_path):
+        # for filename in os.listdir(input_dir_path):
+        #     file = os.path.join(input_dir_path, filename)
+        #     # checking if it is a file
+        #     if os.path.isfile(file):
+        #         try:
+        image, bboxes = self.yolov3_api.detect_target_bboxes(file)
+        result_image = self.deepfill_api.fill_image(image, bboxes)
+        cv2.imwrite(output_dir_path + '\\' + file.split("\\")[-1], result_image[0][:, :, ::-1])
+                # except:
+                #     print("failed: " + file)
 
     def on_single_test_button_click(self, image_path):
         img = cv2.imread(image_path)
@@ -65,6 +74,10 @@ class GuiFunctions:
         mask = self.deepfill_api.paint_mask_on_image(image_path, bboxes)
         deepfill_output = self.deepfill_api.fill_image(image, bboxes)
 
+        cv2.imwrite(r'E:\FinalProject\GUI\temp\orig.png', img)
+        cv2.imwrite(r'E:\FinalProject\GUI\temp\yolo.png', yolov3_image)
+        cv2.imwrite(r'E:\FinalProject\GUI\temp\mask.png', mask)
+        cv2.imwrite(r'E:\FinalProject\GUI\temp\deepfill.png', deepfill_output[0][:, :, ::-1])
         return img, yolov3_image, mask, deepfill_output
         # try:
         #     image, bboxes = self.yolov3_api.detect_target_bboxes(image_path)

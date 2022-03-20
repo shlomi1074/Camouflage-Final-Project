@@ -10,7 +10,7 @@ from train import run
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-
+graph = None
 class Yolov3Api:
     def __init__(self, input_size, iou_threshold):
         self.model_path = None
@@ -23,6 +23,7 @@ class Yolov3Api:
     '''
     def load_model(self, yolov3_model_path):
         try:
+            global graph
             self.model_path = yolov3_model_path
             # Build Model
             input_layer = tf.keras.layers.Input([self.input_size, self.input_size, 3])
@@ -35,6 +36,7 @@ class Yolov3Api:
 
             self.model = tf.keras.Model(input_layer, bbox_tensors)
             self.model.load_weights(self.model_path)
+            graph = tf.get_default_graph()
             return True
         except:
             self.model_path = None
@@ -53,9 +55,9 @@ class Yolov3Api:
         image_size = image.shape[:2]
         image_data = utils.image_preporcess(np.copy(image), [self.input_size, self.input_size])
         image_data = image_data[np.newaxis, ...].astype(np.float32)
-
-        graph = tf.get_default_graph()
+        global graph
         with graph.as_default():
+            self.model._make_predict_function()
             pred_bbox = self.model.predict(image_data)
             pred_bbox = [tf.reshape(x, (-1, tf.shape(x)[-1])) for x in pred_bbox]
             pred_bbox = tf.concat(pred_bbox, axis=0)
