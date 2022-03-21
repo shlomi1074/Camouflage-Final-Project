@@ -9,6 +9,7 @@ from PyQt5.QtGui import QPixmap, QMovie
 from PyQt5.QtWidgets import QMainWindow, QFileDialog
 from ButtonCommands import GuiFunctions
 from timeit import default_timer as timer
+from MplCanvas import MplCanvas
 
 
 class Window(QMainWindow):
@@ -32,7 +33,7 @@ class Window(QMainWindow):
         self.tensorboard_process = None
         self.is_yolo_loaded = False
         self.is_deepfill_loaded = False
-
+        self.charts = None
         """
         Init UI
         """
@@ -76,16 +77,32 @@ class Window(QMainWindow):
         self.tabContainer.currentChanged.connect(self.on_tab_changes)
         self.batchTestSourceFolderButton.mousePressEvent = self.batch_test_select_source_folder
         self.batchTestOutputFolderButton.mousePressEvent = self.batch_test_select_output_folder
+        self.TensorboardFileButton.mousePressEvent = self.load_tensor_report
         self.startBatchTest.clicked.connect(self.start_batch_test)
         self.previewNext.clicked.connect(self.batch_test_preview_next_button)
         self.previewPrev.clicked.connect(self.batch_test_preview_prev_button)
 
     def on_tab_changes(self, selected_index):
+        #if selected_index == 2:
+            # self.gridLayout.removeWidget(self.charts)
+            # self.charts = MplCanvas(parent=self, data_path=
+            # r"E:\FinalProject\backup_files\events.out.tfevents.1646244711.SHLOMI-PC.18044.0.v2")
+            # self.gridLayout.addWidget(self.charts)
         if selected_index == 3:
             if not self.is_yolo_loaded or not self.is_deepfill_loaded:
                 #self.load_models()
                 load_models_thread = threading.Thread(target=self.load_models)
                 load_models_thread.start()
+
+    def load_tensor_report(self, event):
+        log_path, _ = QFileDialog.getOpenFileName(self, 'Select log file')
+        if log_path != '' and log_path is not None:
+            self.load_tensor_report_from_log(log_path)
+
+    def load_tensor_report_from_log(self, log_path):
+        self.gridLayout.removeWidget(self.charts)
+        self.charts = MplCanvas(parent=self, data_path=log_path)
+        self.gridLayout.addWidget(self.charts)
 
     def batch_test_select_source_folder(self, event):
         src_dir = QFileDialog.getExistingDirectory(self, 'Select Source Folder')

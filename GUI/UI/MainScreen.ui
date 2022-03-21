@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1196</width>
-    <height>800</height>
+    <width>1197</width>
+    <height>811</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -80,7 +80,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <property name="iconSize">
        <size>
@@ -143,7 +143,7 @@
          <string notr="true">color:green</string>
         </property>
         <property name="text">
-         <string>&lt;a href=&quot;https://www.mdpi.com/2076-3417/10/15/5284/htm&quot;style=&quot;color: red&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/a&gt;</string>
+         <string>&lt;a href=&quot;https://www.mdpi.com/2076-3417/10/15/5284/htm&quot;style=&quot;color: #ab6c7a&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/a&gt;</string>
         </property>
         <property name="textFormat">
          <enum>Qt::AutoText</enum>
@@ -173,7 +173,7 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
+         <string notr="true">color:#ab6c7a</string>
         </property>
         <property name="text">
          <string>Self Adaptive Digital Camouflage</string>
@@ -203,74 +203,10 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
+         <string notr="true">color:#ab6c7a</string>
         </property>
         <property name="text">
          <string>DeepFillv1 Training</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_3">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>150</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Initial LR:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_4">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>120</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Batch size:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_5">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>180</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Final LR:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_6">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>210</y>
-          <width>131</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Warm up epochs:</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_7">
@@ -294,54 +230,6 @@
          <string>Epochs:</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>120</y>
-          <width>113</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>2</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_2">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>150</y>
-          <width>113</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>1e-3</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_3">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>180</y>
-          <width>113</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>1e-6</string>
-        </property>
-       </widget>
        <widget class="QLineEdit" name="yolo_epochs">
         <property name="geometry">
          <rect>
@@ -361,22 +249,6 @@
         </property>
         <property name="text">
          <string>30</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_5">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>210</y>
-          <width>113</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>2</string>
         </property>
        </widget>
        <widget class="QPushButton" name="deepfillStopTrainButton">
@@ -1151,22 +1023,6 @@
          <string>Tensorboard logs</string>
         </property>
        </widget>
-       <widget class="QLabel" name="label_19">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>120</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Batch size:</string>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_21">
         <property name="geometry">
          <rect>
@@ -1186,27 +1042,6 @@
         </property>
         <property name="text">
          <string>Warm up epochs:</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="yolo_batchSize">
-        <property name="geometry">
-         <rect>
-          <x>370</x>
-          <y>120</y>
-          <width>113</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>8</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_22">
@@ -1246,7 +1081,7 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
+         <string notr="true">color:#ab6c7a</string>
         </property>
         <property name="text">
          <string>YOLOv3 Training</string>
@@ -1652,17 +1487,30 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Training process will be displayed here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
+       <widget class="QLineEdit" name="yolo_batchSize">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>120</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
        <zorder>label_2</zorder>
-       <zorder>label_3</zorder>
-       <zorder>label_4</zorder>
-       <zorder>label_5</zorder>
-       <zorder>label_6</zorder>
        <zorder>label_7</zorder>
-       <zorder>lineEdit</zorder>
-       <zorder>lineEdit_2</zorder>
-       <zorder>lineEdit_3</zorder>
        <zorder>yolo_epochs</zorder>
-       <zorder>lineEdit_5</zorder>
        <zorder>deepfillStopTrainButton</zorder>
        <zorder>deepfillStartTrainButton</zorder>
        <zorder>label_10</zorder>
@@ -1689,9 +1537,7 @@ p, li { white-space: pre-wrap; }
        <zorder>tensorboardLogFolderButton</zorder>
        <zorder>tensorboardLogslLineText_2</zorder>
        <zorder>tensorboardLogFolderButton_2</zorder>
-       <zorder>label_19</zorder>
        <zorder>label_21</zorder>
-       <zorder>yolo_batchSize</zorder>
        <zorder>label_22</zorder>
        <zorder>label_23</zorder>
        <zorder>yolo_wEpochs</zorder>
@@ -1709,6 +1555,271 @@ p, li { white-space: pre-wrap; }
        <attribute name="title">
         <string>Train Report</string>
        </attribute>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>169</y>
+          <width>1201</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>30</y>
+          <width>200</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MV Boli</family>
+          <pointsize>20</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#ab6c7a</string>
+        </property>
+        <property name="text">
+         <string>Train Report</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>60</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
+        <property name="text">
+         <string>Tensorboard logs directory:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="TensorboardFileLineText">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>80</y>
+          <width>281</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+        </property>
+        <property name="text">
+         <string>Tensorboard log file</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="TensorboardFileButton">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>80</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0; background-color:transparent</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::RichText</enum>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Resources/Folder_icon.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>1030</x>
+          <y>72</y>
+          <width>48</width>
+          <height>48</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Resources/excel.svg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>1080</x>
+          <y>74</y>
+          <width>42</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Resources/pdf.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>1030</x>
+          <y>52</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Export data:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>321</width>
+          <height>36</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:#bdbfc0</string>
+           </property>
+           <property name="text">
+            <string>Training start time:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="startTimeTraining">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:#bdbfc0</string>
+           </property>
+           <property name="text">
+            <string>00:00:00</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_78">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:#bdbfc0</string>
+           </property>
+           <property name="text">
+            <string>Training end time:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="endTimeTraining">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:#bdbfc0</string>
+           </property>
+           <property name="text">
+            <string>00:00:00</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <zorder>TensorboardFileLineText</zorder>
+       <zorder>gridLayoutWidget</zorder>
+       <zorder>label_37</zorder>
+       <zorder>label_20</zorder>
+       <zorder>startTimeTraining</zorder>
+       <zorder>endTimeTraining</zorder>
+       <zorder>label_78</zorder>
+       <zorder>label_19</zorder>
+       <zorder>TensorboardFileButton</zorder>
+       <zorder>label_3</zorder>
+       <zorder>label_4</zorder>
+       <zorder>label_5</zorder>
       </widget>
       <widget class="QWidget" name="singleTest">
        <attribute name="title">
@@ -1736,7 +1847,7 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
+         <string notr="true">color:#ab6c7a</string>
         </property>
         <property name="text">
          <string>Image Test</string>
@@ -1999,7 +2110,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="SelectTestImageButton">
         <property name="geometry">
          <rect>
-          <x>270</x>
+          <x>300</x>
           <y>100</y>
           <width>31</width>
           <height>31</height>
@@ -2027,7 +2138,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_35">
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>60</x>
           <y>80</y>
           <width>121</width>
           <height>16</height>
@@ -2051,7 +2162,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>60</x>
           <y>100</y>
           <width>281</width>
           <height>31</height>
@@ -2075,7 +2186,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>450</x>
           <y>100</y>
           <width>281</width>
           <height>31</height>
@@ -2096,7 +2207,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="LoadYoloModelButton">
         <property name="geometry">
          <rect>
-          <x>590</x>
+          <x>690</x>
           <y>100</y>
           <width>31</width>
           <height>31</height>
@@ -2124,7 +2235,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_36">
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>450</x>
           <y>80</y>
           <width>161</width>
           <height>16</height>
@@ -2145,7 +2256,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_106">
         <property name="geometry">
          <rect>
-          <x>670</x>
+          <x>840</x>
           <y>80</y>
           <width>171</width>
           <height>16</height>
@@ -2166,7 +2277,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="LoadDeepfillModelButton">
         <property name="geometry">
          <rect>
-          <x>910</x>
+          <x>1080</x>
           <y>100</y>
           <width>31</width>
           <height>31</height>
@@ -2197,7 +2308,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>670</x>
+          <x>840</x>
           <y>100</y>
           <width>281</width>
           <height>31</height>
@@ -2255,7 +2366,7 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
+         <string notr="true">color:#ab6c7a</string>
         </property>
         <property name="text">
          <string>A Batch Test</string>
