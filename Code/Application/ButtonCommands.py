@@ -48,6 +48,9 @@ class GuiFunctions:
         #     print("Oops!", sys.exc_info()[0], "occurred.")
 
     def on_deepfill_train_button_click(self, log_dir, output_path):
+        path = 'output.txt'
+        f = open(path, 'w')
+        f.close()
         self.deepfill_api.train_model(log_dir, output_path)
 
         # try:

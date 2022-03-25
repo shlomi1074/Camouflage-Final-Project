@@ -80,7 +80,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>3</number>
       </property>
       <property name="iconSize">
        <size>
@@ -580,6 +580,11 @@
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
         </property>
@@ -595,6 +600,11 @@
           <width>171</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0</string>
@@ -917,6 +927,11 @@
           <height>31</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0;padding-left:3px</string>
         </property>
@@ -1015,6 +1030,11 @@
           <width>281</width>
           <height>31</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">color:#bdbfc0;padding-left:3px</string>
@@ -1559,9 +1579,9 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>-1</x>
-          <y>169</y>
+          <y>209</y>
           <width>1201</width>
-          <height>611</height>
+          <height>541</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="gridLayout">
@@ -1609,7 +1629,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>40</x>
           <y>60</y>
-          <width>171</width>
+          <width>251</width>
           <height>16</height>
          </rect>
         </property>
@@ -1622,38 +1642,14 @@ p, li { white-space: pre-wrap; }
          <string notr="true">color:#bdbfc0</string>
         </property>
         <property name="text">
-         <string>Tensorboard logs directory:</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="TensorboardFileLineText">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>40</x>
-          <y>80</y>
-          <width>281</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
-        </property>
-        <property name="text">
-         <string>Tensorboard log file</string>
+         <string>Please select the tensorflow tfevent file.</string>
         </property>
        </widget>
        <widget class="QLabel" name="TensorboardFileButton">
         <property name="geometry">
          <rect>
-          <x>280</x>
-          <y>80</y>
+          <x>290</x>
+          <y>53</y>
           <width>31</width>
           <height>31</height>
          </rect>
@@ -1729,6 +1725,9 @@ p, li { white-space: pre-wrap; }
           <pointsize>10</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
         <property name="text">
          <string>Export data:</string>
         </property>
@@ -1736,11 +1735,40 @@ p, li { white-space: pre-wrap; }
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
+       <widget class="QPushButton" name="resultsToggleButton">
+        <property name="geometry">
+         <rect>
+          <x>1010</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
+        <property name="text">
+         <string>View Validation Results</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>190</y>
+          <width>1199</width>
+          <height>3</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
        <widget class="QWidget" name="">
         <property name="geometry">
          <rect>
           <x>40</x>
-          <y>130</y>
+          <y>110</y>
           <width>321</width>
           <height>36</height>
          </rect>
@@ -1808,18 +1836,6 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <zorder>TensorboardFileLineText</zorder>
-       <zorder>gridLayoutWidget</zorder>
-       <zorder>label_37</zorder>
-       <zorder>label_20</zorder>
-       <zorder>startTimeTraining</zorder>
-       <zorder>endTimeTraining</zorder>
-       <zorder>label_78</zorder>
-       <zorder>label_19</zorder>
-       <zorder>TensorboardFileButton</zorder>
-       <zorder>label_3</zorder>
-       <zorder>label_4</zorder>
-       <zorder>label_5</zorder>
       </widget>
       <widget class="QWidget" name="singleTest">
        <attribute name="title">

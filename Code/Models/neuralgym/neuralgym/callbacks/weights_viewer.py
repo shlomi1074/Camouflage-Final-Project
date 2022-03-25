@@ -1,5 +1,6 @@
 """WeightsViewer"""
 import logging
+import sys
 
 import tensorflow as tf
 import numpy as np
@@ -31,6 +32,7 @@ class WeightsViewer(OnceCallback):
         callback_log('Trigger WeightsViewer: logging model weights...')
         total_size = 0
         for var in tf.compat.v1.trainable_variables():
+            sys.stdout = open('output.txt', 'a')
             # counts
             if self.counts or self.size:
                 w_size = np.prod(var.get_shape().as_list())
@@ -42,9 +44,12 @@ class WeightsViewer(OnceCallback):
             # histogram summary
             if self.hist_summary:
                 tf.compat.v1.summary.histogram(var.name, var)
+            sys.stdout.close()
+
         if self.counts:
             callback_log('Total counts of trainable weights: %d.' % total_size)
         if self.size:
+            sys.stdout = open('output.txt', 'a')
             # Data is 32-bit datatype in most cases.
             total = total_size * 4
             b_size = total_size % 1024
@@ -55,3 +60,5 @@ class WeightsViewer(OnceCallback):
             print(
                 'Total size of trainable weights: %dG %dM %dK %dB (Assuming'
                 '32-bit data type.)' % (g_size, m_size, k_size, b_size))
+            sys.stdout.close()
+

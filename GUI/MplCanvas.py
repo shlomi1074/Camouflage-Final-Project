@@ -15,6 +15,8 @@ plt.rcParams.update({'text.color': "#bdbfc0",
 
 class MplCanvas(FigureCanvas):
     def __init__(self, parent=None, data_path=None):
+        plt.style.use('Solarize_Light2')
+
         tags_set = set()
         data = defaultdict(list)
         first = 0
@@ -37,11 +39,14 @@ class MplCanvas(FigureCanvas):
             parent.startTimeTraining.setText(start_time)
             parent.endTimeTraining.setText(end_time)
 
+        if 'lr' in tags_set:
+            parent.resultsToggleButton.setVisible(True)
+
         tags_set = sorted(list(tags_set))
         self.fig = plt.figure()
         self.fig.patch.set_facecolor('white')
         self.fig.patch.set_alpha(0.0)
-        self.fig.suptitle('Training charts:')
+        #self.fig.suptitle('Training charts:')
         for i in range(1, len(data) + 1):
             ax = self.fig.add_subplot(2, 3, i)
             ax.set_title(tags_set[i - 1])

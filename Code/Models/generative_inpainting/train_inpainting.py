@@ -72,10 +72,12 @@ def Train(log_dir, output_dir):
         optimizer=d_optimizer,
         var_list=d_vars,
         max_iters=1,
-        grads_summary=False,
+        grads_summary=True,
         graph_def=multigpu_graph_def,
         graph_def_kwargs={
             'model': model, 'FLAGS': FLAGS, 'data': data, 'loss_type': 'd'},
+        log_progress=True,
+
     )
     # train generator with primary trainer
     # trainer = ng.train.Trainer(
@@ -85,12 +87,13 @@ def Train(log_dir, output_dir):
         var_list=g_vars,
         max_iters=FLAGS.max_iters,
         graph_def=multigpu_graph_def,
-        grads_summary=False,
+        grads_summary=True,
         gradient_processor=None,
         graph_def_kwargs={
             'model': model, 'FLAGS': FLAGS, 'data': data, 'loss_type': 'g'},
         spe=FLAGS.train_spe,
         log_dir=log_dir,
+        log_progress=True,
     )
     # add all callbacks
     trainer.add_callbacks([

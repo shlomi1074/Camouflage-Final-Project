@@ -31,6 +31,7 @@ def colorize(string, color, bold=False, highlight=False):
 def colored_log(prompt, texts, color='green', bold=True, highlight=False):
     """Show colored logs.
     """
+    sys.stdout = open('output.txt', 'a')
     assert isinstance(prompt, str)
     assert isinstance(texts, str)
     assert isinstance(color, str)
@@ -38,6 +39,7 @@ def colored_log(prompt, texts, color='green', bold=True, highlight=False):
     clean_line = ''
     sys.stdout.write(clean_line)
     print(colored_prompt + texts)
+    sys.stdout.close()
 
 
 def callback_log(texts):
@@ -113,6 +115,8 @@ class ProgressBar(object):
                 of progress bar.
 
         """
+        sys.stdout = open('output.txt', 'a')
+
         term_length, _ = shutil.get_terminal_size()
         length = int(term_length / self._split_n)
         if isinstance(progress, int):
@@ -147,3 +151,4 @@ class ProgressBar(object):
             # update time and progress
             self._p_last = self._p_current
             self._t_last = self._t_current
+        sys.stdout.close()

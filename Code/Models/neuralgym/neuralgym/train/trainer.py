@@ -1,3 +1,4 @@
+import sys
 import time
 import logging
 
@@ -151,8 +152,12 @@ class Trainer(object):
                     if (cb.cb_loc == CallbackLoc.step_end and
                             step in cb.schedule):
                         cb.run(sess, step)
+
         except (KeyboardInterrupt, SystemExit):
-            print("Training is stoped.")
+            sys.stdout = open('output.txt', 'a')
+            print("Training is stopped.")
+            sys.stdout.close()
+
         except:
             raise
         finally:

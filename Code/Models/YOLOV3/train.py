@@ -13,6 +13,8 @@
 
 import os
 import shutil
+import sys
+
 import numpy as np
 import tensorflow as tf
 from core.dataset import Dataset
@@ -98,6 +100,11 @@ def train_step(image_data, target, lr_init, lr_end):
                                                           giou_loss, conf_loss,
                                                           prob_loss, total_loss))
 
+        print("=> STEP %4d   lr: %.6f   giou_loss: %4.2f   conf_loss: %4.2f   "
+                 "prob_loss: %4.2f   total_loss: %4.2f" %(global_steps, optimizer.lr.numpy(),
+                                                          giou_loss, conf_loss,
+                                                          prob_loss, total_loss))
+
         # update learning rate
         global_steps.assign_add(1)
         if global_steps < warmup_steps:
@@ -117,15 +124,19 @@ def train_step(image_data, target, lr_init, lr_end):
             tf.contrib.summary.scalar("loss/prob_loss", prob_loss, step=global_steps)
             writer.flush()
 
-
 def run(log_dir, output_dir, epochs, warmup_epochs, lr_init, end_lr):
     tf.summary.FileWriterCache.clear()
     setup(log_dir, epochs, warmup_epochs)
+    path = 'output.txt'
+    sys.stdout = open(path, 'w')
+    sys.stdout.close()
+
     for epoch in range(epochs):
         for image_data, target in trainset:
+            sys.stdout = open(path, 'a')
             train_step(image_data, target, lr_init, end_lr)
+            sys.stdout.close()
     model.save_weights(output_dir + r'\yolov3')
-
 
 '''
 for tests - needs to be removed 

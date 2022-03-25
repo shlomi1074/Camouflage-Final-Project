@@ -4,18 +4,21 @@ import shutil
 from multiprocessing import Process
 import subprocess
 import threading
-from PyQt5 import uic
+from PyQt5 import uic, QtCore, QtWidgets
 from PyQt5.QtGui import QPixmap, QMovie
-from PyQt5.QtWidgets import QMainWindow, QFileDialog
+from PyQt5.QtWidgets import QMainWindow, QFileDialog, QLabel
+
+import TrainLoggerThread
 from ButtonCommands import GuiFunctions
 from timeit import default_timer as timer
 from MplCanvas import MplCanvas
-
+from calculate_map import run
 
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
         # DEFAULT VALUES
+        self.log_path = None
         self.yolov3_output_folder = r'C:\trainedModels\yolov3'
         self.yolov3_tensorboard_logs_folder = r'C:\tensorboard\logs\yolov3'
         self.deepfillv1_output_folder = r'C:\trainedModels\deepfillv1'
@@ -33,6 +36,7 @@ class Window(QMainWindow):
         self.tensorboard_process = None
         self.is_yolo_loaded = False
         self.is_deepfill_loaded = False
+        self.is_training_results = True
         self.charts = None
         """
         Init UI
@@ -51,6 +55,7 @@ class Window(QMainWindow):
         self.tensorboardLogslLineText_2.setText(self.deepfillv1_tensorboard_logs_folder)
         self.trainingTrackerLabel.setVisible(False)
         self.tensorboardIcon.setVisible(False)
+        self.resultsToggleButton.setVisible(False)
         self.yoloModelPath.setText(self.yolo_model_path)
         self.deepfillModelPath.setText(self.deepfill_model_path)
         self.yoloModelPathBatchTest.setText(self.yolo_model_path)
@@ -81,6 +86,24 @@ class Window(QMainWindow):
         self.startBatchTest.clicked.connect(self.start_batch_test)
         self.previewNext.clicked.connect(self.batch_test_preview_next_button)
         self.previewPrev.clicked.connect(self.batch_test_preview_prev_button)
+        self.resultsToggleButton.clicked.connect(self.results_toggle)
+        self.saveFinalOutButton.clicked.connect(self.save_single_test_output)
+        run()  # TODO: RUN IT AFTER YOLO TRAINING
+
+    def closeEvent(self, event):
+        print('close event')
+        folder = 'temp'
+        for filename in os.listdir(folder):
+            file_path = os.path.join(folder, filename)
+            try:
+                if os.path.isfile(file_path) or os.path.islink(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+                event.accept()
+            except Exception as e:
+                print('Failed to delete %s. Reason: %s' % (file_path, e))
+                event.accept()
 
     def on_tab_changes(self, selected_index):
         #if selected_index == 2:
@@ -94,13 +117,72 @@ class Window(QMainWindow):
                 load_models_thread = threading.Thread(target=self.load_models)
                 load_models_thread.start()
 
+    def results_toggle(self):
+        if self.is_training_results:
+            self.is_training_results = False
+            self.resultsToggleButton.setText("View Training Results")
+            #run()
+            self.gridLayout.setHorizontalSpacing(2)
+            self.gridLayout.setVerticalSpacing(2)
+
+            while self.gridLayout.count():
+                item = self.gridLayout.takeAt(0)
+                widget = item.widget()
+                widget.deleteLater()
+            mAP = QLabel('mAP graph will be here', self)
+            mAP.setPixmap(QPixmap(r'..\Code\Models\mAP\results\mAP.png'))
+            mAP.setScaledContents(True)
+
+            GT = QLabel('GT graph will be here', self)
+            GT.setPixmap(QPixmap(r'..\Code\Models\mAP\results\Ground-Truth Info.png'))
+            GT.setScaledContents(True)
+
+            PO = QLabel('PO graph will be here', self)
+            PO.setPixmap(QPixmap(r'..\Code\Models\mAP\results\Predicted Objects Info.png'))
+            PO.setScaledContents(True)
+
+            Tanks = QLabel('Tanks graph will be here', self)
+            Tanks.setPixmap(QPixmap(r'..\Code\Models\mAP\results\classes\Tank.png'))
+            Tanks.setScaledContents(True)
+
+            Airship = QLabel('Tanks graph will be here', self)
+            Airship.setPixmap(QPixmap(r'..\Code\Models\mAP\results\classes\Airship.png'))
+            Airship.setScaledContents(True)
+
+            self.gridLayout.addWidget(mAP, 1, 1)
+            self.gridLayout.addWidget(GT, 1, 2)
+            self.gridLayout.addWidget(PO, 1, 3)
+            self.gridLayout.addWidget(Tanks, 2, 1)
+            self.gridLayout.addWidget(Airship, 2, 2)
+        else:
+            self.is_training_results = True
+            self.resultsToggleButton.setText("View Validation Results")
+
+            while self.gridLayout.count():
+                item = self.gridLayout.takeAt(0)
+                widget = item.widget()
+                widget.deleteLater()
+            if self.log_path is not None:
+                self.load_tensor_report_from_log(self.log_path)
+
+    def save_single_test_output(self):
+        try:
+            dst_dir = QFileDialog.getExistingDirectory(self, 'Select Destination Folder')
+            if dst_dir != '' and dst_dir is not None:
+                shutil.copy(r'temp\orig.png', dst_dir)
+                shutil.copy(r'temp\yolo.png', dst_dir)
+                shutil.copy(r'temp\mask.png', dst_dir)
+                shutil.copy(r'temp\deepfill.png', dst_dir)
+        except:
+            print('save images failed')
+
     def load_tensor_report(self, event):
-        log_path, _ = QFileDialog.getOpenFileName(self, 'Select log file')
-        if log_path != '' and log_path is not None:
-            self.load_tensor_report_from_log(log_path)
+        self.log_path, _ = QFileDialog.getOpenFileName(self, 'Select log file')
+        if self.log_path != '' and self.log_path is not None:
+            self.load_tensor_report_from_log(self.log_path)
 
     def load_tensor_report_from_log(self, log_path):
-        self.gridLayout.removeWidget(self.charts)
+        #self.gridLayout.removeWidget(self.charts)
         self.charts = MplCanvas(parent=self, data_path=log_path)
         self.gridLayout.addWidget(self.charts)
 
@@ -240,6 +322,7 @@ class Window(QMainWindow):
         start = timer()
         # self.camouflage_api.on_batch_test_button_click(self.batch_test_source_folder_path,
         #                                                self.batch_test_output_folder_path)
+        print(self.batch_test_source_folder_path)
         i = 0
         self.batchTestingProcess.append("========== Start batch test ==========")
         total_files = len([name for name in os.listdir(self.batch_test_source_folder_path) if
@@ -274,7 +357,7 @@ class Window(QMainWindow):
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index + 1]))
             self.batch_test_preview_index += 1
         except:
-            print('failed')
+            print('No more images')
 
     def batch_test_preview_prev_button(self):
         if self.batch_test_preview_index <= 0:
@@ -283,7 +366,11 @@ class Window(QMainWindow):
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index - 1]))
             self.batch_test_preview_index -= 1
         except:
-            print('failed')
+            print('No more images')
+
+    def log_training_process(self, log_data):
+        self.trainingProcessText.setText(log_data)
+        self.trainingProcessText.verticalScrollBar().setValue(self.trainingProcessText.verticalScrollBar().maximum())
 
     def start_yolo_train(self):
         if not self.yolo_train_parameter_validation():
@@ -296,8 +383,16 @@ class Window(QMainWindow):
                                             self.yolo_finalLR.text(),))
         self.action_process.start()
         self.run_tensorboard(self.yolov3_tensorboard_logs_folder)
+        # t1 = threading.Thread(target=self.run_tensorboard,
+        #                       args=(self.yolov3_tensorboard_logs_folder,))
+        # t1.start()
+        self.train_log = TrainLoggerThread.TrainLoggerThread()
+        self.train_log.log_data.connect(self.log_training_process)
+        self.train_log.start()
+
         self.trainingTrackerLabel.setVisible(True)
         self.tensorboardIcon.setVisible(True)
+
         self.yoloStartTrainButton.setEnabled(False)
         self.deepfillStartTrainButton.setEnabled(False)
         self.deepfillStopTrainButton.setEnabled(False)
@@ -308,6 +403,9 @@ class Window(QMainWindow):
                                             self.deepfillv1_output_folder,))
         self.action_process.start()
         self.run_tensorboard(self.deepfillv1_tensorboard_logs_folder)
+        self.train_log = TrainLoggerThread.TrainLoggerThread()
+        self.train_log.log_data.connect(self.log_training_process)
+        self.train_log.start()
         self.trainingTrackerLabel.setVisible(True)
         self.tensorboardIcon.setVisible(True)
         self.deepfillStartTrainButton.setEnabled(False)
@@ -327,6 +425,7 @@ class Window(QMainWindow):
         self.yoloStopTrainButton.setEnabled(True)
         self.trainingTrackerLabel.setVisible(False)
         self.tensorboardIcon.setVisible(False)
+        self.train_log.terminate()
 
     def stop_deepfill_train(self):
         if self.action_process is not None:
@@ -341,11 +440,14 @@ class Window(QMainWindow):
         self.yoloStopTrainButton.setEnabled(True)
         self.trainingTrackerLabel.setVisible(False)
         self.tensorboardIcon.setVisible(False)
+        self.train_log.terminate()
+
 
     def run_tensorboard(self, log_dir):
         if os.path.exists(log_dir):
             shutil.rmtree(log_dir)
         self.tensorboard_process = subprocess.Popen(['tensorboard', '--logdir', log_dir])
+        #os.system(r"tensorboard --logdir " + log_dir)
 
     def yolo_train_parameter_validation(self):
         if self.yolo_batchSize.text() == '' or self.yolo_batchSize.text() is None:
