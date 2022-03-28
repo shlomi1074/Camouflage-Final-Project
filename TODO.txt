@@ -1,19 +1,17 @@
-
+RE-DESIGN:
+CHANGE COLOR SCHEME
 
 About tab:
 - add more information (m)
 
 Training tab:
-- implement training process logger (m)
 - add the option to train on custom (o)
 
 Train Report tab:
 - implement export data (m)
 - add validation report (m)
-- re-design subplots to be more clear (o)
 
 Image Test tab:
-- implement Save button (m)
 - pre load models when loading the application (o)
 
 Batch Test:

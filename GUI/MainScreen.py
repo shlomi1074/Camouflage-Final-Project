@@ -14,6 +14,7 @@ from timeit import default_timer as timer
 from MplCanvas import MplCanvas
 from calculate_map import run
 
+
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()

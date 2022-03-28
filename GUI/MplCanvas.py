@@ -29,8 +29,13 @@ class MplCanvas(FigureCanvas):
                 flag = False
             last = summary.wall_time
             for v in summary.summary.value:
-                t = tensor_util.MakeNdarray(v.tensor)
-                data[v.tag].append(t)
+                if 'static_view' in v.tag or 'gradients' in v.tag or 'image' in v.tag:
+                    continue
+                if 'gan' in v.tag or 'ae_loss' in v.tag or 'g_loss':
+                    data[v.tag].append(v.simple_value)
+                else:
+                    t = tensor_util.MakeNdarray(v.tensor)
+                    data[v.tag].append(t)
                 tags_set.add(v.tag)
 
         start_time = time.ctime(first)
@@ -47,11 +52,15 @@ class MplCanvas(FigureCanvas):
         self.fig.patch.set_facecolor('white')
         self.fig.patch.set_alpha(0.0)
         #self.fig.suptitle('Training charts:')
+        temp = 0
         for i in range(1, len(data) + 1):
-            ax = self.fig.add_subplot(2, 3, i)
+            if 'x2' in tags_set[i - 1]:
+                temp += 1
+                continue
+            ax = self.fig.add_subplot(2, 3, i - temp)
             ax.set_title(tags_set[i - 1])
             ax.plot(range(len(data[tags_set[i - 1]])), data[tags_set[i - 1]])
-            ax.set_xlabel('Steps', color='#bdbfc0')
+            # ax.set_xlabel('Steps', color='#bdbfc0')
 
 
         self.fig.tight_layout()
