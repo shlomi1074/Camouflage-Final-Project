@@ -5,9 +5,6 @@ About tab:
 - add more information (m)
 
 Train Report tab:
-- implement export data (m)
-
-Batch Test:
-- add comparison between the original image and the final ouput (o)
+- implement export data (m). pdf?
 
 

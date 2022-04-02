@@ -29,6 +29,7 @@ class Window(QMainWindow):
         self.batch_test_source_folder_path = r'Select source folder'
         self.batch_test_output_folder_path = r'Select output folder'
         self.batch_test_preview_list = []
+        self.batch_test_original_list = []
         self.batch_test_preview_index = 0
 
         self.camouflage_api = GuiFunctions(416, 0.5)
@@ -191,9 +192,12 @@ class Window(QMainWindow):
                 self.batchTestingProcess.append(event_data[2])
             if event_data[1] == 'list':
                 self.batch_test_preview_list.append(event_data[2])
+                self.batch_test_original_list.append(event_data[3])
 
             if len(self.batch_test_preview_list) > 0:
                 self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[0]))
+                self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[0]))
+
 
         if event_data[0] == 4:
             if event_data[1] == 'yolo':
@@ -314,9 +318,11 @@ class Window(QMainWindow):
         if self.is_yolo_loaded and self.is_deepfill_loaded:
             self.batchTestingProcess.clear()
             self.batch_test_preview_list = []
+            self.batch_test_original_list = []
             self.batch_test_preview_index = 0
             movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
             self.previewImage.setMovie(movie)
+            self.originalImage.setMovie(movie)
             movie.start()
             self.queue.put([4, self.batch_test_source_folder_path, self.batch_test_output_folder_path])
 
@@ -325,6 +331,7 @@ class Window(QMainWindow):
             return
         try:
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index + 1]))
+            self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[self.batch_test_preview_index + 1]))
             self.batch_test_preview_index += 1
         except:
             print('No more images')
@@ -334,6 +341,7 @@ class Window(QMainWindow):
             return
         try:
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index - 1]))
+            self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[self.batch_test_preview_index - 1]))
             self.batch_test_preview_index -= 1
         except:
             print('No more images')

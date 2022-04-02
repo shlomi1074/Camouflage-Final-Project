@@ -90,7 +90,8 @@ class TestModelsThread(QtCore.QThread):
                         self.camouflage_api.on_batch_test_button_click(file, input_dir, output_dir)
                         self.results.emit([2, 'text', f"{i} finished testing file: {filename} successfully"])
 
-                        self.results.emit([2, 'list', output_dir + '\\' + file.split("\\")[-1]])
+                        self.results.emit([2, 'list', output_dir + '\\' + file.split("\\")[-1],
+                                           input_dir + '\\' + file.split("\\")[-1]])
 
                     except:
                         self.results.emit([2, 'text', f"{i} {filename} failed."])
