@@ -64,7 +64,7 @@ class DeepFillApi:
         return img_mod
 
     def load_model(self, deepfill_model_dir):
-        #tf.reset_default_graph()
+        tf.reset_default_graph()
         FLAGS = ng.Config('resources/inpaint.yml')
         sess_config = tf.ConfigProto()
         sess_config.gpu_options.allow_growth = True

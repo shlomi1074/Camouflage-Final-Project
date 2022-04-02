@@ -46,6 +46,9 @@ class MplCanvas(FigureCanvas):
 
         if 'lr' in tags_set:
             parent.resultsToggleButton.setVisible(True)
+        else:
+            parent.resultsToggleButton.setVisible(False)
+
 
         tags_set = sorted(list(tags_set))
         self.fig = plt.figure()
@@ -62,6 +65,6 @@ class MplCanvas(FigureCanvas):
             ax.plot(range(len(data[tags_set[i - 1]])), data[tags_set[i - 1]])
             # ax.set_xlabel('Steps', color='#bdbfc0')
 
-
+        parent.training_data = data
         self.fig.tight_layout()
         super().__init__(self.fig)

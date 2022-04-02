@@ -4,18 +4,10 @@ CHANGE COLOR SCHEME
 About tab:
 - add more information (m)
 
-Training tab:
-- add the option to train on custom (o)
-
 Train Report tab:
 - implement export data (m)
-- add validation report (m)
-
-Image Test tab:
-- pre load models when loading the application (o)
 
 Batch Test:
-- pre load models when loading the application (o)
 - add comparison between the original image and the final ouput (o)
 
 

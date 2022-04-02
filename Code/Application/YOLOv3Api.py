@@ -38,7 +38,8 @@ class Yolov3Api:
             self.model.load_weights(self.model_path)
             graph = tf.get_default_graph()
             return True
-        except:
+        except Exception as e:
+            print(e)
             self.model_path = None
             self.model = None
             return False

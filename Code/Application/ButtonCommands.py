@@ -27,7 +27,8 @@ class GuiFunctions:
         try:
             self.deepfill_api.load_model(deepfill_model_path)
             return True
-        except:
+        except Exception as e:
+            print(e)
             return False
 
     def on_yolov3_train_button_click(self, log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr):
@@ -38,14 +39,10 @@ class GuiFunctions:
                 lr_init = float(lr_init)
                 end_lr = float(end_lr)
                 self.yolov3_api.train_model(log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr)
+                from calculate_map import run
+                run()
             except ValueError:
                 print("Please fill valid parameters")
-
-
-        # try:
-        #     self.yolov3_api.train_model(log_dir, output_path)
-        # except:
-        #     print("Oops!", sys.exc_info()[0], "occurred.")
 
     def on_deepfill_train_button_click(self, log_dir, output_path):
         path = 'output.txt'
@@ -59,11 +56,6 @@ class GuiFunctions:
         #     print("Oops!", sys.exc_info()[0], "occurred.")
 
     def on_batch_test_button_click(self, file, input_dir_path, output_dir_path):
-        # for filename in os.listdir(input_dir_path):
-        #     file = os.path.join(input_dir_path, filename)
-        #     # checking if it is a file
-        #     if os.path.isfile(file):
-        #         try:
         image, bboxes = self.yolov3_api.detect_target_bboxes(file)
         result_image = self.deepfill_api.fill_image(image, bboxes)
         cv2.imwrite(output_dir_path + '\\' + file.split("\\")[-1], result_image[0][:, :, ::-1])

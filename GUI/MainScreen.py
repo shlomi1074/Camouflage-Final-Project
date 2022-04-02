@@ -7,7 +7,7 @@ import threading
 from PyQt5 import uic, QtCore, QtWidgets
 from PyQt5.QtGui import QPixmap, QMovie
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QLabel
-
+import pandas as pd
 import TrainLoggerThread
 from ButtonCommands import GuiFunctions
 from timeit import default_timer as timer
@@ -16,7 +16,7 @@ from calculate_map import run
 
 
 class Window(QMainWindow):
-    def __init__(self):
+    def __init__(self, workerThread, q):
         super().__init__()
         # DEFAULT VALUES
         self.log_path = None
@@ -32,6 +32,10 @@ class Window(QMainWindow):
         self.batch_test_preview_index = 0
 
         self.camouflage_api = GuiFunctions(416, 0.5)
+        self.workerThread = workerThread
+        self.queue = q
+        self.workerThread.results.connect(self.worker_event)
+
         self.action_process = None
         self.action_process_2 = None
         self.tensorboard_process = None
@@ -39,6 +43,7 @@ class Window(QMainWindow):
         self.is_deepfill_loaded = False
         self.is_training_results = True
         self.charts = None
+        self.training_data = None
         """
         Init UI
         """
@@ -89,7 +94,8 @@ class Window(QMainWindow):
         self.previewPrev.clicked.connect(self.batch_test_preview_prev_button)
         self.resultsToggleButton.clicked.connect(self.results_toggle)
         self.saveFinalOutButton.clicked.connect(self.save_single_test_output)
-        run()  # TODO: RUN IT AFTER YOLO TRAINING
+        self.excel_button.mousePressEvent = self.excel_export_button_click
+        #run()  # TODO: RUN IT AFTER YOLO TRAINING
 
     def closeEvent(self, event):
         print('close event')
@@ -107,16 +113,16 @@ class Window(QMainWindow):
                 event.accept()
 
     def on_tab_changes(self, selected_index):
+        pass
         #if selected_index == 2:
             # self.gridLayout.removeWidget(self.charts)
             # self.charts = MplCanvas(parent=self, data_path=
             # r"E:\FinalProject\backup_files\events.out.tfevents.1646244711.SHLOMI-PC.18044.0.v2")
             # self.gridLayout.addWidget(self.charts)
         if selected_index == 3:
-            if not self.is_yolo_loaded or not self.is_deepfill_loaded:
-                #self.load_models()
-                load_models_thread = threading.Thread(target=self.load_models)
-                load_models_thread.start()
+            self.queue.put([5])
+        if selected_index == 4:
+            self.queue.put([5])
 
     def results_toggle(self):
         if self.is_training_results:
@@ -166,6 +172,47 @@ class Window(QMainWindow):
             if self.log_path is not None:
                 self.load_tensor_report_from_log(self.log_path)
 
+    def worker_event(self, event_data):
+        """
+        1 - single image test
+        2 - batch test
+        3 -
+        4 -
+        """
+        if event_data[0] == 1:
+            if event_data[1]:
+                self.original_img.setPixmap(QPixmap(r'temp\orig.png'))
+                self.yolo_img.setPixmap(QPixmap(r'temp\yolo.png'))
+                self.mask_img.setPixmap(QPixmap(r'temp\mask.png'))
+                self.deepfill_img.setPixmap(QPixmap(r'temp\deepfill.png'))
+
+        if event_data[0] == 2:
+            if event_data[1] == 'text':
+                self.batchTestingProcess.append(event_data[2])
+            if event_data[1] == 'list':
+                self.batch_test_preview_list.append(event_data[2])
+
+            if len(self.batch_test_preview_list) > 0:
+                self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[0]))
+
+        if event_data[0] == 4:
+            if event_data[1] == 'yolo':
+                self.is_yolo_loaded = event_data[2]
+                if event_data[2]:
+                    self.yoloModelStatus.setPixmap(QPixmap(r'Resources\green.png'))
+                    self.yoloModelStatus_2.setPixmap(QPixmap(r'Resources\green.png'))
+                else:
+                    self.yoloModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
+                    self.yoloModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+            if event_data[1] == 'deepfill':
+                self.is_deepfill_loaded = event_data[2]
+                if event_data[2]:
+                    self.deepfillModelStatus.setPixmap(QPixmap(r'Resources\green.png'))
+                    self.deepfillModelStatus_2.setPixmap(QPixmap(r'Resources\green.png'))
+                else:
+                    self.deepfillModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
+                    self.deepfillModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+
     def save_single_test_output(self):
         try:
             dst_dir = QFileDialog.getExistingDirectory(self, 'Select Destination Folder')
@@ -184,6 +231,14 @@ class Window(QMainWindow):
 
     def load_tensor_report_from_log(self, log_path):
         #self.gridLayout.removeWidget(self.charts)
+        if self.charts is not None:
+            self.is_training_results = True
+            self.resultsToggleButton.setText("View Validation Results")
+
+            while self.gridLayout.count():
+                item = self.gridLayout.takeAt(0)
+                widget = item.widget()
+                widget.deleteLater()
         self.charts = MplCanvas(parent=self, data_path=log_path)
         self.gridLayout.addWidget(self.charts)
 
@@ -224,28 +279,16 @@ class Window(QMainWindow):
         self.tensorboardLogslLineText_2.setText(self.deepfillv1_tensorboard_logs_folder)
 
     def test_single_image(self, event):
-        image_path, _ = QFileDialog.getOpenFileName(self, 'Select Image', 'c:\\', "Image files (*.jpg *.png *.jpeg)")
-        if image_path != '' and image_path is not None:
-            movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
-            self.original_img.setPixmap(QPixmap(image_path))
-            self.yolo_img.setMovie(movie)
-            self.mask_img.setMovie(movie)
-            self.deepfill_img.setMovie(movie)
-            movie.start()
-            t1 = threading.Thread(target=self.single_image_test_thread,
-                                  args=(image_path,))
-            t1.start()
-
-    def single_image_test_thread(self, image_path):
-        print("start image thread 1")
-        self.load_deepfill_model(self.deepfill_model_path)
-        self.load_yolo_model(self.yolo_model_path)
-        self.camouflage_api.on_single_test_button_click(image_path)
-        print("end image thread 1")
-        self.original_img.setPixmap(QPixmap(r'temp\orig.png'))
-        self.yolo_img.setPixmap(QPixmap(r'temp\yolo.png'))
-        self.mask_img.setPixmap(QPixmap(r'temp\mask.png'))
-        self.deepfill_img.setPixmap(QPixmap(r'temp\deepfill.png'))
+        if self.is_yolo_loaded and self.is_deepfill_loaded:
+            image_path, _ = QFileDialog.getOpenFileName(self, 'Select Image', 'c:\\', "Image files (*.jpg *.png *.jpeg)")
+            if image_path != '' and image_path is not None:
+                movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
+                self.original_img.setPixmap(QPixmap(image_path))
+                self.yolo_img.setMovie(movie)
+                self.mask_img.setMovie(movie)
+                self.deepfill_img.setMovie(movie)
+                movie.start()
+                self.queue.put([3, image_path])
 
     def deepfill_select_model_path(self, event):
         deepfill_model_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
@@ -253,7 +296,9 @@ class Window(QMainWindow):
             self.deepfill_model_path = deepfill_model_dir
             self.deepfillModelPath.setText(self.deepfill_model_path)
             self.deepfillModelPathBatchTest.setText(self.deepfill_model_path)
-            self.load_models()
+            self.deepfillModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
+            self.deepfillModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+            self.queue.put([2, deepfill_model_dir])
 
     def yolo_select_model_path(self, event):
         yolo_model_dir = QFileDialog.getExistingDirectory(self, 'Select Folder')
@@ -261,95 +306,19 @@ class Window(QMainWindow):
             self.yolo_model_path = yolo_model_dir
             self.yoloModelPath.setText(self.yolo_model_path)
             self.yoloModelPathBatchTest.setText(self.yolo_model_path)
-            self.load_models()
-
-    def load_models(self):
-        pass
-        # print("loading models...")
-        # self.load_deepfill_model(self.deepfill_model_path)
-        # self.load_yolo_model(self.yolo_model_path)
-        # t1 = threading.Thread(target=self.load_deepfill_model,
-        #                       args=(self.deepfill_model_path,))
-        # t1.start()
-        # t1.join()
-        # t2 = threading.Thread(target=self.load_yolo_model,
-        #                       args=(self.yolo_model_path,))
-        # # starting thread 1
-        # # starting thread 2
-        # t2.start()
-        # t2.join()
-
-    def load_yolo_model(self, model_path):
-        res = self.camouflage_api.load_yolov3_model(model_path)
-        self.is_yolo_loaded = res
-        print("Yolo loaded result ", self.is_yolo_loaded)
-
-    def load_deepfill_model(self, model_path):
-        res = self.camouflage_api.load_deepfill_model(model_path)
-        self.is_deepfill_loaded = res
-        print("deepfill loaded result ", res)
-
-    def start_single_image_test(self, image_path):
-        print(image_path)
-        if image_path != '' and image_path is not None:
-            orig_image, yolo_image, mask_image, deepfill_image = self.camouflage_api.on_single_test_button_click(image_path)
+            self.yoloModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
+            self.yoloModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+            self.queue.put([1, yolo_model_dir + r'\yolov3'])
 
     def start_batch_test(self):
-        self.batchTestingProcess.clear()
-        self.batch_test_preview_list = []
-        self.batch_test_preview_index = 0
-        movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
-        self.previewImage.setMovie(movie)
-        movie.start()
-        t1 = threading.Thread(target=self.start_batch_test_thread)
-        t1.start()
-
-    def start_batch_test_thread(self):
-        self.batchTestingProcess.append("========== Loading models ==========")
-        start = timer()
-        self.batchTestingProcess.append("Loading Deepfill model...")
-
-        self.load_deepfill_model(self.deepfill_model_path)
-        self.batchTestingProcess.append(f"Deepfill loading result: {self.is_deepfill_loaded}")
-
-        self.batchTestingProcess.append("Loading Yolov3 model...")
-
-        self.load_yolo_model(self.yolo_model_path)
-        self.batchTestingProcess.append(f"Yolov3 loading result: {self.is_yolo_loaded}")
-
-        end = timer()
-        self.batchTestingProcess.append(f"Loading models finished. Total time: {end - start}\n\n")
-
-        start = timer()
-        # self.camouflage_api.on_batch_test_button_click(self.batch_test_source_folder_path,
-        #                                                self.batch_test_output_folder_path)
-        print(self.batch_test_source_folder_path)
-        i = 0
-        self.batchTestingProcess.append("========== Start batch test ==========")
-        total_files = len([name for name in os.listdir(self.batch_test_source_folder_path) if
-                           os.path.isfile(os.path.join(self.batch_test_source_folder_path, name))])
-        self.batchTestingProcess.append(f"Total files detected: {total_files}\n")
-
-        for filename in os.listdir(self.batch_test_source_folder_path):
-            file = os.path.join(self.batch_test_source_folder_path, filename)
-            # checking if it is a file
-            if os.path.isfile(file):
-                i += 1
-                try:
-                    self.batchTestingProcess.append(f"{i} currently testing file: {filename}")
-                    self.camouflage_api.on_batch_test_button_click(file, self.batch_test_source_folder_path,
-                                                                   self.batch_test_output_folder_path)
-                    self.batchTestingProcess.append(f"{i} finished testing file: {filename} successfully")
-                    self.batch_test_preview_list.append(self.batch_test_output_folder_path + '\\' + file.split("\\")[-1])
-
-                except:
-                    self.batchTestingProcess.append(f"{i} {filename} failed.")
-
-        end = timer()
-        self.batchTestingProcess.append(f"Testing time of {i} files: {end - start}")
-        self.batchTestingProcess.append(f"Average time per image: {(end - start)/i}")
-        if len(self.batch_test_preview_list) > 0:
-            self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[0]))
+        if self.is_yolo_loaded and self.is_deepfill_loaded:
+            self.batchTestingProcess.clear()
+            self.batch_test_preview_list = []
+            self.batch_test_preview_index = 0
+            movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
+            self.previewImage.setMovie(movie)
+            movie.start()
+            self.queue.put([4, self.batch_test_source_folder_path, self.batch_test_output_folder_path])
 
     def batch_test_preview_next_button(self):
         if self.batch_test_preview_index >= len(self.batch_test_preview_list):
@@ -384,9 +353,6 @@ class Window(QMainWindow):
                                             self.yolo_finalLR.text(),))
         self.action_process.start()
         self.run_tensorboard(self.yolov3_tensorboard_logs_folder)
-        # t1 = threading.Thread(target=self.run_tensorboard,
-        #                       args=(self.yolov3_tensorboard_logs_folder,))
-        # t1.start()
         self.train_log = TrainLoggerThread.TrainLoggerThread()
         self.train_log.log_data.connect(self.log_training_process)
         self.train_log.start()
@@ -443,12 +409,25 @@ class Window(QMainWindow):
         self.tensorboardIcon.setVisible(False)
         self.train_log.terminate()
 
-
     def run_tensorboard(self, log_dir):
         if os.path.exists(log_dir):
             shutil.rmtree(log_dir)
         self.tensorboard_process = subprocess.Popen(['tensorboard', '--logdir', log_dir])
         #os.system(r"tensorboard --logdir " + log_dir)
+
+    def excel_export_button_click(self, event):
+        dst_dir = QFileDialog.getExistingDirectory(self, 'Select Destination Folder')
+        if dst_dir != '' and dst_dir is not None:
+            try:
+                self.excel_export(dst_dir, self.training_data)
+            except Exception as e:
+                print(e)
+
+    def excel_export(self, output_path, data):
+        df = pd.DataFrame(data)
+        writer = pd.ExcelWriter(output_path + r'/training_report.xlsx', engine='xlsxwriter')
+        df.to_excel(writer, sheet_name='training_report', index=False)
+        writer.save()
 
     def yolo_train_parameter_validation(self):
         if self.yolo_batchSize.text() == '' or self.yolo_batchSize.text() is None:
