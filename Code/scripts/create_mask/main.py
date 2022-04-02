@@ -31,8 +31,9 @@ def create_mask_image(bboxs):
 
 
 if __name__ == "__main__":
-    path = "E:\FinalProject\Datasets\data\Airships\\n02692877_16302.JPEG"
-    out = "E:\FinalProject\\temp\\"
-    bboxs = single_image_detection_bboxs(path)
-    create_mask_image(bboxs)
-    #print(single_image_detection_bboxs(path))
+    pass
+    # path = "E:\FinalProject\Datasets\data\Airships\\n02692877_16302.JPEG"
+    # out = "E:\FinalProject\\temp\\"
+    # bboxs = single_image_detection_bboxs(path)
+    # create_mask_image(bboxs)
+    # #print(single_image_detection_bboxs(path))

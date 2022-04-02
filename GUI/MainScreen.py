@@ -1,22 +1,19 @@
-import sys
 import os
 import shutil
 from multiprocessing import Process
 import subprocess
-import threading
 from PyQt5 import uic, QtCore, QtWidgets
 from PyQt5.QtGui import QPixmap, QMovie
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QLabel
 import pandas as pd
 import TrainLoggerThread
 from ButtonCommands import GuiFunctions
-from timeit import default_timer as timer
 from MplCanvas import MplCanvas
 from calculate_map import run
 
 
 class Window(QMainWindow):
-    def __init__(self, workerThread, q):
+    def __init__(self, worker_thread, q):
         super().__init__()
         # DEFAULT VALUES
         self.log_path = None
@@ -24,8 +21,8 @@ class Window(QMainWindow):
         self.yolov3_tensorboard_logs_folder = r'C:\tensorboard\logs\yolov3'
         self.deepfillv1_output_folder = r'C:\trainedModels\deepfillv1'
         self.deepfillv1_tensorboard_logs_folder = r'C:\tensorboard\logs\deepfillv1'
-        self.yolo_model_path = r'E:\FinalProject\TrainedModels\YOLOv3\yolov3'
-        self.deepfill_model_path = r'E:\FinalProject\TrainedModels\release_places2_256_deepfill_v2'
+        self.yolo_model_path = r'..\FinalProject\TrainedModels\YOLOv3\yolov3'
+        self.deepfill_model_path = r'..\FinalProject\TrainedModels\release_places2_256_deepfill_v2'
         self.batch_test_source_folder_path = r'Select source folder'
         self.batch_test_output_folder_path = r'Select output folder'
         self.batch_test_preview_list = []
@@ -33,7 +30,7 @@ class Window(QMainWindow):
         self.batch_test_preview_index = 0
 
         self.camouflage_api = GuiFunctions(416, 0.5)
-        self.workerThread = workerThread
+        self.workerThread = worker_thread
         self.queue = q
         self.workerThread.results.connect(self.worker_event)
 

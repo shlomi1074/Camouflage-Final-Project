@@ -76,7 +76,8 @@ def single_image_detection_bboxs(image_path):
 
 
 if __name__ == "__main__":
-    path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
-    out = "E:\FinalProject\\temp\\"
-    single_image_detection_save(path, out)
+    pass
+    # path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
+    # out = "E:\FinalProject\\temp\\"
+    # single_image_detection_save(path, out)
     #print(single_image_detection_bboxs(path))

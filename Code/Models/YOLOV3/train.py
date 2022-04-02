@@ -142,6 +142,7 @@ def run(log_dir, output_dir, epochs, warmup_epochs, lr_init, end_lr):
 for tests - needs to be removed 
 '''
 if __name__ == "__main__":
-    run(r"./data/log/", r'E:\FinalProject\temp')
+    pass
+    # run(r"./data/log/", r'E:\FinalProject\temp')
 
 

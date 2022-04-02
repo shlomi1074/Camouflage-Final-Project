@@ -21,7 +21,6 @@ class DeepFillApi:
         self.image_placeholder = None
         self.model = None
         self.input_size = input_size
-        # self.iou_threshold = iou_threshold
 
     def train_model(self, log_dir, output_dir):
         Train(log_dir, output_dir)
@@ -54,7 +53,6 @@ class DeepFillApi:
 
         img.putdata(flat)
         return img
-        #img.save("./New.png", "PNG")
 
     def paint_mask_on_image(self, image_path, bboxes):
         img = cv2.imread(image_path)
@@ -106,33 +104,33 @@ class DeepFillApi:
         input_image = np.concatenate([image, mask], axis=2)
         result = self.model.run(self.outputs, feed_dict={self.image_placeholder: input_image})
         return result
-        #cv2.imwrite('.\\outp.png', result[0][:, :, ::-1])
 
 '''
 for tests - needs to be removed 
 '''
 if __name__ == "__main__":
-    deepfill_model_path = r'E:\FinalProject\TrainedModels\release_places2_256_deepfill_v2'
-    deppfill_api = DeepFillApi(416)
-    deppfill_api.load_model(deepfill_model_path)
-
-    yolo_model_path = r'E:\FinalProject\TrainedModels\YOLOv3\yolov3'
-    yolov3_api = YOLOv3Api.Yolov3Api(416, 0.5)
-    yolov3_api.load_model(yolo_model_path)
+    pass
+    # deepfill_model_path = r'E:\FinalProject\TrainedModels\release_places2_256_deepfill_v2'
+    # deppfill_api = DeepFillApi(416)
+    # deppfill_api.load_model(deepfill_model_path)
     #
+    # yolo_model_path = r'E:\FinalProject\TrainedModels\YOLOv3\yolov3'
+    # yolov3_api = YOLOv3Api.Yolov3Api(416, 0.5)
+    # yolov3_api.load_model(yolo_model_path)
     # #
-    image_path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
-    out = r"E:\FinalProject\temp"
+    # # #
+    # image_path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
+    # out = r"E:\FinalProject\temp"
+    # #
+    # # start = timer()
+    # #yolov3_api.detect_target_save(path, out)
+    # #deppfill_api.train_model(r'./data/log', out)
+    # #yolov3_api.train_model('E:\\FinalProject\\Code\\Models\\YOLOV3\\data\\log', out)
     #
-    # start = timer()
-    #yolov3_api.detect_target_save(path, out)
-    #deppfill_api.train_model(r'./data/log', out)
-    #yolov3_api.train_model('E:\\FinalProject\\Code\\Models\\YOLOV3\\data\\log', out)
-
-    image, bboxes = yolov3_api.detect_target_bboxes(image_path)
-    # end = timer()
-    # print(end - start)
-    #
-    temp = deppfill_api.fill_image(image, bboxes)
-    # temp2 = deppfill_api.fill_image(image, bboxes)
-    #print(single_image_detection_bboxs(path))
+    # image, bboxes = yolov3_api.detect_target_bboxes(image_path)
+    # # end = timer()
+    # # print(end - start)
+    # #
+    # temp = deppfill_api.fill_image(image, bboxes)
+    # # temp2 = deppfill_api.fill_image(image, bboxes)
+    # #print(single_image_detection_bboxs(path))

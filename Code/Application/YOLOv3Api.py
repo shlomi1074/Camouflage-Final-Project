@@ -1,10 +1,8 @@
 import tensorflow as tf
 #tf.compat.v1.enable_eager_execution()
-
 import cv2
 import core.utils as utils
 import numpy as np
-from timeit import default_timer as timer
 from core.yolov3 import YOLOv3, decode
 from train import run
 
@@ -106,28 +104,27 @@ class Yolov3Api:
         return image
 
     def train_model(self, log_dir, output_dir, epochs, warmup_epochs, lr_init, end_lr):
-        run(log_dir, output_dir, int(epochs), int(warmup_epochs), float(lr_init), float(end_lr))
-        # try:
-        #     run(log_dir, output_dir)
-        # except e:
-        #     print('Train failed')
+        try:
+            run(log_dir, output_dir, int(epochs), int(warmup_epochs), float(lr_init), float(end_lr))
+        except Exception as e:
+            print('Train failed:', e)
 
 
 '''
 for tests - needs to be removed 
 '''
 if __name__ == "__main__":
-
-    model_path = r'E:\FinalProject\Code\Models\YOLOV3\TrainedModel\tanks+airships\yolov3'
-    yolov3_api = Yolov3Api(416, 0.5)
-    #yolov3_api.load_model(model_path)
-    path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
-    out = r"E:\FinalProject\temp"
-
-    #start = timer()
-    #yolov3_api.detect_target_save(path, out)
-    yolov3_api.train_model(r'./data/yolo/log', out)
-    #bboxes = yolov3_api.detect_target_bboxes(path)
-    #end = timer()
-    #print(end - start)
-    #print(single_image_detection_bboxs(path))
+    pass
+    # model_path = r'E:\FinalProject\Code\Models\YOLOV3\TrainedModel\tanks+airships\yolov3'
+    # yolov3_api = Yolov3Api(416, 0.5)
+    # #yolov3_api.load_model(model_path)
+    # path = "E:\FinalProject\Datasets\data\Tanks\\n04389033_30632.JPEG"
+    # out = r"E:\FinalProject\temp"
+    #
+    # #start = timer()
+    # #yolov3_api.detect_target_save(path, out)
+    # yolov3_api.train_model(r'./data/yolo/log', out)
+    # #bboxes = yolov3_api.detect_target_bboxes(path)
+    # #end = timer()
+    # #print(end - start)
+    # #print(single_image_detection_bboxs(path))
