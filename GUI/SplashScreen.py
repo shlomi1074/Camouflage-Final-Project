@@ -45,9 +45,9 @@ class SplashScreen(QMainWindow):
         # SET VALUE TO PROGRESS BAR
         self.ui.progressBar.setValue(self.counter)
         # load deepfill model
-        self.q.put([2, r'E:\FinalProject\TrainedModels\release_places2_256_deepfill_v2'])
+        self.q.put([2, r'..\TrainedModels\release_places2_256_deepfill_v2'])
         # load yolo model
-        self.q.put([1, r'E:\FinalProject\TrainedModels\YOLOv3\yolov3'])
+        self.q.put([1, r'..\TrainedModels\YOLOv3\yolov3'])
 
         self.show()
 

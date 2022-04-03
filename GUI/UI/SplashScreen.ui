@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>680</width>
+    <width>845</width>
     <height>400</height>
    </rect>
   </property>
@@ -53,9 +53,9 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>90</y>
-         <width>661</width>
-         <height>61</height>
+         <y>60</y>
+         <width>821</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="font">
@@ -79,7 +79,7 @@
         <rect>
          <x>0</x>
          <y>150</y>
-         <width>661</width>
+         <width>821</width>
          <height>31</height>
         </rect>
        </property>
@@ -104,7 +104,7 @@
         <rect>
          <x>50</x>
          <y>280</y>
-         <width>561</width>
+         <width>711</width>
          <height>23</height>
         </rect>
        </property>
@@ -130,9 +130,9 @@ QProgressBar::chunk {
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>320</y>
-         <width>661</width>
-         <height>21</height>
+         <y>310</y>
+         <width>821</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
@@ -156,7 +156,7 @@ QProgressBar::chunk {
         <rect>
          <x>20</x>
          <y>350</y>
-         <width>621</width>
+         <width>801</width>
          <height>21</height>
         </rect>
        </property>
