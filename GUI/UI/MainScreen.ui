@@ -285,7 +285,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/x-circle.svg</normaloff>../Resources/icons/x-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/x-circle.svg</normaloff>../Resources/icons_pink/x-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -316,7 +316,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -1246,7 +1246,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -1277,7 +1277,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/x-circle.svg</normaloff>../Resources/icons/x-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/x-circle.svg</normaloff>../Resources/icons_pink/x-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -1916,7 +1916,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/orig.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -1995,7 +1995,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/yolo.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2047,7 +2047,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/mask.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2099,7 +2099,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/deep.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2127,7 +2127,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/save.svg</normaloff>../Resources/icons/save.svg</iconset>
+          <normaloff>../Resources/icons_pink/save.svg</normaloff>../Resources/icons_pink/save.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2615,7 +2615,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2702,7 +2702,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/arrow-left.svg</normaloff>../Resources/icons/arrow-left.svg</iconset>
+          <normaloff>../Resources/icons_pink/arrow-left.svg</normaloff>../Resources/icons_pink/arrow-left.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2733,7 +2733,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/arrow-right.svg</normaloff>../Resources/icons/arrow-right.svg</iconset>
+          <normaloff>../Resources/icons_pink/arrow-right.svg</normaloff>../Resources/icons_pink/arrow-right.svg</iconset>
         </property>
         <property name="iconSize">
          <size>

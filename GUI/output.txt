@@ -1,2 +1,0 @@
-=> STEP    1   lr: 0.001000   giou_loss: 2.06   conf_loss: 1814.61   prob_loss: 3.16   total_loss: 1819.82
-=> STEP    2   lr: 0.000009   giou_loss: 3.99   conf_loss: 1754.51   prob_loss: 5.10   total_loss: 1763.60

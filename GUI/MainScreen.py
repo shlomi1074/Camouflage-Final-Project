@@ -2,14 +2,13 @@ import os
 import shutil
 from multiprocessing import Process
 import subprocess
-from PyQt5 import uic, QtCore, QtWidgets
+from PyQt5 import uic
 from PyQt5.QtGui import QPixmap, QMovie
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QLabel
 import pandas as pd
 import TrainLoggerThread
 from ButtonCommands import GuiFunctions
 from MplCanvas import MplCanvas
-from calculate_map import run
 
 
 class Window(QMainWindow):
@@ -33,7 +32,6 @@ class Window(QMainWindow):
         self.camouflage_api = GuiFunctions(416, 0.5)
         self.workerThread = worker_thread
         self.queue = q
-        self.workerThread.results.connect(self.worker_event)
 
         self.action_process = None
         self.action_process_2 = None
@@ -43,6 +41,7 @@ class Window(QMainWindow):
         self.is_training_results = True
         self.charts = None
         self.training_data = None
+        self.train_log = None
         """
         Init UI
         """
@@ -69,8 +68,9 @@ class Window(QMainWindow):
         self.batchTestOutputPath.setText(self.batch_test_output_folder_path)
 
         """
-        click events
+        events
         """
+        self.workerThread.results.connect(self.worker_event)
         self.yoloStartTrainButton.clicked.connect(self.start_yolo_train)
         self.yoloStopTrainButton.clicked.connect(self.stop_yolo_train)
         self.deepfillStartTrainButton.clicked.connect(self.start_deepfill_train)
@@ -94,7 +94,6 @@ class Window(QMainWindow):
         self.resultsToggleButton.clicked.connect(self.results_toggle)
         self.saveFinalOutButton.clicked.connect(self.save_single_test_output)
         self.excel_button.mousePressEvent = self.excel_export_button_click
-        #run()  # TODO: RUN IT AFTER YOLO TRAINING
 
     def closeEvent(self, event):
         print('close event')
@@ -110,14 +109,14 @@ class Window(QMainWindow):
             except Exception as e:
                 print('Failed to delete %s. Reason: %s' % (file_path, e))
                 event.accept()
+        try:
+            file_path = 'output.txt'
+            os.unlink(file_path)
+        except Exception as e:
+            print('Failed to delete %s. Reason: %s' % (file_path, e))
 
     def on_tab_changes(self, selected_index):
         pass
-        #if selected_index == 2:
-            # self.gridLayout.removeWidget(self.charts)
-            # self.charts = MplCanvas(parent=self, data_path=
-            # r"E:\FinalProject\backup_files\events.out.tfevents.1646244711.SHLOMI-PC.18044.0.v2")
-            # self.gridLayout.addWidget(self.charts)
         if selected_index == 3:
             self.queue.put([5])
         if selected_index == 4:
@@ -127,7 +126,6 @@ class Window(QMainWindow):
         if self.is_training_results:
             self.is_training_results = False
             self.resultsToggleButton.setText("View Training Results")
-            #run()
             self.gridLayout.setHorizontalSpacing(2)
             self.gridLayout.setVerticalSpacing(2)
 
@@ -196,7 +194,6 @@ class Window(QMainWindow):
                 self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[0]))
                 self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[0]))
 
-
         if event_data[0] == 4:
             if event_data[1] == 'yolo':
                 self.is_yolo_loaded = event_data[2]
@@ -223,8 +220,8 @@ class Window(QMainWindow):
                 shutil.copy(r'temp\yolo.png', dst_dir)
                 shutil.copy(r'temp\mask.png', dst_dir)
                 shutil.copy(r'temp\deepfill.png', dst_dir)
-        except:
-            print('save images failed')
+        except Exception as e:
+            print('save images failed:', e)
 
     def load_tensor_report(self, event):
         self.log_path, _ = QFileDialog.getOpenFileName(self, 'Select log file')
@@ -232,7 +229,6 @@ class Window(QMainWindow):
             self.load_tensor_report_from_log(self.log_path)
 
     def load_tensor_report_from_log(self, log_path):
-        #self.gridLayout.removeWidget(self.charts)
         if self.charts is not None:
             self.is_training_results = True
             self.resultsToggleButton.setText("View Validation Results")
@@ -331,8 +327,8 @@ class Window(QMainWindow):
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index + 1]))
             self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[self.batch_test_preview_index + 1]))
             self.batch_test_preview_index += 1
-        except:
-            print('No more images')
+        except Exception as e:
+            print('Next preview failed:', e)
 
     def batch_test_preview_prev_button(self):
         if self.batch_test_preview_index <= 0:
@@ -341,8 +337,8 @@ class Window(QMainWindow):
             self.previewImage.setPixmap(QPixmap(self.batch_test_preview_list[self.batch_test_preview_index - 1]))
             self.originalImage.setPixmap(QPixmap(self.batch_test_original_list[self.batch_test_preview_index - 1]))
             self.batch_test_preview_index -= 1
-        except:
-            print('No more images')
+        except Exception as e:
+            print('Prev preview failed:', e)
 
     def log_training_process(self, log_data):
         self.trainingProcessText.setText(log_data)
@@ -419,7 +415,6 @@ class Window(QMainWindow):
         if os.path.exists(log_dir):
             shutil.rmtree(log_dir)
         self.tensorboard_process = subprocess.Popen(['tensorboard', '--logdir', log_dir])
-        #os.system(r"tensorboard --logdir " + log_dir)
 
     def excel_export_button_click(self, event):
         dst_dir = QFileDialog.getExistingDirectory(self, 'Select Destination Folder')
