@@ -17,6 +17,7 @@ class Window(QMainWindow):
         super().__init__()
         # DEFAULT VALUES
         self.log_path = None
+        self.train_log = None
         self.yolov3_output_folder = r'C:\trainedModels\yolov3'
         self.yolov3_tensorboard_logs_folder = r'C:\tensorboard\logs\yolov3'
         self.deepfillv1_output_folder = r'C:\trainedModels\deepfillv1'
@@ -283,7 +284,7 @@ class Window(QMainWindow):
         if self.is_yolo_loaded and self.is_deepfill_loaded:
             image_path, _ = QFileDialog.getOpenFileName(self, 'Select Image', 'c:\\', "Image files (*.jpg *.png *.jpeg)")
             if image_path != '' and image_path is not None:
-                movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
+                movie = QMovie(r"Resources\nspinner4.gif")
                 self.original_img.setPixmap(QPixmap(image_path))
                 self.yolo_img.setMovie(movie)
                 self.mask_img.setMovie(movie)
@@ -317,7 +318,7 @@ class Window(QMainWindow):
             self.batch_test_preview_list = []
             self.batch_test_original_list = []
             self.batch_test_preview_index = 0
-            movie = QMovie(r"E:\FinalProject\GUI\Resources\nspinner4.gif")
+            movie = QMovie(r"Resources\nspinner4.gif")
             self.previewImage.setMovie(movie)
             self.originalImage.setMovie(movie)
             movie.start()

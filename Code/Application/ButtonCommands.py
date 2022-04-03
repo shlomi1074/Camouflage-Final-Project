@@ -62,10 +62,10 @@ class GuiFunctions:
         mask = self.deepfill_api.paint_mask_on_image(image_path, bboxes)
         deepfill_output = self.deepfill_api.fill_image(image, bboxes)
 
-        cv2.imwrite(r'.\temp\orig.png', img)
-        cv2.imwrite(r'.\temp\yolo.png', yolov3_image)
-        cv2.imwrite(r'.\temp\mask.png', mask)
-        cv2.imwrite(r'.\temp\deepfill.png', deepfill_output[0][:, :, ::-1])
+        cv2.imwrite(r'temp\orig.png', img)
+        cv2.imwrite(r'temp\yolo.png', yolov3_image)
+        cv2.imwrite(r'temp\mask.png', mask)
+        cv2.imwrite(r'temp\deepfill.png', deepfill_output[0][:, :, ::-1])
         return img, yolov3_image, mask, deepfill_output
 
 
