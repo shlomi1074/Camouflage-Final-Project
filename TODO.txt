@@ -1,9 +1,6 @@
 RE-DESIGN:
 CHANGE COLOR SCHEME
 
-About tab:
-- add more information (m)
-
 Train Report tab:
 - implement export data (m). pdf?
 

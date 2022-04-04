@@ -414,7 +414,13 @@ class Window(QMainWindow):
     def run_tensorboard(self, log_dir):
         if os.path.exists(log_dir):
             shutil.rmtree(log_dir)
-        self.tensorboard_process = subprocess.Popen(['tensorboard', '--logdir', log_dir])
+        try:
+            self.tensorboard_process = subprocess.Popen([
+                r'c:\Users\Shlomi\AppData\Local\Programs\Python\Python37\Scripts\tensorboard.exe', '--logdir', log_dir])
+            print("Tensorboard")
+        except Exception as e:
+            print(e)
+
 
     def excel_export_button_click(self, event):
         dst_dir = QFileDialog.getExistingDirectory(self, 'Select Destination Folder')
