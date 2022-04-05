@@ -1,5 +1,5 @@
 import tensorflow as tf
-#tf.compat.v1.enable_eager_execution()
+# tf.compat.v1.enable_eager_execution()
 import cv2
 import core.utils as utils
 import numpy as np
@@ -7,8 +7,9 @@ from core.yolov3 import YOLOv3, decode
 from train import run
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-
 graph = None
+
+
 class Yolov3Api:
     def __init__(self, input_size, iou_threshold):
         self.model_path = None
@@ -19,6 +20,7 @@ class Yolov3Api:
     '''
     load existing model
     '''
+
     def load_model(self, yolov3_model_path):
         try:
             global graph
@@ -41,9 +43,11 @@ class Yolov3Api:
             self.model_path = None
             self.model = None
             return False
+
     '''
      Detect targets in a single image and return the bounding boxes of the targets
     '''
+
     def detect_target_bboxes(self, image_path):
         if self.model is None:
             return None
@@ -69,21 +73,22 @@ class Yolov3Api:
      Detect targets in a single image, draw the bounding boxes
       and save the image in a given location
     '''
+
     def detect_target_save(self, image_path, output_path):
         if self.model is None:
             return None
-        #tf.compat.v1.disable_eager_execution()
+        # tf.compat.v1.disable_eager_execution()
         image_name = image_path.split('\\')[-1]
         image = self.detect_target_draw_bboxes(image_path)
         # cv2.imwrite(cfg.TEST.DECTECTED_IMAGE_PATH+image_name, image)
         cv2.imwrite(output_path + "\\" + image_name, image)
-        #tf.compat.v1.enable_eager_execution()
-
+        # tf.compat.v1.enable_eager_execution()
 
     '''
      Detect targets in a single image, draw the bounding boxes
       and return the image with the bounding boxes
     '''
+
     def detect_target_draw_bboxes(self, image_path):
         if self.model is None:
             return None
