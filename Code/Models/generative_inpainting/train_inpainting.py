@@ -1,8 +1,8 @@
 import os
 import glob
 import tensorflow as tf
-import neuralgym as ng
-from inpaint_model import InpaintCAModel
+import Code.Models.neuralgym as ng
+from Code.Models.generative_inpainting.inpaint_model import InpaintCAModel
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 

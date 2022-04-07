@@ -3,9 +3,9 @@ import argparse
 import cv2
 import numpy as np
 import tensorflow as tf
-import neuralgym as ng
+import Code.Models.neuralgym as ng
 
-from inpaint_model import InpaintCAModel
+from Code.Models.generative_inpainting.inpaint_model import InpaintCAModel
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 

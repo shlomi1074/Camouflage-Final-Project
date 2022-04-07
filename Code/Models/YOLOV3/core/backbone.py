@@ -12,7 +12,7 @@
 #================================================================
 
 import tensorflow as tf
-import core.common as common
+from Code.Models.YOLOV3.core import common
 
 
 def darknet53(input_data):

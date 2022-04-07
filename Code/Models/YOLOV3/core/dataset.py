@@ -16,9 +16,8 @@ import cv2
 import random
 import numpy as np
 import tensorflow as tf
-import core.utils as utils
-from core.config import cfg
-
+from Code.Models.YOLOV3.core import utils
+from Code.Models.YOLOV3.core.config import cfg
 
 
 class Dataset(object):

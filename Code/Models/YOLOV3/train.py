@@ -17,9 +17,8 @@ import sys
 
 import numpy as np
 import tensorflow as tf
-from core.dataset import Dataset
-from core.yolov3 import YOLOv3, decode, compute_loss
-from core.config import cfg
+from Code.Models.YOLOV3.core.dataset import Dataset
+from Code.Models.YOLOV3.core.yolov3 import YOLOv3, decode, compute_loss
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 

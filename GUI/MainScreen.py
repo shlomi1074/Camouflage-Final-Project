@@ -7,7 +7,7 @@ from PyQt5.QtGui import QPixmap, QMovie
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QLabel
 import pandas as pd
 import TrainLoggerThread
-from ButtonCommands import GuiFunctions
+from Code.Application.ButtonCommands import GuiFunctions
 from MplCanvas import MplCanvas
 
 

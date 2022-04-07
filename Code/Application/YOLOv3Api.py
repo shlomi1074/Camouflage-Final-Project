@@ -1,10 +1,10 @@
 import tensorflow as tf
 # tf.compat.v1.enable_eager_execution()
 import cv2
-import core.utils as utils
+from Code.Models.YOLOV3.core import utils
 import numpy as np
-from core.yolov3 import YOLOv3, decode
-from train import run
+from Code.Models.YOLOV3.core.yolov3 import YOLOv3, decode
+from Code.Models.YOLOV3.train import run
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 graph = None

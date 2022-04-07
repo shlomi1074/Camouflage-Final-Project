@@ -1,7 +1,7 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import YOLOv3Api
-import DeepFiilApi
+from Code.Application import YOLOv3Api
+from Code.Application import DeepFiilApi
 import cv2
 import tensorflow as tf  # tf.compat.v1.enable_eager_execution()
 from tensorflow.python.eager.context import eager_mode  # , graph_mode
@@ -34,7 +34,7 @@ class GuiFunctions:
                 lr_init = float(lr_init)
                 end_lr = float(end_lr)
                 self.yolov3_api.train_model(log_dir, output_path, epochs, warmup_epochs, lr_init, end_lr)
-                from calculate_map import run
+                from Code.Models.mAP.calculate_map import run
                 run()
             except ValueError:
                 print("Please fill valid parameters")

@@ -7,11 +7,11 @@ import tensorflow as tf
 from tensorflow.contrib.framework.python.ops import add_arg_scope
 from PIL import Image, ImageDraw
 
-from neuralgym.ops.layers import resize
-from neuralgym.ops.layers import *
-from neuralgym.ops.loss_ops import *
-from neuralgym.ops.gan_ops import *
-from neuralgym.ops.summary_ops import *
+from Code.Models.neuralgym.neuralgym.ops.layers import resize
+from Code.Models.neuralgym.neuralgym.ops.layers import *
+from Code.Models.neuralgym.neuralgym.ops.loss_ops import *
+from Code.Models.neuralgym.neuralgym.ops.gan_ops import *
+from Code.Models.neuralgym.neuralgym.ops.summary_ops import *
 
 
 logger = logging.getLogger()

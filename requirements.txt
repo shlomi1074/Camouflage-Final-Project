@@ -14,3 +14,6 @@ contrib==0.3.0
 cloudbiolinux==0.1
 cryptography==36.0.1
 zipp==3.7.0
+matplotlib==3.5.1
+scipy==1.4.1
+pandas==1.1.5

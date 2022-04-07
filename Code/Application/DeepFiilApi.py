@@ -3,15 +3,16 @@ import tensorflow as tf
 #tf.compat.v1.enable_eager_execution()
 
 #from train_inpainting import
-from inpaint_model import InpaintCAModel
-import neuralgym as ng
+from Code.Models.generative_inpainting.inpaint_model import InpaintCAModel
+import Code.Models.neuralgym as ng
+from Code.Models.neuralgym.neuralgym.utils.config import Config
 import cv2
 import numpy as np
 from PIL import Image
-import YOLOv3Api
+import Code.Application.YOLOv3Api
 from timeit import default_timer as timer
-from train_inpainting import Train
-from test_inpainting import fill
+from Code.Models.generative_inpainting.train_inpainting import Train
+from Code.Models.generative_inpainting.test_inpainting import fill
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 class DeepFillApi:
@@ -63,7 +64,7 @@ class DeepFillApi:
 
     def load_model(self, deepfill_model_dir):
         tf.reset_default_graph()
-        FLAGS = ng.Config('resources/inpaint.yml')
+        FLAGS = Config('resources/inpaint.yml')
         sess_config = tf.ConfigProto()
         sess_config.gpu_options.allow_growth = True
         sess = tf.Session(config=sess_config)
