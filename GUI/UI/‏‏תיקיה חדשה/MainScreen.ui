@@ -92,7 +92,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <property name="iconSize">
        <size>
@@ -121,7 +121,7 @@
          <rect>
           <x>40</x>
           <y>110</y>
-          <width>781</width>
+          <width>731</width>
           <height>31</height>
          </rect>
         </property>
@@ -142,7 +142,7 @@
          <rect>
           <x>40</x>
           <y>140</y>
-          <width>621</width>
+          <width>451</width>
           <height>31</height>
          </rect>
         </property>
@@ -170,10 +170,10 @@
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>284</x>
+          <x>375</x>
           <y>30</y>
-          <width>541</width>
-          <height>41</height>
+          <width>450</width>
+          <height>31</height>
          </rect>
         </property>
         <property name="font">
@@ -194,79 +194,6 @@
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
-       <widget class="QTextBrowser" name="textBrowser">
-        <property name="geometry">
-         <rect>
-          <x>40</x>
-          <y>200</y>
-          <width>801</width>
-          <height>251</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color:transparent;
-border: None;</string>
-        </property>
-        <property name="html">
-         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; text-decoration: underline;&quot;&gt;Abstract:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Camouflage is the most common and effective way to conceal combat military reconnaissance and military equipment. Over the years camouflage has evolved from deformable camouflage to digital camouflage. Traditional digital camouflage is mainly designed for a single background and state. In traditional digital camouflage, the camouflage performance is greatly weakened when the environment and time changes. Therefore, camouflage technology which can change in real-time and can adapt itself to the environment became the requirement for military camouflage. The proposed solution is a fast-self-adaptive digital camouflage design method based on deep learning. The method can detect the target which should be camouflaged, and the background pattern design, then camouflage the target in near real-time. To begin with, the YOLOv3 algorithm is used to realize the recognition of typical military targets. Then, the Deepfillv1 algorithm realize the preliminary design of adaptive camouflage texture&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-       <widget class="QTextBrowser" name="textBrowser_2">
-        <property name="geometry">
-         <rect>
-          <x>40</x>
-          <y>450</y>
-          <width>331</width>
-          <height>121</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color:transparent;
-border: None;</string>
-        </property>
-        <property name="html">
-         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;This Application provides the abilities to:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Train&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; the models&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;View&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; the training results&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; on a single image&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; on a batch of images&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-       <widget class="QTextBrowser" name="textBrowser_3">
-        <property name="geometry">
-         <rect>
-          <x>475</x>
-          <y>580</y>
-          <width>250</width>
-          <height>151</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color:transparent;
-border: None;</string>
-        </property>
-        <property name="html">
-         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Anastasia Kokin&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Shlomi Amar &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Supervisors: &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Dr. Renata Avros &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Prof. Zeev Volkovich&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
       </widget>
       <widget class="QWidget" name="train">
        <attribute name="title">
@@ -277,8 +204,8 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>710</x>
           <y>60</y>
-          <width>291</width>
-          <height>41</height>
+          <width>241</width>
+          <height>31</height>
          </rect>
         </property>
         <property name="font">
@@ -358,7 +285,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/x-circle.svg</normaloff>../Resources/icons/x-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/x-circle.svg</normaloff>../Resources/icons_pink/x-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -389,7 +316,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -403,7 +330,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>210</x>
           <y>300</y>
-          <width>111</width>
+          <width>91</width>
           <height>16</height>
          </rect>
         </property>
@@ -424,7 +351,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>210</x>
           <y>370</y>
-          <width>191</width>
+          <width>171</width>
           <height>16</height>
          </rect>
         </property>
@@ -661,7 +588,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>720</x>
           <y>300</y>
-          <width>101</width>
+          <width>91</width>
           <height>16</height>
          </rect>
         </property>
@@ -682,7 +609,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>720</x>
           <y>370</y>
-          <width>181</width>
+          <width>171</width>
           <height>16</height>
          </rect>
         </property>
@@ -1175,8 +1102,8 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>200</x>
           <y>60</y>
-          <width>271</width>
-          <height>41</height>
+          <width>231</width>
+          <height>31</height>
          </rect>
         </property>
         <property name="font">
@@ -1319,7 +1246,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -1350,7 +1277,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/x-circle.svg</normaloff>../Resources/icons/x-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/x-circle.svg</normaloff>../Resources/icons_pink/x-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -1715,7 +1642,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>40</x>
           <y>60</y>
-          <width>261</width>
+          <width>251</width>
           <height>16</height>
          </rect>
         </property>
@@ -1734,7 +1661,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="TensorboardFileButton">
         <property name="geometry">
          <rect>
-          <x>310</x>
+          <x>290</x>
           <y>53</y>
           <width>31</width>
           <height>31</height>
@@ -1824,9 +1751,9 @@ p, li { white-space: pre-wrap; }
        <widget class="QPushButton" name="resultsToggleButton">
         <property name="geometry">
          <rect>
-          <x>1000</x>
+          <x>1010</x>
           <y>140</y>
-          <width>141</width>
+          <width>131</width>
           <height>31</height>
          </rect>
         </property>
@@ -1856,7 +1783,7 @@ p, li { white-space: pre-wrap; }
           <x>40</x>
           <y>110</y>
           <width>321</width>
-          <height>45</height>
+          <height>36</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="gridLayout_3">
@@ -1989,7 +1916,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/orig.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -1999,9 +1926,9 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>210</x>
-          <y>160</y>
+          <y>170</y>
           <width>220</width>
-          <height>31</height>
+          <height>25</height>
          </rect>
         </property>
         <property name="font">
@@ -2068,7 +1995,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/yolo.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2120,7 +2047,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/mask.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2172,7 +2099,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/deep.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2200,7 +2127,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/save.svg</normaloff>../Resources/icons/save.svg</iconset>
+          <normaloff>../Resources/icons_pink/save.svg</normaloff>../Resources/icons_pink/save.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2688,7 +2615,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/play-circle.svg</normaloff>../Resources/icons/play-circle.svg</iconset>
+          <normaloff>../Resources/icons_pink/play-circle.svg</normaloff>../Resources/icons_pink/play-circle.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2775,7 +2702,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/arrow-left.svg</normaloff>../Resources/icons/arrow-left.svg</iconset>
+          <normaloff>../Resources/icons_pink/arrow-left.svg</normaloff>../Resources/icons_pink/arrow-left.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2806,7 +2733,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/arrow-right.svg</normaloff>../Resources/icons/arrow-right.svg</iconset>
+          <normaloff>../Resources/icons_pink/arrow-right.svg</normaloff>../Resources/icons_pink/arrow-right.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
