@@ -416,7 +416,7 @@ class Window(QMainWindow):
             shutil.rmtree(log_dir)
         try:
             self.tensorboard_process = subprocess.Popen([
-                r'c:\Users\Shlomi\AppData\Local\Programs\Python\Python37\Scripts\tensorboard.exe', '--logdir', log_dir])
+                r'tensorboard.exe', '--logdir', log_dir])
             print("Tensorboard")
         except Exception as e:
             print(e)
