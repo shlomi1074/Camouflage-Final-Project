@@ -60,6 +60,8 @@ class Window(QMainWindow):
         self.trainingTrackerLabel.setVisible(False)
         self.tensorboardIcon.setVisible(False)
         self.resultsToggleButton.setVisible(False)
+        self.loadingModelLabel_2.setVisible(False)
+        self.loadingModelLabel.setVisible(False)
         self.yoloModelPath.setText(self.yolo_model_path)
         self.deepfillModelPath.setText(self.deepfill_model_path)
         self.yoloModelPathBatchTest.setText(self.yolo_model_path)
@@ -176,7 +178,7 @@ class Window(QMainWindow):
         3 -
         4 -
         """
-        if event_data[0] == 1:
+        if event_data[0] == 5:
             if event_data[1]:
                 self.original_img.setPixmap(QPixmap(r'temp\orig.png'))
                 self.yolo_img.setPixmap(QPixmap(r'temp\yolo.png'))
@@ -196,6 +198,12 @@ class Window(QMainWindow):
 
         if event_data[0] == 4:
             if event_data[1] == 'yolo':
+                self.loadingModelLabel_2.setVisible(False)
+                self.loadingModelLabel.setVisible(False)
+                self.LoadYoloModelButton.setEnabled(True)
+                self.LoadDeepfillModelButton.setEnabled(True)
+                self.LoadYoloModelBatchTestButton.setEnabled(True)
+                self.LoadDeepfillModelBatchTestButton.setEnabled(True)
                 self.is_yolo_loaded = event_data[2]
                 if event_data[2]:
                     self.yoloModelStatus.setPixmap(QPixmap(r'Resources\green.png'))
@@ -204,6 +212,12 @@ class Window(QMainWindow):
                     self.yoloModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
                     self.yoloModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
             if event_data[1] == 'deepfill':
+                self.loadingModelLabel_2.setVisible(False)
+                self.loadingModelLabel.setVisible(False)
+                self.LoadYoloModelButton.setEnabled(True)
+                self.LoadDeepfillModelButton.setEnabled(True)
+                self.LoadYoloModelBatchTestButton.setEnabled(True)
+                self.LoadDeepfillModelBatchTestButton.setEnabled(True)
                 self.is_deepfill_loaded = event_data[2]
                 if event_data[2]:
                     self.deepfillModelStatus.setPixmap(QPixmap(r'Resources\green.png'))
@@ -296,6 +310,12 @@ class Window(QMainWindow):
             self.deepfillModelPathBatchTest.setText(self.deepfill_model_path)
             self.deepfillModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
             self.deepfillModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+            self.loadingModelLabel_2.setVisible(True)
+            self.loadingModelLabel.setVisible(True)
+            self.LoadYoloModelButton.setEnabled(False)
+            self.LoadDeepfillModelButton.setEnabled(False)
+            self.LoadYoloModelBatchTestButton.setEnabled(False)
+            self.LoadDeepfillModelBatchTestButton.setEnabled(False)
             self.queue.put([2, deepfill_model_dir])
 
     def yolo_select_model_path(self, event):
@@ -306,6 +326,12 @@ class Window(QMainWindow):
             self.yoloModelPathBatchTest.setText(self.yolo_model_path)
             self.yoloModelStatus.setPixmap(QPixmap(r'Resources\red.png'))
             self.yoloModelStatus_2.setPixmap(QPixmap(r'Resources\red.png'))
+            self.loadingModelLabel_2.setVisible(True)
+            self.loadingModelLabel.setVisible(True)
+            self.LoadYoloModelButton.setEnabled(False)
+            self.LoadDeepfillModelButton.setEnabled(False)
+            self.LoadYoloModelBatchTestButton.setEnabled(False)
+            self.LoadDeepfillModelBatchTestButton.setEnabled(False)
             self.queue.put([1, yolo_model_dir + r'\yolov3'])
 
     def start_batch_test(self):

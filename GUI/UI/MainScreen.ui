@@ -92,7 +92,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>4</number>
       </property>
       <property name="iconSize">
        <size>
@@ -1763,7 +1763,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>1030</x>
-          <y>72</y>
+          <y>70</y>
           <width>48</width>
           <height>48</height>
          </rect>
@@ -1778,29 +1778,10 @@ p, li { white-space: pre-wrap; }
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QLabel" name="label_4">
-        <property name="geometry">
-         <rect>
-          <x>1080</x>
-          <y>74</y>
-          <width>42</width>
-          <height>42</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="pixmap">
-         <pixmap>../Resources/pdf.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_5">
         <property name="geometry">
          <rect>
-          <x>1030</x>
+          <x>1010</x>
           <y>52</y>
           <width>91</width>
           <height>20</height>
@@ -1824,9 +1805,9 @@ p, li { white-space: pre-wrap; }
        <widget class="QPushButton" name="resultsToggleButton">
         <property name="geometry">
          <rect>
-          <x>1000</x>
-          <y>140</y>
-          <width>141</width>
+          <x>960</x>
+          <y>130</y>
+          <width>191</width>
           <height>31</height>
          </rect>
         </property>
@@ -1989,7 +1970,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/orig.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2068,7 +2049,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/yolo.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2120,7 +2101,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/mask.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2130,7 +2111,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>780</x>
-          <y>170</y>
+          <y>190</y>
           <width>220</width>
           <height>25</height>
          </rect>
@@ -2154,7 +2135,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>670</x>
-          <y>200</y>
+          <y>220</y>
           <width>430</width>
           <height>430</height>
          </rect>
@@ -2172,7 +2153,7 @@ p, li { white-space: pre-wrap; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../Resources/deep.png</pixmap>
+         <pixmap>../Resources/nspinner4.gif</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2182,7 +2163,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>820</x>
-          <y>650</y>
+          <y>670</y>
           <width>135</width>
           <height>40</height>
          </rect>
@@ -2469,6 +2450,30 @@ p, li { white-space: pre-wrap; }
          <bool>true</bool>
         </property>
        </widget>
+       <widget class="QLabel" name="loadingModelLabel_2">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>150</y>
+          <width>211</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
+        <property name="text">
+         <string>Loading model please wait</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
        <zorder>deepfillModelPath</zorder>
        <zorder>label_26</zorder>
        <zorder>original_img</zorder>
@@ -2490,6 +2495,7 @@ p, li { white-space: pre-wrap; }
        <zorder>LoadDeepfillModelButton</zorder>
        <zorder>yoloModelStatus</zorder>
        <zorder>deepfillModelStatus</zorder>
+       <zorder>loadingModelLabel_2</zorder>
       </widget>
       <widget class="QWidget" name="batchTest">
        <attribute name="title">
@@ -2670,7 +2676,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>320</x>
-          <y>340</y>
+          <y>350</y>
           <width>135</width>
           <height>40</height>
          </rect>
@@ -3084,6 +3090,30 @@ p, li { white-space: pre-wrap; }
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
+       <widget class="QLabel" name="loadingModelLabel">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>290</y>
+          <width>211</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#bdbfc0</string>
+        </property>
+        <property name="text">
+         <string>Loading model please wait</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
        <zorder>deepfillModelPathBatchTest</zorder>
        <zorder>LoadDeepfillModelBatchTestButton</zorder>
        <zorder>label_108</zorder>
@@ -3107,6 +3137,7 @@ p, li { white-space: pre-wrap; }
        <zorder>yoloModelStatus_2</zorder>
        <zorder>originalImage</zorder>
        <zorder>label_38</zorder>
+       <zorder>loadingModelLabel</zorder>
       </widget>
      </widget>
     </item>
