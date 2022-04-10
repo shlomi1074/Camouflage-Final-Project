@@ -64,9 +64,9 @@ class TestModelsThread(QtCore.QThread):
         if self.is_deepfill_loaded and self.is_yolo_loaded:
             try:
                 self.camouflage_api.on_single_test_button_click(image_path)
-                self.results.emit([1, True, 'Success'])
+                self.results.emit([5, True, 'Success'])
             except Exception as e:
-                self.results.emit([1, False, e])
+                self.results.emit([5, False, e])
         else:
             self.results.emit([1, False, 'Models are not loaded'])
 
