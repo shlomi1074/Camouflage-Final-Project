@@ -1,6 +1,6 @@
 backup_files
 temp
 TrainedModels
-Env
+venv
 **/Application/data/logs
 **/Application/data/log
