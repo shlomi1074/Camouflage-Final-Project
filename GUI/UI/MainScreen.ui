@@ -27,7 +27,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:#FEFAE0</string>
+   <string notr="true">background-color:#F9F3DF</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Triangular</enum>
@@ -96,7 +96,7 @@ background: #F9F3DF</string>
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <property name="iconSize">
        <size>
@@ -169,7 +169,7 @@ selection-background-color: rgb(188, 108, 37);
 background-color:none</string>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.mdpi.com/2076-3417/10/15/5284/htm&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; text-decoration: underline; color:#90aacb;&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/shlomi1074/Camouflage-Final-Project&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; text-decoration: underline; color:#90aacb;&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="textFormat">
          <enum>Qt::AutoText</enum>
@@ -459,8 +459,8 @@ background-color:none;</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -757,8 +757,8 @@ QPushButton:pressed {
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -781,8 +781,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -805,8 +805,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -829,8 +829,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -853,8 +853,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -921,11 +921,17 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#403d39; background-color:transparent
+         <string notr="true"> background-color:transparent
 </string>
         </property>
         <property name="text">
-         <string>Track training: &lt;a href=&quot;http://www.localhost:6006&quot;style=&quot;color: red&quot;&gt;Here&lt;/a&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Track training: &lt;a href=&quot;http://www.localhost:6006&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#a52a2a;&quot;&gt;Here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="openExternalLinks">
          <bool>true</bool>
@@ -951,7 +957,7 @@ border-style:inset;border-color:#F79862;border-width:2px;
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#90AACB;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="text">
@@ -1034,7 +1040,7 @@ border-style:inset;border-color:#90AACB;border-width:2px;
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#90AACB;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="text">
@@ -1089,7 +1095,7 @@ border-style:inset;border-color:#90AACB;border-width:2px;
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#90AACB;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="text">
@@ -1144,7 +1150,7 @@ border-style:inset;border-color:#90AACB;border-width:2px;
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#90AACB;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="text">
@@ -1251,8 +1257,8 @@ background-color:none;</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -1275,8 +1281,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -1299,8 +1305,8 @@ border-style:inset;border-color:#F79862;border-width:2px;
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -1500,7 +1506,7 @@ QPushButton:pressed {
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F4D19B;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="html">
@@ -1527,8 +1533,8 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#F79862;border-width:2px;
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
 </string>
         </property>
         <property name="text">
@@ -1610,7 +1616,7 @@ border-style:inset;border-color:#F79862;border-width:2px;
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
           <weight>75</weight>
           <italic>false</italic>
@@ -1879,7 +1885,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
           <weight>75</weight>
           <italic>false</italic>
@@ -1940,14 +1946,14 @@ QPushButton:pressed {
         <property name="geometry">
          <rect>
           <x>210</x>
-          <y>160</y>
+          <y>170</y>
           <width>220</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
@@ -1975,7 +1981,7 @@ background-color:none</string>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
@@ -2034,7 +2040,7 @@ background-color:none</string>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
@@ -2090,7 +2096,7 @@ background-color:none</string>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
           <weight>50</weight>
           <bold>false</bold>
@@ -2239,7 +2245,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -2342,7 +2348,7 @@ border-style:inset;border-color:#606C38;border-width:2px;
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -2365,7 +2371,7 @@ border-style:inset;border-color:#606C38;border-width:2px;
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -2554,7 +2560,7 @@ background-color:none;</string>
        <widget class="QLabel" name="label_31">
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>90</x>
           <y>140</y>
           <width>121</width>
           <height>16</height>
@@ -2562,7 +2568,8 @@ background-color:none;</string>
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -2581,7 +2588,7 @@ background-color:none;</string>
         </property>
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>90</x>
           <y>160</y>
           <width>281</width>
           <height>31</height>
@@ -2632,7 +2639,7 @@ border-style:inset;border-color:#606C38;border-width:2px;
        <widget class="QLabel" name="label_33">
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>90</x>
           <y>220</y>
           <width>111</width>
           <height>16</height>
@@ -2640,7 +2647,8 @@ border-style:inset;border-color:#606C38;border-width:2px;
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -2659,7 +2667,7 @@ background-color:none;</string>
         </property>
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>90</x>
           <y>240</y>
           <width>281</width>
           <height>31</height>
@@ -2711,7 +2719,7 @@ border-style:inset;border-color:#606C38;border-width:2px;
         <property name="geometry">
          <rect>
           <x>320</x>
-          <y>400</y>
+          <y>410</y>
           <width>135</width>
           <height>40</height>
          </rect>
@@ -2766,8 +2774,8 @@ QPushButton:pressed {
        <widget class="QTextBrowser" name="batchTestingProcess">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>490</y>
+          <x>110</x>
+          <y>550</y>
           <width>581</width>
           <height>151</height>
          </rect>
@@ -2779,7 +2787,7 @@ QPushButton:pressed {
         </property>
         <property name="styleSheet">
          <string notr="true">color:#283618;padding-left:3px;
-border-style:inset;border-color:#606C38;border-width:2px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
 </string>
         </property>
         <property name="html">
@@ -2793,8 +2801,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="previewImage">
         <property name="geometry">
          <rect>
-          <x>810</x>
-          <y>400</y>
+          <x>840</x>
+          <y>430</y>
           <width>250</width>
           <height>250</height>
          </rect>
@@ -2824,8 +2832,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QPushButton" name="previewPrev">
         <property name="geometry">
          <rect>
-          <x>840</x>
-          <y>670</y>
+          <x>870</x>
+          <y>710</y>
           <width>51</width>
           <height>31</height>
          </rect>
@@ -2880,8 +2888,8 @@ QPushButton:pressed {
        <widget class="QPushButton" name="previewNext">
         <property name="geometry">
          <rect>
-          <x>970</x>
-          <y>670</y>
+          <x>1010</x>
+          <y>710</y>
           <width>51</width>
           <height>31</height>
          </rect>
@@ -2936,15 +2944,15 @@ QPushButton:pressed {
        <widget class="QLabel" name="label_34">
         <property name="geometry">
          <rect>
-          <x>880</x>
-          <y>370</y>
+          <x>910</x>
+          <y>400</y>
           <width>110</width>
           <height>25</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
          </font>
         </property>
@@ -2992,7 +3000,7 @@ QPushButton:pressed {
        <widget class="QLabel" name="label_107">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>140</y>
           <width>121</width>
           <height>16</height>
@@ -3000,7 +3008,8 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -3019,7 +3028,7 @@ background-color:none;</string>
         </property>
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>160</y>
           <width>281</width>
           <height>31</height>
@@ -3045,7 +3054,7 @@ border-style:inset;border-color:#606C38;border-width:2px;
         </property>
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>240</y>
           <width>281</width>
           <height>31</height>
@@ -3096,15 +3105,16 @@ border-style:inset;border-color:#606C38;border-width:2px;
        <widget class="QLabel" name="label_108">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>220</y>
-          <width>111</width>
+          <width>141</width>
           <height>16</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -3120,7 +3130,7 @@ background-color:none;</string>
        <widget class="QLabel" name="deepfillModelStatus_2">
         <property name="geometry">
          <rect>
-          <x>700</x>
+          <x>720</x>
           <y>243</y>
           <width>24</width>
           <height>24</height>
@@ -3139,7 +3149,7 @@ background-color:none;</string>
        <widget class="QLabel" name="yoloModelStatus_2">
         <property name="geometry">
          <rect>
-          <x>360</x>
+          <x>380</x>
           <y>243</y>
           <width>24</width>
           <height>24</height>
@@ -3158,8 +3168,8 @@ background-color:none;</string>
        <widget class="QLabel" name="originalImage">
         <property name="geometry">
          <rect>
-          <x>810</x>
-          <y>110</y>
+          <x>840</x>
+          <y>130</y>
           <width>250</width>
           <height>250</height>
          </rect>
@@ -3189,15 +3199,15 @@ background-color:none;</string>
        <widget class="QLabel" name="label_38">
         <property name="geometry">
          <rect>
-          <x>880</x>
-          <y>70</y>
+          <x>910</x>
+          <y>90</y>
           <width>110</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>Segoe Print</family>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
          </font>
         </property>
@@ -3218,13 +3228,14 @@ background-color:none;</string>
         <property name="geometry">
          <rect>
           <x>280</x>
-          <y>360</y>
+          <y>350</y>
           <width>211</width>
           <height>21</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>10</pointsize>
          </font>
         </property>
