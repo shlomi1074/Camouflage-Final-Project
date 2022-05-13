@@ -13,3 +13,11 @@
 => STEP   13   lr: 0.000058   giou_loss: 2.36   conf_loss: 1256.08   prob_loss: 3.06   total_loss: 1261.51
 => STEP   14   lr: 0.000062   giou_loss: 1.27   conf_loss: 1257.28   prob_loss: 2.42   total_loss: 1260.97
 => STEP   15   lr: 0.000066   giou_loss: 2.95   conf_loss: 1208.97   prob_loss: 4.66   total_loss: 1216.58
+=> STEP   16   lr: 0.000071   giou_loss: 2.31   conf_loss: 1183.12   prob_loss: 3.23   total_loss: 1188.66
+=> STEP   17   lr: 0.000075   giou_loss: 2.77   conf_loss: 1122.77   prob_loss: 4.16   total_loss: 1129.70
+=> STEP   18   lr: 0.000080   giou_loss: 3.04   conf_loss: 1090.18   prob_loss: 3.92   total_loss: 1097.14
+=> STEP   19   lr: 0.000084   giou_loss: 2.19   conf_loss: 1073.87   prob_loss: 3.40   total_loss: 1079.46
+=> STEP   20   lr: 0.000088   giou_loss: 2.03   conf_loss: 1036.39   prob_loss: 3.40   total_loss: 1041.83
+=> STEP   21   lr: 0.000093   giou_loss: 2.02   conf_loss: 981.64   prob_loss: 3.04   total_loss: 986.70
+=> STEP   22   lr: 0.000097   giou_loss: 1.55   conf_loss: 954.33   prob_loss: 2.61   total_loss: 958.49
+=> STEP   23   lr: 0.000102   giou_loss: 1.35   conf_loss: 941.26   prob_loss: 2.58   total_loss: 945.18
