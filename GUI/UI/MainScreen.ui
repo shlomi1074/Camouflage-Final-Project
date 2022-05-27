@@ -27,7 +27,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:#2c3448</string>
+   <string notr="true">background-color:#F9F3DF</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Triangular</enum>
@@ -43,6 +43,9 @@
     <font>
      <kerning>true</kerning>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#F9F3DF;</string>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="leftMargin">
@@ -83,7 +86,8 @@
        <enum>Qt::LeftToRight</enum>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:#bdbfc0</string>
+       <string notr="true">color:#283618;
+background: #F9F3DF</string>
       </property>
       <property name="tabPosition">
        <enum>QTabWidget::North</enum>
@@ -92,7 +96,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>1</number>
       </property>
       <property name="iconSize">
        <size>
@@ -119,46 +123,59 @@
        <widget class="QLabel" name="label_8">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>110</y>
+          <x>190</x>
+          <y>90</y>
           <width>781</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>12</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">background-color:transparent;
+border: None;
+color: rgb(40, 54, 24);</string>
         </property>
         <property name="text">
          <string>This application is an implemention of the method presented in the following article:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
        <widget class="QLabel" name="label_9">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>140</y>
+          <x>280</x>
+          <y>130</y>
           <width>621</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>10</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:green</string>
+         <string notr="true">color:eb5e28;
+selection-color: #eb5e28;
+selection-background-color: rgb(188, 108, 37);
+background-color:none</string>
         </property>
         <property name="text">
-         <string>&lt;a href=&quot;https://www.mdpi.com/2076-3417/10/15/5284/htm&quot;style=&quot;color: #ab6c7a&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/a&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/shlomi1074/Camouflage-Final-Project&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; text-decoration: underline; color:#90aacb;&quot;&gt;Fast Self-Adaptive Digital Camouflage Design Method Based on Deep Learning&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="textFormat">
          <enum>Qt::AutoText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="openExternalLinks">
          <bool>true</bool>
@@ -170,7 +187,7 @@
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>284</x>
+          <x>330</x>
           <y>30</y>
           <width>541</width>
           <height>41</height>
@@ -178,14 +195,15 @@
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618;
+background-color:none</string>
         </property>
         <property name="text">
          <string>Self Adaptive Digital Camouflage</string>
@@ -197,74 +215,175 @@
        <widget class="QTextBrowser" name="textBrowser">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>200</y>
-          <width>801</width>
+          <x>90</x>
+          <y>230</y>
+          <width>651</width>
           <height>251</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">background-color:transparent;
-border: None;</string>
+border: None;
+color: rgb(40, 54, 24);</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; text-decoration: underline;&quot;&gt;Abstract:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Camouflage is the most common and effective way to conceal combat military reconnaissance and military equipment. Over the years camouflage has evolved from deformable camouflage to digital camouflage. Traditional digital camouflage is mainly designed for a single background and state. In traditional digital camouflage, the camouflage performance is greatly weakened when the environment and time changes. Therefore, camouflage technology which can change in real-time and can adapt itself to the environment became the requirement for military camouflage. The proposed solution is a fast-self-adaptive digital camouflage design method based on deep learning. The method can detect the target which should be camouflaged, and the background pattern design, then camouflage the target in near real-time. To begin with, the YOLOv3 algorithm is used to realize the recognition of typical military targets. Then, the Deepfillv1 algorithm realize the preliminary design of adaptive camouflage texture&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600; text-decoration: underline;&quot;&gt;Abstract:&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt;&quot;&gt; Camouflage is the most common and effective way to conceal combat military reconnaissance and military equipment. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt;&quot;&gt;The proposed solution is a fast-self-adaptive digital camouflage design method based on deep learning. The method can detect the target which should be camouflaged, and the background pattern design, then camouflage the target. To begin with, the YOLOv3 algorithm is used to realize the recognition of typical military targets. Then, the Deepfillv1 algorithm realize the preliminary design of adaptive camouflage texture.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QTextBrowser" name="textBrowser_2">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>450</y>
-          <width>331</width>
-          <height>121</height>
+          <x>90</x>
+          <y>440</y>
+          <width>471</width>
+          <height>211</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color:transparent;
-border: None;</string>
+border: None;
+color: rgb(40, 54, 24);</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;This Application provides the abilities to:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Train&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; the models&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;View&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; the training results&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; on a single image&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; on a batch of images&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;This Application provides the abilities to:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;	- &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:600;&quot;&gt;Train&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt; the models&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;	- &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:600;&quot;&gt;View&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt; the training results&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;	- &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt; on a single image&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt;	- &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:600;&quot;&gt;Test&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt;&quot;&gt; on a batch of images&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QTextBrowser" name="textBrowser_3">
         <property name="geometry">
          <rect>
-          <x>475</x>
-          <y>580</y>
-          <width>250</width>
-          <height>151</height>
+          <x>-180</x>
+          <y>730</y>
+          <width>641</width>
+          <height>81</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color:transparent;
-border: None;</string>
+border: None;
+color:  rgb(40, 54, 24);</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Anastasia Kokin&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Shlomi Amar &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Supervisors: &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Dr. Renata Avros &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Prof. Zeev Volkovich&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-style:italic;&quot;&gt;Created by: &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:10pt;&quot;&gt;Anastasia Kokin | Shlomi Amar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>230</y>
+          <width>261</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Resources/orig.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>470</y>
+          <width>261</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Resources/deep.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_4">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>710</y>
+          <width>341</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:transparent;
+border: None;
+color:  rgb(40, 54, 24);</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt;&quot;&gt;| &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;&quot;&gt;Supervisors: &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:10pt;&quot;&gt;Dr. Renata Avros | Prof. Zeev Volkovich&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </widget>
@@ -275,23 +394,29 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>710</x>
-          <y>60</y>
-          <width>291</width>
+          <x>700</x>
+          <y>40</y>
+          <width>311</width>
           <height>41</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>DeepFillv1 Training</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
        <widget class="QLabel" name="label_7">
@@ -309,7 +434,7 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Epochs:</string>
@@ -326,11 +451,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>30</string>
@@ -347,11 +475,37 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string> Stop Training</string>
@@ -378,11 +532,37 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string> Start Training</string>
@@ -409,11 +589,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Save model to:</string>
@@ -430,11 +611,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Tensorboard logs directory:</string>
@@ -451,6 +633,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
@@ -461,7 +644,7 @@ p, li { white-space: pre-wrap; }
          <number>5</number>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Train spe:</string>
@@ -478,11 +661,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Max iterations:</string>
@@ -499,11 +683,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Viz max out:</string>
@@ -520,11 +705,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Validation psteps:</string>
@@ -541,11 +727,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Batch size:</string>
@@ -562,11 +749,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -583,11 +773,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>4000</string>
@@ -604,11 +797,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>100000000</string>
@@ -625,11 +821,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>10</string>
@@ -646,11 +845,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>2000</string>
@@ -667,11 +869,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Save model to:</string>
@@ -688,11 +891,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Tensorboard logs directory:</string>
@@ -709,215 +913,25 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>10</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; background-color:transparent
+         <string notr="true"> background-color:transparent
 </string>
         </property>
         <property name="text">
-         <string>Track training: &lt;a href=&quot;http://www.localhost:6006&quot;style=&quot;color: red&quot;&gt;Here&lt;/a&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Track training: &lt;a href=&quot;http://www.localhost:6006&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#a52a2a;&quot;&gt;Here&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="openExternalLinks">
          <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="Line" name="line">
-        <property name="geometry">
-         <rect>
-          <x>190</x>
-          <y>120</y>
-          <width>16</width>
-          <height>141</height>
-         </rect>
-        </property>
-        <property name="palette">
-         <palette>
-          <active>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </active>
-          <inactive>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </inactive>
-          <disabled>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </disabled>
-         </palette>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="midLineWidth">
-         <number>0</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
         </property>
        </widget>
        <widget class="QLineEdit" name="saveModelLineText">
@@ -934,11 +948,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>  Save model to:</string>
@@ -947,7 +964,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="saveModelButton">
         <property name="geometry">
          <rect>
-          <x>450</x>
+          <x>500</x>
           <y>320</y>
           <width>31</width>
           <height>31</height>
@@ -975,7 +992,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="saveModelButton_2">
         <property name="geometry">
          <rect>
-          <x>960</x>
+          <x>1010</x>
           <y>320</y>
           <width>31</width>
           <height>31</height>
@@ -1014,11 +1031,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>  Save model to:</string>
@@ -1027,7 +1047,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="tensorboardLogFolderButton">
         <property name="geometry">
          <rect>
-          <x>450</x>
+          <x>500</x>
           <y>390</y>
           <width>31</width>
           <height>31</height>
@@ -1066,11 +1086,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>Tensorboard logs</string>
@@ -1079,7 +1102,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="tensorboardLogFolderButton_2">
         <property name="geometry">
          <rect>
-          <x>960</x>
+          <x>1010</x>
           <y>390</y>
           <width>31</width>
           <height>31</height>
@@ -1118,11 +1141,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>Tensorboard logs</string>
@@ -1139,11 +1165,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Warm up epochs:</string>
@@ -1160,11 +1187,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Batch size:</string>
@@ -1173,23 +1201,41 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_23">
         <property name="geometry">
          <rect>
-          <x>200</x>
-          <y>60</y>
+          <x>210</x>
+          <y>40</y>
           <width>271</width>
           <height>41</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
         </property>
         <property name="text">
          <string>YOLOv3 Training</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
        <widget class="QLineEdit" name="yolo_wEpochs">
@@ -1203,11 +1249,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -1224,11 +1273,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>1e-6</string>
@@ -1245,11 +1297,14 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>1e-3</string>
@@ -1266,11 +1321,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Initial LR:</string>
@@ -1287,11 +1343,12 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#252422</string>
         </property>
         <property name="text">
          <string>Final LR:</string>
@@ -1308,11 +1365,37 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string> Start Training</string>
@@ -1339,11 +1422,37 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string> Stop Training</string>
@@ -1357,200 +1466,6 @@ p, li { white-space: pre-wrap; }
           <width>26</width>
           <height>26</height>
          </size>
-        </property>
-       </widget>
-       <widget class="Line" name="line_2">
-        <property name="geometry">
-         <rect>
-          <x>700</x>
-          <y>120</y>
-          <width>16</width>
-          <height>141</height>
-         </rect>
-        </property>
-        <property name="palette">
-         <palette>
-          <active>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </active>
-          <inactive>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </inactive>
-          <disabled>
-           <colorrole role="WindowText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Button">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Text">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>228</red>
-              <green>4</green>
-              <blue>68</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Base">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-           <colorrole role="Window">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>44</red>
-              <green>52</green>
-              <blue>72</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </disabled>
-         </palette>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#e40444</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
         </property>
        </widget>
        <widget class="QLabel" name="tensorboardIcon">
@@ -1581,15 +1496,22 @@ p, li { white-space: pre-wrap; }
           <height>151</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+         </font>
+        </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Training process will be displayed here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Tahoma'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2';&quot;&gt;Training process will be displayed here.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="yolo_batchSize">
@@ -1603,14 +1525,20 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>9</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:1px;
+border-style:inset;border-color:#A0522D;border-width:1px;
+</string>
         </property>
         <property name="text">
          <string>8</string>
+        </property>
+        <property name="cursorPosition">
+         <number>1</number>
         </property>
        </widget>
        <zorder>yolo_batchSize</zorder>
@@ -1634,7 +1562,6 @@ p, li { white-space: pre-wrap; }
        <zorder>label_17</zorder>
        <zorder>label_18</zorder>
        <zorder>trainingTrackerLabel</zorder>
-       <zorder>line</zorder>
        <zorder>saveModelLineText</zorder>
        <zorder>saveModelButton</zorder>
        <zorder>saveModelLineText_2</zorder>
@@ -1653,7 +1580,6 @@ p, li { white-space: pre-wrap; }
        <zorder>label_25</zorder>
        <zorder>yoloStartTrainButton</zorder>
        <zorder>yoloStopTrainButton</zorder>
-       <zorder>line_2</zorder>
        <zorder>tensorboardIcon</zorder>
        <zorder>trainingProcessText</zorder>
       </widget>
@@ -1687,18 +1613,20 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
+          <weight>75</weight>
           <italic>false</italic>
-          <bold>false</bold>
+          <bold>true</bold>
           <underline>false</underline>
           <strikeout>false</strikeout>
           <kerning>true</kerning>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618;
+background-color: none;
+</string>
         </property>
         <property name="text">
          <string>Train Report</string>
@@ -1714,9 +1642,9 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>40</x>
-          <y>60</y>
+          <y>50</y>
           <width>261</width>
-          <height>16</height>
+          <height>31</height>
          </rect>
         </property>
         <property name="font">
@@ -1725,7 +1653,12 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
         </property>
         <property name="text">
          <string>Please select the tensorflow tfevent file.</string>
@@ -1735,7 +1668,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>310</x>
-          <y>53</y>
+          <y>50</y>
           <width>31</width>
           <height>31</height>
          </rect>
@@ -1793,7 +1726,8 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>Export data:</string>
@@ -1811,8 +1745,41 @@ p, li { white-space: pre-wrap; }
           <height>31</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string>View Validation Results</string>
@@ -1849,7 +1816,7 @@ p, li { white-space: pre-wrap; }
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color:#bdbfc0</string>
+            <string notr="true">color:#283618</string>
            </property>
            <property name="text">
             <string>Training start time:</string>
@@ -1864,7 +1831,7 @@ p, li { white-space: pre-wrap; }
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color:#bdbfc0</string>
+            <string notr="true">color:#283618</string>
            </property>
            <property name="text">
             <string>00:00:00</string>
@@ -1879,7 +1846,7 @@ p, li { white-space: pre-wrap; }
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color:#bdbfc0</string>
+            <string notr="true">color:#283618</string>
            </property>
            <property name="text">
             <string>Training end time:</string>
@@ -1894,7 +1861,7 @@ p, li { white-space: pre-wrap; }
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color:#bdbfc0</string>
+            <string notr="true">color:#283618</string>
            </property>
            <property name="text">
             <string>00:00:00</string>
@@ -1912,25 +1879,25 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>490</x>
-          <y>30</y>
+          <y>20</y>
           <width>200</width>
-          <height>31</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
+          <weight>75</weight>
           <italic>false</italic>
-          <bold>false</bold>
+          <bold>true</bold>
           <underline>false</underline>
           <strikeout>false</strikeout>
           <kerning>true</kerning>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618; background-color:none</string>
         </property>
         <property name="text">
          <string>Image Test</string>
@@ -1945,7 +1912,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="original_img">
         <property name="geometry">
          <rect>
-          <x>210</x>
+          <x>350</x>
           <y>200</y>
           <width>220</width>
           <height>220</height>
@@ -1958,10 +1925,10 @@ p, li { white-space: pre-wrap; }
          <enum>QFrame::Box</enum>
         </property>
         <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
+         <enum>QFrame::Raised</enum>
         </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="midLineWidth">
          <number>0</number>
@@ -1979,19 +1946,23 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_27">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>160</y>
+          <x>350</x>
+          <y>170</y>
           <width>220</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;
+background-color:none</string>
         </property>
         <property name="text">
          <string>1. Original Image</string>
@@ -2011,11 +1982,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;
+background-color:none</string>
         </property>
         <property name="text">
          <string>2. YOLOv3 Output</string>
@@ -2039,8 +2014,11 @@ p, li { white-space: pre-wrap; }
         <property name="frameShape">
          <enum>QFrame::Box</enum>
         </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="midLineWidth">
          <number>0</number>
@@ -2066,11 +2044,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;
+background-color:none</string>
         </property>
         <property name="text">
          <string>3. Mask Output</string>
@@ -2094,8 +2076,11 @@ p, li { white-space: pre-wrap; }
         <property name="frameShape">
          <enum>QFrame::Box</enum>
         </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="text">
          <string/>
@@ -2118,11 +2103,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;
+background-color:none</string>
         </property>
         <property name="text">
          <string>4. DeepFillv1 Output</string>
@@ -2146,8 +2135,11 @@ p, li { white-space: pre-wrap; }
         <property name="frameShape">
          <enum>QFrame::Box</enum>
         </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="text">
          <string/>
@@ -2170,18 +2162,49 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Segoe Print</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color: #FEFAE0;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
-         <string>Save</string>
+         <string/>
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../Resources/icons/save.svg</normaloff>../Resources/icons/save.svg</iconset>
+          <normaloff>../Resources/icons/save (1).svg</normaloff>../Resources/icons/save (1).svg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2189,78 +2212,8 @@ p, li { white-space: pre-wrap; }
           <height>24</height>
          </size>
         </property>
-       </widget>
-       <widget class="QLabel" name="SelectTestImageButton">
-        <property name="geometry">
-         <rect>
-          <x>300</x>
-          <y>100</y>
-          <width>31</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="autoFillBackground">
+        <property name="checkable">
          <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0; background-color:transparent</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="textFormat">
-         <enum>Qt::RichText</enum>
-        </property>
-        <property name="pixmap">
-         <pixmap>../Resources/Folder_icon.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_35">
-        <property name="geometry">
-         <rect>
-          <x>60</x>
-          <y>80</y>
-          <width>121</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
-        </property>
-        <property name="text">
-         <string>Select image:</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="saveModelLineText_5">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>60</x>
-          <y>100</y>
-          <width>281</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
-        </property>
-        <property name="text">
-         <string>Image path:</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="yoloModelPath">
@@ -2269,7 +2222,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>450</x>
+          <x>240</x>
           <y>100</y>
           <width>281</width>
           <height>31</height>
@@ -2281,7 +2234,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>YOLOv3 model path:</string>
@@ -2290,7 +2245,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="LoadYoloModelButton">
         <property name="geometry">
          <rect>
-          <x>690</x>
+          <x>530</x>
           <y>100</y>
           <width>31</width>
           <height>31</height>
@@ -2318,19 +2273,21 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_36">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>80</y>
+          <x>120</x>
+          <y>110</y>
           <width>161</width>
           <height>16</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618; background-color:none</string>
         </property>
         <property name="text">
          <string>Load Yolo model:</string>
@@ -2339,19 +2296,21 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_106">
         <property name="geometry">
          <rect>
-          <x>840</x>
-          <y>80</y>
+          <x>650</x>
+          <y>110</y>
           <width>171</width>
           <height>16</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618; background-color:none</string>
         </property>
         <property name="text">
          <string>Load DeepFill model:</string>
@@ -2391,7 +2350,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>840</x>
+          <x>790</x>
           <y>100</y>
           <width>281</width>
           <height>31</height>
@@ -2403,7 +2362,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>DeepFill model path:</string>
@@ -2412,7 +2373,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="yoloModelStatus">
         <property name="geometry">
          <rect>
-          <x>740</x>
+          <x>570</x>
           <y>105</y>
           <width>24</width>
           <height>24</height>
@@ -2434,7 +2395,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="deepfillModelStatus">
         <property name="geometry">
          <rect>
-          <x>1130</x>
+          <x>1120</x>
           <y>105</y>
           <width>24</width>
           <height>24</height>
@@ -2465,13 +2426,74 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618; background-color:none</string>
         </property>
         <property name="text">
          <string>Loading model please wait</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="SelectTestImageButton">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>260</y>
+          <width>181</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Tahoma</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    color: #606C38;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #283618, stop: 1 #ddd
+        );
+    }</string>
+        </property>
+        <property name="text">
+         <string>Select Image</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
         </property>
        </widget>
        <zorder>deepfillModelPath</zorder>
@@ -2485,9 +2507,6 @@ p, li { white-space: pre-wrap; }
        <zorder>label_32</zorder>
        <zorder>deepfill_img</zorder>
        <zorder>saveFinalOutButton</zorder>
-       <zorder>label_35</zorder>
-       <zorder>saveModelLineText_5</zorder>
-       <zorder>SelectTestImageButton</zorder>
        <zorder>yoloModelPath</zorder>
        <zorder>LoadYoloModelButton</zorder>
        <zorder>label_36</zorder>
@@ -2496,6 +2515,7 @@ p, li { white-space: pre-wrap; }
        <zorder>yoloModelStatus</zorder>
        <zorder>deepfillModelStatus</zorder>
        <zorder>loadingModelLabel_2</zorder>
+       <zorder>SelectTestImageButton</zorder>
       </widget>
       <widget class="QWidget" name="batchTest">
        <attribute name="title">
@@ -2504,20 +2524,23 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_29">
         <property name="geometry">
          <rect>
-          <x>70</x>
-          <y>80</y>
+          <x>40</x>
+          <y>50</y>
           <width>211</width>
           <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <family>MV Boli</family>
+          <family>Tahoma</family>
           <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#ab6c7a</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>A Batch Test</string>
@@ -2529,7 +2552,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_31">
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>50</x>
           <y>140</y>
           <width>121</width>
           <height>16</height>
@@ -2537,11 +2560,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>Source folder:</string>
@@ -2553,7 +2580,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>50</x>
           <y>160</y>
           <width>281</width>
           <height>31</height>
@@ -2565,7 +2592,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>Select source folder</string>
@@ -2574,7 +2603,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="batchTestSourceFolderButton">
         <property name="geometry">
          <rect>
-          <x>310</x>
+          <x>340</x>
           <y>160</y>
           <width>31</width>
           <height>31</height>
@@ -2602,7 +2631,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_33">
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>50</x>
           <y>220</y>
           <width>111</width>
           <height>16</height>
@@ -2610,11 +2639,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>Load Yolo model:</string>
@@ -2626,7 +2659,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>70</x>
+          <x>50</x>
           <y>240</y>
           <width>281</width>
           <height>31</height>
@@ -2638,7 +2671,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>YOLOv3 model path:</string>
@@ -2647,7 +2682,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="LoadYoloModelBatchTestButton">
         <property name="geometry">
          <rect>
-          <x>310</x>
+          <x>340</x>
           <y>240</y>
           <width>31</width>
           <height>31</height>
@@ -2676,7 +2711,7 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>320</x>
-          <y>350</y>
+          <y>410</y>
           <width>135</width>
           <height>40</height>
          </rect>
@@ -2687,7 +2722,32 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string> Start Test</string>
@@ -2706,8 +2766,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QTextBrowser" name="batchTestingProcess">
         <property name="geometry">
          <rect>
-          <x>100</x>
-          <y>450</y>
+          <x>110</x>
+          <y>550</y>
           <width>581</width>
           <height>151</height>
          </rect>
@@ -2718,7 +2778,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#BC8F8F;border-width:2px;
+</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -2731,8 +2793,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="previewImage">
         <property name="geometry">
          <rect>
-          <x>810</x>
-          <y>390</y>
+          <x>840</x>
+          <y>430</y>
           <width>250</width>
           <height>250</height>
          </rect>
@@ -2744,10 +2806,10 @@ p, li { white-space: pre-wrap; }
          <enum>QFrame::Box</enum>
         </property>
         <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
+         <enum>QFrame::Raised</enum>
         </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="text">
          <string/>
@@ -2762,8 +2824,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QPushButton" name="previewPrev">
         <property name="geometry">
          <rect>
-          <x>840</x>
-          <y>660</y>
+          <x>870</x>
+          <y>710</y>
           <width>51</width>
           <height>31</height>
          </rect>
@@ -2774,7 +2836,32 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string/>
@@ -2793,8 +2880,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QPushButton" name="previewNext">
         <property name="geometry">
          <rect>
-          <x>970</x>
-          <y>660</y>
+          <x>1010</x>
+          <y>710</y>
           <width>51</width>
           <height>31</height>
          </rect>
@@ -2805,7 +2892,32 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">QPushButton {
+    color:#283618;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #FEFAE0, stop: 1 #ddd
+        );
+    }</string>
         </property>
         <property name="text">
          <string/>
@@ -2824,19 +2936,20 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_34">
         <property name="geometry">
          <rect>
-          <x>880</x>
-          <y>360</y>
+          <x>910</x>
+          <y>400</y>
           <width>110</width>
           <height>25</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;background-color:none</string>
         </property>
         <property name="text">
          <string>Result</string>
@@ -2851,7 +2964,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="batchTestOutputFolderButton">
         <property name="geometry">
          <rect>
-          <x>650</x>
+          <x>720</x>
           <y>160</y>
           <width>31</width>
           <height>31</height>
@@ -2879,7 +2992,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_107">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>140</y>
           <width>121</width>
           <height>16</height>
@@ -2887,11 +3000,15 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>Output folder:</string>
@@ -2903,7 +3020,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>160</y>
           <width>281</width>
           <height>31</height>
@@ -2915,7 +3032,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>Select output folder</string>
@@ -2927,7 +3046,7 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>240</y>
           <width>281</width>
           <height>31</height>
@@ -2939,7 +3058,9 @@ p, li { white-space: pre-wrap; }
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0;padding-left:3px</string>
+         <string notr="true">color:#283618;padding-left:3px;
+border-style:inset;border-color:#606C38;border-width:2px;
+</string>
         </property>
         <property name="text">
          <string>DeepFill model path:</string>
@@ -2948,7 +3069,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="LoadDeepfillModelBatchTestButton">
         <property name="geometry">
          <rect>
-          <x>650</x>
+          <x>720</x>
           <y>240</y>
           <width>31</width>
           <height>31</height>
@@ -2976,19 +3097,23 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_108">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>430</x>
           <y>220</y>
-          <width>111</width>
+          <width>141</width>
           <height>16</height>
          </rect>
         </property>
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <family>Tahoma</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#283618;
+background-color:none;</string>
         </property>
         <property name="text">
          <string>Load DeepFill model:</string>
@@ -2997,7 +3122,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="deepfillModelStatus_2">
         <property name="geometry">
          <rect>
-          <x>700</x>
+          <x>760</x>
           <y>243</y>
           <width>24</width>
           <height>24</height>
@@ -3016,7 +3141,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="yoloModelStatus_2">
         <property name="geometry">
          <rect>
-          <x>360</x>
+          <x>380</x>
           <y>243</y>
           <width>24</width>
           <height>24</height>
@@ -3035,8 +3160,8 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="originalImage">
         <property name="geometry">
          <rect>
-          <x>810</x>
-          <y>110</y>
+          <x>840</x>
+          <y>130</y>
           <width>250</width>
           <height>250</height>
          </rect>
@@ -3048,10 +3173,10 @@ p, li { white-space: pre-wrap; }
          <enum>QFrame::Box</enum>
         </property>
         <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
+         <enum>QFrame::Raised</enum>
         </property>
         <property name="lineWidth">
-         <number>2</number>
+         <number>3</number>
         </property>
         <property name="text">
          <string/>
@@ -3066,19 +3191,20 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_38">
         <property name="geometry">
          <rect>
-          <x>880</x>
-          <y>80</y>
+          <x>910</x>
+          <y>90</y>
           <width>110</width>
-          <height>25</height>
+          <height>31</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>14</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;background-color:none</string>
         </property>
         <property name="text">
          <string>Original</string>
@@ -3094,18 +3220,19 @@ p, li { white-space: pre-wrap; }
         <property name="geometry">
          <rect>
           <x>280</x>
-          <y>290</y>
+          <y>350</y>
           <width>211</width>
           <height>21</height>
          </rect>
         </property>
         <property name="font">
          <font>
+          <family>Tahoma</family>
           <pointsize>10</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color:#bdbfc0</string>
+         <string notr="true">color:#606C38;background-color:none</string>
         </property>
         <property name="text">
          <string>Loading model please wait</string>

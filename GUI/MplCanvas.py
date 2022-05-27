@@ -7,15 +7,15 @@ from tensorflow.python.framework import tensor_util
 import matplotlib.pyplot as plt
 import collections
 
-plt.rcParams.update({'text.color': "#bdbfc0",
-                     'axes.labelcolor': "#bdbfc0",
-                     'xtick.color': "#bdbfc0",
-                     'ytick.color': "#bdbfc0"})
+plt.rcParams.update({'text.color': "#283618",
+                     'axes.labelcolor': "#283618",
+                     'xtick.color': "#283618",
+                     'ytick.color': "#283618"})
 
 
 class MplCanvas(FigureCanvas):
     def __init__(self, parent=None, data_path=None):
-        plt.style.use('Solarize_Light2')
+        plt.style.use('bmh')
 
         tags_set = set()
         data = defaultdict(list)

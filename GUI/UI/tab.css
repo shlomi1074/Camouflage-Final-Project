@@ -24,14 +24,12 @@ QTabBar::tab {
 	border-bottom: 3px solid #ab6c7a;
     min-width: 8ex;
 	width: 238px;
-	height: 30px;
+	height: 27px;
 
 }
+
 QTabBar::tab::last {
 	border-right: 0px solid #ab6c7a;
-}
-QTabBar::tab::first {
-	border-left: 0px solid #ab6c7a;
 }
 
 QTabBar::tab:selected, QTabBar::tab:hover {
